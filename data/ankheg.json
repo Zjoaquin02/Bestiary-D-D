@@ -1,0 +1,20 @@
+{
+  "id": "ankheg",
+  "nombre": "Ankheg",
+  "rol": "monster",
+  "tipo": "Monstruosidad de Túnel",
+  "categoria": "Monstrosity",
+  "imagen": "css/img/ankheg.jpg",
+  "ac": 14, "hp": 39, "speed": "30 ft, burrow 10 ft",
+  "stats": {
+    "str": 17, "dex": 11, "con": 13, "int": 1, "wis": 13, "cha": 6
+  },
+  "peligro": 2,
+  "habitat": "Campos de Cultivo, Bosques",
+  "vulnerable": "Frío, Rayo",
+  "resistente": "Ácido",
+  "supervivencia": "No dejes que te atrape entre sus mandíbulas; una vez que lo haga, verterá ácido en tus heridas. Si escuchas vibraciones bajo tus pies, corre hacia terreno rocoso.",
+  "habilidad_titulo": "Mordisco de Ácido",
+  "habilidad": "Un insecto gigante excavador que escupe ácido y acecha bajo la tierra fértil esperando que una víctima pase sobre sus túneles.",
+  "lore": "Un insecto gigante excavador que escupe ácido y acecha bajo la tierra fértil esperando que una víctima pase sobre sus túneles."
+}

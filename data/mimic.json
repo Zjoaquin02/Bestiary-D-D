@@ -1,0 +1,20 @@
+{
+  "id": "mimic",
+  "nombre": "Mimic",
+  "rol": "monster",
+  "tipo": "Monstruo de Dungeon",
+  "categoria": "Monstrosity",
+  "imagen": "css/img/mimic.jpg",
+  "ac": 12, "hp": 58, "speed": "15 ft",
+  "stats": {
+    "str": 17, "dex": 12, "con": 15, "int": 5, "wis": 13, "cha": 8
+  },
+  "peligro": 2,
+  "habitat": "Dungeons, Castillos, Lugares con Tesoros",
+  "vulnerable": "Fuego, Ácido",
+  "resistente": "Cortante, Impacto",
+  "supervivencia": "No toques nada que parezca demasiado limpio. Si un cofre no tiene polvo, es un Mimic. Golpéalo antes de intentar abrirlo; es preferible romper la cerradura que perder una mano.",
+  "habilidad_titulo": "Capa Externa Pegajosa",
+  "habilidad": "Se mimetizan con el entorno y sus mandíbulas son tan fuertes como el acero.",
+  "lore": "Un depredador cambiaformas capaz de imitar la apariencia de objetos inanimados, como cofres o puertas."
+}

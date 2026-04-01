@@ -1,0 +1,20 @@
+{
+  "id": "harpias",
+  "nombre": "Harpías",
+  "rol": "monster",
+  "tipo": "Férico Maligno del Aire",
+  "categoria": "Monstrosity",
+  "imagen": "css/img/harpias.jpg",
+  "ac": 11, "hp": 38, "speed": "20 ft, fly 40 ft",
+  "stats": {
+    "str": 12, "dex": 13, "con": 12, "int": 7, "wis": 10, "cha": 13
+  },
+  "peligro": 3,
+  "habitat": "Acantilados, Ruinas Costeras, Picos del Viento",
+  "vulnerable": "Rayo, Perforante (Largo alcance)",
+  "resistente": "Miedos y Encantos",
+  "supervivencia": "No escuches su canto; usa tapones para los oídos o magia para ensordecer a tu grupo. Si logras sacarlas del aire, sus garras son mucho menos peligrosas en terreno firme.",
+  "habilidad_titulo": "Canto Cautivador",
+  "habilidad": "Criaturas con rostro de mujer y cuerpo de ave que atraen a sus víctimas con una melodía que hechiza el alma.",
+  "lore": "Criaturas con rostro de mujer y cuerpo de ave que atraen a sus víctimas con una melodía que hechiza el alma. Las crónicas de los Marineros del Sur relatan sus cantos letales."
+}

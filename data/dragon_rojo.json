@@ -1,0 +1,20 @@
+{
+  "id": "dragon_rojo",
+  "nombre": "Dragón Rojo",
+  "rol": "boss",
+  "tipo": "Dragón Cromático",
+  "categoria": "Dragon",
+  "imagen": "css/img/dragon_rojo.jpg",
+  "ac": 22, "hp": 546, "speed": "40 ft, fly 80 ft",
+  "stats": {
+    "str": 30, "dex": 10, "con": 29, "int": 18, "wis": 15, "cha": 23
+  },
+  "peligro": 5,
+  "habitat": "Volcanes Antiguos",
+  "vulnerable": "Frío (Extremo)",
+  "resistente": "Fuego, Perforante, Cortante",
+  "supervivencia": "Jamás entres a su tesoro sin un anillo de resistencia al fuego. El calor de sus escamas derretirá tu acero antes de que puedas tocarlo. Ataca desde los flancos e ignora su soberbia; su lengua es tan afilada como sus garras.",
+  "habilidad_titulo": "Aliento de Fuego Infernal",
+  "habilidad": "Un estallido de fuego líquido que puede fundir la piedra misma en segundos. Solo los guerreros ungidos con sangre de titán han logrado acercarse sin ser consumidos.",
+  "lore": "Las leyendas de los Reinos del Norte relatan que la sombra de un Dragón Rojo es el presagio del fin de las ciudades. No solo son bestias de fuerza física inconmensurable, sino señores de la avaricia."
+}

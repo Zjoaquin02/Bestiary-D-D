@@ -1,0 +1,20 @@
+{
+  "id": "demilich",
+  "nombre": "Demilich",
+  "rol": "boss",
+  "tipo": "Cráneo Ancestral",
+  "categoria": "Undead",
+  "imagen": "css/img/demilich.jpg",
+  "ac": 20, "hp": 80, "speed": "0 ft, fly 30 ft (hover)",
+  "stats": {
+    "str": 1, "dex": 20, "con": 10, "int": 20, "wis": 17, "cha": 20
+  },
+  "peligro": 5,
+  "habitat": "Tumbas de Eternidad, Cámaras Prohibidas",
+  "vulnerable": "Rayo, Radiante",
+  "resistente": "Necrótico, Veneno, No-mágico, Todas las mentes",
+  "supervivencia": "No intentes razonar con él ni usar magia de control mental. El Demilich devora almas para regenerarse. Su aullido detiene el corazón; usa hechizos de silencio si puedes.",
+  "habilidad_titulo": "Aullido de la Muerte Inmediata",
+  "habilidad": "El Demilich lanza un aullido espectral. Todas las criaturas en un radio de 30 pies deben superar una salvación de Constitución.",
+  "lore": "Un Lich que ya no tiene un cuerpo físico y se ha convertido en un cráneo flotante imbuido de una maldad absoluta."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arana_gigante",
+  "nombre": "Araña Gigante",
+  "rol": "monster",
+  "tipo": "Bestia Venenosa",
+  "categoria": "Beast",
+  "imagen": "css/img/arana_gigante.jpg",
+  "ac": 14, "hp": 26, "speed": "30 ft, climb 30 ft",
+  "stats": {
+    "str": 14, "dex": 16, "con": 12, "int": 2, "wis": 11, "cha": 4
+  },
+  "peligro": 2,
+  "habitat": "Cuevas, Bosques de Telarañas",
+  "vulnerable": "Fuego, Perforante",
+  "resistente": "Veneno",
+  "supervivencia": "No dejes que te dispare sus redes. Si la araña te envuelve, estarás a su merced. Usa una antorcha para quemar las telarañas que la rodean.",
+  "habilidad_titulo": "Sentidos Arácnidos",
+  "habilidad": "La araña puede detectar cualquier vibración en su telaraña, lo que le permite atacar por sorpresa.",
+  "lore": "Tejedora de pesadillas que acecha en las sombras de las cuevas. Su mordedura paraliza y su seda atrapa a las víctimas desprevenidas."
+}

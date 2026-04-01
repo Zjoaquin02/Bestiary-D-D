@@ -1,0 +1,22 @@
+{
+  "id": "orcos",
+  "nombre": "Orcos",
+  "rol": "monster",
+  "tipo": "Humanoides Guerreros",
+  "categoria": "Humanoid",
+  "imagen": "css/img/orcos.jpg",
+  "ac": 13,
+  "hp": 15,
+  "speed": "30 ft",
+  "stats": {
+    "str": 16, "dex": 12, "con": 16, "int": 7, "wis": 11, "cha": 10
+  },
+  "peligro": 2,
+  "habitat": "Montañas, Altiplanos, Cuevas",
+  "vulnerable": "Magia de Fuego, Rayo",
+  "resistente": "Miedos y Encantos",
+  "supervivencia": "No dejes que te toquen; su fuerza física es arrolladora. Atácalos por los flancos y usa magia para mermar su voluntad antes de entrar en combate.",
+  "habilidad_titulo": "Furia Orca",
+  "habilidad": "Guerreros de piel grisácea y fuerza brutal que solo conocen la gloria del campo de batalla.",
+  "lore": "Guerreros de piel grisácea y fuerza brutal que solo conocen la gloria del campo de batalla. Las crónicas de las Tribus Colmillo Rojo relatan sus hazañas."
+}

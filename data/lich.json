@@ -1,0 +1,20 @@
+{
+  "id": "lich",
+  "nombre": "Lich",
+  "rol": "monster",
+  "tipo": "No-muerto Legendario",
+  "categoria": "Undead",
+  "imagen": "css/img/lich.jpg",
+  "ac": 17, "hp": 135, "speed": "30 ft",
+  "stats": {
+    "str": 11, "dex": 16, "con": 16, "int": 20, "wis": 14, "cha": 16
+  },
+  "peligro": 5,
+  "habitat": "Torres Arcanas en Ruinas, Filacterias Ocultas",
+  "vulnerable": "Radiante, Oro Sagrado",
+  "resistente": "Necrótico, Veneno, No-mágico",
+  "supervivencia": "No intentes matarlo si no has encontrado su filacteria primero. El Lich regresará eternamente mientras su esencia esté ligada a este mundo. Usa magia de luz para evitar que drene tu alma.",
+  "habilidad_titulo": "Toque de la Tumba",
+  "habilidad": "Un mago que ha engañado a la muerte mediante rituales oscuros. Su poder arcano es equiparable al de los dioses.",
+  "lore": "Un mago que ha engañado a la muerte mediante rituales oscuros. Las crónicas de la Era de las Sombras relatan que un Lich puede gobernar un imperio desde el silencio de su tumba."
+}

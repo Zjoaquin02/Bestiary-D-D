@@ -1,0 +1,20 @@
+{
+  "id": "kobolds",
+  "nombre": "Kobolds",
+  "rol": "monster",
+  "tipo": "Humanoides Dracónicos Pequeños",
+  "categoria": "Humanoid",
+  "imagen": "css/img/kobolds.jpg",
+  "ac": 12, "hp": 5, "speed": "30 ft",
+  "stats": {
+    "str": 7, "dex": 15, "con": 9, "int": 8, "wis": 7, "cha": 8
+  },
+  "peligro": 1,
+  "habitat": "Minas, Cuevas Dracónicas, Alcantarillas",
+  "vulnerable": "Fuego, Perforante",
+  "resistente": "Magia (Ventaja en grupo)",
+  "supervivencia": "No los subestimes por su tamaño. Si ves uno, hay diez más en las sombras. Son maestros de las trampas; mira bien dónde pisas antes de entrar en su territorio.",
+  "habilidad_titulo": "Tácticas de Manada",
+  "habilidad": "Pequeños seres de linaje dracónico que compensan su debilidad física con ingenio y trampas letales.",
+  "lore": "Pequeños seres de linaje dracónico que compensan su debilidad física con ingenio y trampas letales. Adoran a los dragones como dioses."
+}

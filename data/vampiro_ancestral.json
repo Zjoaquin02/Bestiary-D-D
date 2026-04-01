@@ -1,0 +1,20 @@
+{
+  "id": "vampiro_ancestral",
+  "nombre": "Vampiro Ancestral",
+  "rol": "boss",
+  "tipo": "No-muerto Sediento",
+  "categoria": "Undead",
+  "imagen": "css/img/vampiro_ancestral.jpg",
+  "ac": 16, "hp": 144, "speed": "30 ft",
+  "stats": {
+    "str": 18, "dex": 18, "con": 18, "int": 17, "wis": 15, "cha": 18
+  },
+  "peligro": 5,
+  "habitat": "Castillos Olvidados, Cortes de Sangre",
+  "vulnerable": "Radiante, Agua Sagrada",
+  "resistente": "Necrótico, Veneno, No-mágico",
+  "supervivencia": "No dejes que te toque su caricia de sangre; drenará tu vitalidad y recuerdos. Usa luz sagrada para evitar su forma de niebla y no confíes en nadie dentro de su castillo.",
+  "habilidad_titulo": "Regeneración de Sangre",
+  "habilidad": "Un noble de la noche que ha gobernado su dominio durante milenios. Su carisma es tan letal como sus colmillos.",
+  "lore": "Un noble de la noche que ha gobernado su dominio durante milenios. Su carisma es tan letal como sus colmillos."
+}

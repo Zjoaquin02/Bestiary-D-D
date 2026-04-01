@@ -1,0 +1,27 @@
+{
+  "id": "doppelganger",
+  "nombre": "Doppelganger",
+  "rol": "monster",
+  "tipo": "Monstruosidad Cambiaformas",
+  "categoria": "Monstrosity",
+  "imagen": "css/img/doppelganger.jpg",
+  "ac": 14,
+  "hp": 52,
+  "speed": "30 ft",
+  "stats": {
+    "str": 11,
+    "dex": 18,
+    "con": 14,
+    "int": 11,
+    "wis": 12,
+    "cha": 14
+  },
+  "peligro": 3,
+  "habitat": "Ciudades, Cortes Reales, Tabernas",
+  "vulnerable": "Psíquico, Verdad Mágica",
+  "resistente": "Encantos, Ilusiones",
+  "supervivencia": "No confíes en tus ojos ni en los de tus aliados. Un Doppelganger puede leer tus pensamientos superficiales para saber exactamente qué decir. Establece una contraseña secreta con tu grupo antes de entrar en zonas sospechosas.",
+  "habilidad_titulo": "Lector de Mentes",
+  "habilidad": "Un ser sin rostro que puede convertirse en cualquier persona.",
+  "lore": "Un ser sin rostro que puede convertirse en cualquier persona. Vive entre nosotros, sembrando la paranoia en ciudades y cortes."
+}

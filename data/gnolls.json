@@ -1,0 +1,20 @@
+{
+  "id": "gnolls",
+  "nombre": "Gnolls",
+  "rol": "monster",
+  "tipo": "Humanoides Hienoides",
+  "categoria": "Humanoid",
+  "imagen": "css/img/gnolls.jpg",
+  "ac": 15, "hp": 22, "speed": "30 ft",
+  "stats": {
+    "str": 14, "dex": 12, "con": 11, "int": 6, "wis": 10, "cha": 7
+  },
+  "peligro": 2,
+  "habitat": "Sabanas, Altiplanos, Desiertos",
+  "vulnerable": "Fuego, Magia de Control",
+  "resistente": "Miedos y Encantos",
+  "supervivencia": "No los ataques de frente si están en manada; su risa es el presagio de un ataque coordinado. Usa magia de área para dispersar su horda antes de entrar en combate cuerpo a cuerpo.",
+  "habilidad_titulo": "Frenesí de Manada",
+  "habilidad": "Hunters hienoides insaciables que solo conocen la glotonería y la guerra.",
+  "lore": "Hunters hienoides insaciables que solo conocen la glotonería y la guerra. Adoran al demonio Yeenoghu."
+}

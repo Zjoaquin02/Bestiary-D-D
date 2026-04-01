@@ -1,0 +1,20 @@
+{
+  "id": "bugbears",
+  "nombre": "Bugbears",
+  "rol": "monster",
+  "tipo": "Humanoides Peludos",
+  "categoria": "Humanoid",
+  "imagen": "css/img/bugbears.jpg",
+  "ac": 16, "hp": 27, "speed": "30 ft",
+  "stats": {
+    "str": 15, "dex": 14, "con": 13, "int": 8, "wis": 11, "cha": 9
+  },
+  "peligro": 2,
+  "habitat": "Cuevas, Bosques Oscuros, Minas Olvidadas",
+  "vulnerable": "Fuego, Magia de Control",
+  "resistente": "Miedos y Encantos",
+  "supervivencia": "No los subestimes por su tamaño; su fuerza muscular es arrolladora. Los bugbears son expertos en el sigilo y en el ataque por sorpresa. Mira bien antes de entrar en una cueva oscura.",
+  "habilidad_titulo": "Ataque Sorpresa",
+  "habilidad": "Cazadores peludos y silenciosos que acechan en las sombras.",
+  "lore": "Cazadores peludos y silenciosos que acechan en las sombras. Las crónicas de las Tribus Garra de Hueso relatan su sigilo letal."
+}

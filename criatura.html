@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crónicas del Bestiario</title>
+    <link rel="icon" type="image/png" href="css/img/icon/Fogata.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=MedievalSharp&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="entry">
+
+    <div class="nav-links">
+        <a href="index.html" class="back-link">← Volver al Bestiario</a>
+    </div>
+
+    <div class="book-open">
+        <div class="page page-left">
+            <!-- La ilustración se movió al content-wrapper para mejor soporte móvil -->
+        </div>
+
+        <div class="page page-right">
+            <div class="content-wrapper">
+                <div class="meta-header">
+                <div class="danger-level" id="danger-level"></div>
+                <div class="habitat-badge" id="habitat-badge"></div>
+            </div>
+
+            <h2 class="name" id="name"></h2>
+            <div class="type-container">
+                <span class="categoria-badge" id="categoria"></span>
+                <span class="type" id="type"></span>
+            </div>
+            
+            <div class="ornament">✺</div>
+
+            <div class="illustration-container">
+                <img id="img" class="monster-img">
+                <div class="caption">Ilustración a mano de la criatura</div>
+                <!-- Novedad: Sello del Vacío -->
+                <div id="cursed-seal" class="seal-hidden"></div>
+            </div>
+
+            <div class="resistances-section" id="resistances-section">
+                <div class="resist-item debil"><b>Vulnerable:</b> <span id="vulnerable"></span></div>
+                <div class="resist-item resistente"><b>Resistente:</b> <span id="resistente"></span></div>
+            </div>
+
+                <div class="stat-box">
+                    <p><b>Clase de Armadura:</b> <span id="ac"></span></p>
+                    <p><b>Puntos de Vida:</b> <span id="hp"></span></p>
+                    <p><b>Velocidad:</b> <span id="speed"></span></p>
+
+                    <div class="stats-grid">
+                        <div class="stat-item"><span class="label">STR</span> <b id="str"></b></div>
+                        <div class="stat-item"><span class="label">DEX</span> <b id="dex"></b></div>
+                        <div class="stat-item"><span class="label">CON</span> <b id="con"></b></div>
+                        <div class="stat-item"><span class="label">INT</span> <b id="int"></b></div>
+                        <div class="stat-item"><span class="label">WIS</span> <b id="wis"></b></div>
+                        <div class="stat-item"><span class="label">CHA</span> <b id="cha"></b></div>
+                    </div>
+                </div>
+
+                <!-- Nuevo Campo de Habilidad -->
+                <div id="skill-section" class="skill-box" style="display:none;">
+                    <h3 id="skill-title"></h3>
+                    <p id="skill-text"></p>
+                </div>
+
+                <div class="lore-box">
+                    <h3>Crónicas y Relatos</h3>
+                    <p id="lore"></p>
+                </div>
+
+                <!-- Nueva Nota de Supervivencia -->
+            <div id="survival-box" class="survival-note" style="display:none;">
+                <h4>⚜ Guía de Combate ⚜</h4>
+                <p id="survival-text"></p>
+            </div>
+
+            <div class="footer-nav">
+                    <button onclick="location.href='index.html'" class="filter-btn">« Regresar al Bestiario</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

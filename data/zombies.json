@@ -1,0 +1,20 @@
+{
+  "id": "zombies",
+  "nombre": "Zombies",
+  "rol": "monster",
+  "tipo": "No-muertos Putrefactos",
+  "categoria": "Undead",
+  "imagen": "css/img/zombies.jpg",
+  "ac": 8, "hp": 22, "speed": "20 ft",
+  "stats": {
+    "str": 13, "dex": 6, "con": 16, "int": 3, "wis": 6, "cha": 5
+  },
+  "peligro": 1,
+  "habitat": "Tumbas Profanas, Pantanos",
+  "vulnerable": "Fuego, Radiante, Cortante",
+  "resistente": "Veneno (Inmune)",
+  "supervivencia": "No dejes que se acerquen; su única arma es el número y la persistencia. Apunta a la cabeza; es la única forma de detener su marcha incansable.",
+  "habilidad_titulo": "Fortaleza No-muerta",
+  "habilidad": "Cadáveres reanimados que no se detienen hasta que su carne sea destruida por completo.",
+  "lore": "Cadáveres reanimados que no se detienen hasta que su carne sea destruida por completo. Las crónicas de las Plagas de Hueso relatan que los Zombies son el presagio del fin."
+}

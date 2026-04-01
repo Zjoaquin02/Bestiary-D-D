@@ -1,0 +1,20 @@
+{
+  "id": "bandidos",
+  "nombre": "Bandidos",
+  "rol": "monster",
+  "tipo": "Humanoides Hostiles",
+  "categoria": "Humanoid",
+  "imagen": "css/img/bandidos.jpg",
+  "ac": 12, "hp": 11, "speed": "30 ft",
+  "stats": {
+    "str": 11, "dex": 12, "con": 12, "int": 10, "wis": 10, "cha": 10
+  },
+  "peligro": 1,
+  "habitat": "Caminos Reales, Bosques, Ciudades Ruidosas",
+  "vulnerable": "Ninguna",
+  "resistente": "Ninguna",
+  "supervivencia": "No dejes que te rodeen. Los bandidos suelen atacar en grupo y usan tácticas simples para distraer a su presa. Si ves a uno solo, es probable que haya cinco más en las sombras.",
+  "habilidad_titulo": "Ataque en Manada",
+  "habilidad": "Grupos de forajidos que acechan en los caminos, esperando a mercaderes y viajeros desprevenidos.",
+  "lore": "Grupos de forajidos que acechan en los caminos, esperando a mercaderes y viajeros desprevenidos. No todos son criminales por voluntad; muchos son víctimas de la guerra."
+}

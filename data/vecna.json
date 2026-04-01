@@ -1,0 +1,20 @@
+{
+  "id": "vecna",
+  "nombre": "Vecna",
+  "rol": "boss",
+  "tipo": "Archidios de los Secretos",
+  "categoria": "Undead",
+  "imagen": "css/img/vecna.jpg",
+  "ac": 18, "hp": 272, "speed": "30 ft, fly 30 ft (hover)",
+  "stats": {
+    "str": 10, "dex": 15, "con": 18, "int": 22, "wis": 24, "cha": 16
+  },
+  "peligro": 5,
+  "habitat": "Torres de la Eternidad, Planos de la Sombra",
+  "vulnerable": "Radiante, Artefactos de la Justicia",
+  "resistente": "Necrótico, Veneno, No-mágico, Mentes Profanas",
+  "supervivencia": "No intentes ocultar nada; Vecna ya conoce tus secretos. Usa magia de protección contra el mal y busca los artefactos perdidos de los dioses si quieres tener una mínima oportunidad. Si mueres en su presencia, tu alma le pertenecerá para siempre.",
+  "habilidad_titulo": "Susurro de los Secretos Olvidados",
+  "habilidad": "Vecna puede paralizar a sus enemigos revelando verdades que sus mentes no pueden procesar.",
+  "lore": "El Archidios de los Secretos, Vecna, es una entidad que ha trascendido la muerte misma para gobernar sobre lo prohibido."
+}

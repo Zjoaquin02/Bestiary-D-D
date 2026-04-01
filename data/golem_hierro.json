@@ -1,0 +1,20 @@
+{
+  "id": "golem_hierro",
+  "nombre": "Golem de Hierro",
+  "rol": "monster",
+  "tipo": "Constructo Metálico",
+  "categoria": "Construct",
+  "imagen": "css/img/golem_hierro.jpg",
+  "ac": 20, "hp": 210, "speed": "30 ft",
+  "stats": {
+    "str": 24, "dex": 9, "con": 20, "int": 3, "wis": 11, "cha": 1
+  },
+  "peligro": 4,
+  "habitat": "Castillos Antiguos, Cámaras del Tesoro",
+  "vulnerable": "Magia Extrema, Adamantina",
+  "resistente": "Todo daño no-mágico, Fuego (Absorción)",
+  "supervivencia": "No desperdicies magia de fuego; solo lo harás más fuerte. Usa hechizos que afecten el metal o armas de adamantina si quieres sobrevivir a sus golpes de hierro frío.",
+  "habilidad_titulo": "Absorción de Fuego e Inmuidad Mágica",
+  "habilidad": "Cualquier daño de fuego recibido por el Golem no solo es ignorado, sino que cura sus heridas.",
+  "lore": "Un titán de metal forjado por maestros alquimistas y magos de la antigüedad. No conoce el miedo."
+}

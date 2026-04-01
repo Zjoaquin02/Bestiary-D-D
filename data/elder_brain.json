@@ -1,0 +1,20 @@
+{
+  "id": "elder_brain",
+  "nombre": "Elder Brain",
+  "rol": "boss",
+  "tipo": "Mente Colmena de los Illithids",
+  "categoria": "Aberration",
+  "imagen": "css/img/elder_brain.jpg",
+  "ac": 10, "hp": 210, "speed": "5 ft, fly 5 ft (hover), swim 10 ft",
+  "stats": {
+    "str": 15, "dex": 10, "con": 20, "int": 30, "wis": 24, "cha": 22
+  },
+  "peligro": 5,
+  "habitat": "Ciudades Illithid (Underdark)",
+  "vulnerable": "Daño Psíquico, No-mágico",
+  "resistente": "Magia, Necrótico, Rayo",
+  "supervivencia": "No intentes razonar con él; su telepatía inundará tu mente de locura. El Elder Brain controla el entorno de la misma manera que controla a sus sirvientes.",
+  "habilidad_titulo": "Control Psíquico de Masas",
+  "habilidad": "Todas las criaturas en un radio de 120 pies deben superar una salvación de Inteligencia.",
+  "lore": "Un órgano colosal en una piscina de salmuera que domina sobre las ciudades de los Mind Flayers."
+}
