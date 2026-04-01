@@ -1,0 +1,54 @@
+============================================================
+              CRÓNICAS DEL BESTIARIO
+         TUTORIAL PARA CREAR NUEVOS MONSTRUOS
+============================================================
+
+Para añadir una nueva criatura a tu bestiario, debes seguir estos dos pasos fundamentales:
+
+------------------------------------------------------------
+PASO 1: CREAR EL ARCHIVO DE DATOS (.json)
+------------------------------------------------------------
+Crea un archivo nuevo dentro de la carpeta `data/` con el nombre de tu criatura (usa minúsculas y guiones bajos, ej: `dragon_azul.json`).
+
+Copia y pega esta estructura base:
+
+{
+  "id": "dragon_azul",
+  "nombre": "Dragón Azul",
+  "rol": "monster",           // "monster" para normales, "boss" para jefes (activa modo oscuro)
+  "tipo": "Dragón Adulto",
+  "categoria": "Dragon",
+  "imagen": "css/img/dragon_azul.jpg", // Asegúrate de subir la imagen a esa carpeta
+  "ac": 19,
+  "hp": 225,
+  "speed": "40 ft, fly 80 ft",
+  "stats": {
+    "str": 25, "dex": 10, "con": 23, "int": 16, "wis": 15, "cha": 19
+  },
+  "peligro": 5,               // Número de calaveras que aparecerán
+  "habitat": "Desiertos, Cuevas de Cristal",
+  "vulnerable": "Ninguna",
+  "resistente": "Rayo",
+  "habilidad_titulo": "Aliento de Relámpago",
+  "habilidad": "El dragón exhala un rayo en una línea de 60 pies...",
+  "supervivencia": "No te agrupes en línea recta y busca cobertura.",
+  "lore": "Los dragones azules son maestros de la arena y el trueno..."
+}
+
+------------------------------------------------------------
+PASO 2: REGISTRAR EN EL LISTADO PRINCIPAL
+------------------------------------------------------------
+Abre el archivo `data/list.json`. Este archivo controla qué monstruos aparecen en el menú principal. Debes añadir una línea al final de la lista con el siguiente formato:
+
+  { "id": "dragon_azul", "nombre": "Dragón Azul", "tipo": "monster" }
+
+*IMPORTANTE:* Recuerda poner una coma (,) al final de la línea anterior antes de añadir la tuya.
+
+------------------------------------------------------------
+PASO 3: LA IMAGEN
+------------------------------------------------------------
+1. Guarda la imagen en la carpeta `css/img/`.
+2. El formato ideal es `.jpg` o `.png`.
+3. Asegúrate de que el nombre en el archivo `.json` coincida exactamente con el nombre del archivo de imagen.
+
+¡Y listo! Al recargar la página, tu nueva criatura debería aparecer automáticamente en el bestiario.
