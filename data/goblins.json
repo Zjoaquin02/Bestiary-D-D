@@ -3,17 +3,18 @@
   "nombre": "Goblins",
   "rol": "monster",
   "tipo": "Humanoides Pequeños",
+  "categoria": "Humanoid",
   "imagen": "css/img/goblins.jpg",
-  "ac": 12,
-  "hp": 7,
-  "speed": "30 ft",
+  "ac": 12, "hp": 7, "speed": "30 ft",
   "stats": {
-    "str": 8,
-    "dex": 14,
-    "con": 10,
-    "int": 10,
-    "wis": 8,
-    "cha": 8
+    "str": 8, "dex": 14, "con": 10, "int": 10, "wis": 8, "cha": 8
   },
-  "lore": "Pequeñas criaturas de piel verdosa, conocidas por su astucia y malicia. Las crónicas de las Montañas de Plata relatan que los Goblins no son solo ladrones, son supervivientes que han aprendido a usar cada pedazo de chatarra como arma. Su sociedad es un laberinto de traiciones y jerarquías impuestas por la fuerza bruta de sus amos más grandes, los Hobgoblins. Se dice que susurran en la oscuridad de las minas olvidadas, planeando emboscadas para aquellos que se atreven a excavar demasiado profundo. Si ves a uno solo, ten cuidado; el resto de su tribu acecha entre las sombras de las vigas podridas del techo o tras las grietas de la roca."
+  "peligro": 1,
+  "habitat": "Cuevas, Minas, Bosques",
+  "vulnerable": "Fuego, Perforante",
+  "resistente": "Veneno (Leve)",
+  "supervivencia": "No dejes que te rodeen. Un goblin solo es cobarde, diez son un pelotón de ejecución. Mira hacia arriba; les encanta saltar desde el techo.",
+  "habilidad_titulo": "Cobardía Táctica",
+  "habilidad": "Se mueven entre las sombras y usan el número para abrumar a su presa. Si se sienten en desventaja, huirán para buscar refuerzos.",
+  "lore": "Pequeñas criaturas de piel verdosa, conocidas por su astucia y malicia. Las crónicas de las Montañas de Plata relatan que los Goblins no son solo ladrones."
 }

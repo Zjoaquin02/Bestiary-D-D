@@ -2,20 +2,19 @@
   "id": "rust_monster",
   "nombre": "Rust Monster",
   "rol": "monster",
-  "tipo": "Monstruosidad de Metal",
+  "tipo": "Monstruosidad Corrosiva",
+  "categoria": "Monstrosity",
   "imagen": "css/img/rust_monster.jpg",
-  "ac": 14,
-  "hp": 27,
-  "speed": "40 ft",
+  "ac": 14, "hp": 27, "speed": "40 ft",
   "stats": {
-    "str": 13,
-    "dex": 12,
-    "con": 13,
-    "int": 2,
-    "wis": 13,
-    "cha": 6
+    "str": 13, "dex": 12, "con": 13, "int": 2, "wis": 13, "cha": 6
   },
+  "peligro": 2,
+  "habitat": "Minas de Ocalco, Dungeons Abandonadas, Forjas",
+  "vulnerable": "Ninguna",
+  "resistente": "Todo metal (Inmune)",
+  "supervivencia": "No uses armas ni armaduras de metal si no quieres perderlas para siempre. Usa palos de madera, piedras o magia pura. Si te acercas, su sola presencia oxidará tus pertenencias en segundos.",
   "habilidad_titulo": "Antenas Oxidantes",
-  "habilidad": "Cualquier arma o armadura de metal que golpee al Rust Monster o sea tocada por él comienza a oxidarse instantáneamente, reduciendo permanentemente su efectividad (-1 a daño o AC) hasta quedar destruida.",
-  "lore": "El mayor temor de cualquier aventurero con armadura de placas. No es un depredador de carne, sino de metal. Las crónicas de los Herreros Olvidados relatan que un grupo de estos seres puede devorar un arsenal completo en una noche, dejando tras de sí solo óxido y desesperación."
+  "habilidad": "Se alimenta de metales ferrosos, convirtiendo el acero más duro en polvo oxidado al tacto.",
+  "lore": "Se alimenta de metales ferrosos, convirtiendo el acero más duro en polvo oxidado al tacto. Las crónicas de las Minas de Ocalco relatan su avaricia por el hierro."
 }

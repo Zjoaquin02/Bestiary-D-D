@@ -32,10 +32,23 @@
 
         <div class="page page-right">
             <div class="content-wrapper">
-                <h2 class="name" id="name"></h2>
-                <div class="type" id="type"></div>
+                <div class="meta-header">
+                <div class="danger-level" id="danger-level"></div>
+                <div class="habitat-badge" id="habitat-badge"></div>
+            </div>
 
-                <div class="ornament">✺</div>
+            <h2 class="name" id="name"></h2>
+            <div class="type-container">
+                <span class="categoria-badge" id="categoria"></span>
+                <span class="type" id="type"></span>
+            </div>
+            
+            <div class="ornament">✺</div>
+
+            <div class="resistances-section" id="resistances-section">
+                <div class="resist-item debil"><b>Vulnerable:</b> <span id="vulnerable"></span></div>
+                <div class="resist-item resistente"><b>Resistente:</b> <span id="resistente"></span></div>
+            </div>
 
                 <div class="stat-box">
                     <p><b>Clase de Armadura:</b> <span id="ac"></span></p>
@@ -63,7 +76,13 @@
                     <p id="lore"></p>
                 </div>
 
-                <div class="footer-nav">
+                <!-- Nueva Nota de Supervivencia -->
+            <div id="survival-box" class="survival-note" style="display:none;">
+                <h4>⚜ Guía de Combate ⚜</h4>
+                <p id="survival-text"></p>
+            </div>
+
+            <div class="footer-nav">
                     <button onclick="location.href='index.html'" class="filter-btn">« Regresar al Bestiario</button>
                 </div>
             </div>

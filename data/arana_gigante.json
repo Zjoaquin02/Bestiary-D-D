@@ -3,17 +3,18 @@
   "nombre": "Araña Gigante",
   "rol": "monster",
   "tipo": "Bestia Venenosa",
+  "categoria": "Beast",
   "imagen": "css/img/arana_gigante.jpg",
-  "ac": 14,
-  "hp": 26,
-  "speed": "30 ft, climb 30 ft",
+  "ac": 14, "hp": 26, "speed": "30 ft, climb 30 ft",
   "stats": {
-    "str": 14,
-    "dex": 16,
-    "con": 12,
-    "int": 2,
-    "wis": 11,
-    "cha": 4
+    "str": 14, "dex": 16, "con": 12, "int": 2, "wis": 11, "cha": 4
   },
-  "lore": "Tejedora de pesadillas que acecha en las sombras de las cuevas. Su mordedura paraliza y su seda atrapa a las víctimas desprevenidas. Las crónicas de los Tejedores de la Penumbra relatan que un nido de arañas gigantes puede envolver a pueblos enteros en una sola noche. No son solo bestias, sino guardianas de los pasadizos más profundos. Se dice que si ves un hilo de seda colgando del techo, es mejor que no dispares a la ligera, pues la respuesta será una lluvia de mandíbulas y venenos que ni el más experto curandero podrá revertir."
+  "peligro": 2,
+  "habitat": "Cuevas, Bosques de Telarañas",
+  "vulnerable": "Fuego, Perforante",
+  "resistente": "Veneno",
+  "supervivencia": "No dejes que te dispare sus redes. Si la araña te envuelve, estarás a su merced. Usa una antorcha para quemar las telarañas que la rodean.",
+  "habilidad_titulo": "Sentidos Arácnidos",
+  "habilidad": "La araña puede detectar cualquier vibración en su telaraña, lo que le permite atacar por sorpresa.",
+  "lore": "Tejedora de pesadillas que acecha en las sombras de las cuevas. Su mordedura paraliza y su seda atrapa a las víctimas desprevenidas."
 }

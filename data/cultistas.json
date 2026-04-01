@@ -2,18 +2,19 @@
   "id": "cultistas",
   "nombre": "Cultistas",
   "rol": "monster",
-  "tipo": "Humanoides Devotos",
+  "tipo": "Fanáticos del Mal",
+  "categoria": "Humanoid",
   "imagen": "css/img/cultistas.jpg",
-  "ac": 12,
-  "hp": 9,
-  "speed": "30 ft",
+  "ac": 12, "hp": 9, "speed": "30 ft",
   "stats": {
-    "str": 11,
-    "dex": 12,
-    "con": 10,
-    "int": 10,
-    "wis": 11,
-    "cha": 10
+    "str": 11, "dex": 12, "con": 10, "int": 10, "wis": 11, "cha": 10
   },
-  "lore": "Hombres que han sucumbido a las artes oscuras o ritos de fe. Siguen órdenes de entes más allá de la comprensión humana. Las crónicas de la Aurora Oscura relatan que un Cultista puede entregar su último aliento para invocar a su señor de las sombras. No son solo fanáticos, son el tejido invisible que busca rasgar el velo de la realidad para dejar entrar lo impensable."
+  "peligro": 1,
+  "habitat": "Templos Olvidados, Calabozo Profundos, Ciudades",
+  "vulnerable": "Psíquico, Magia Sagrada",
+  "resistente": "Miedos y Encantos",
+  "supervivencia": "No intentes razonar con ellos; su fe es ciega. Atácalos por sorpresa antes de que puedan completar sus rituales oscuros. Sus túnicas ocultan más que solo secretos.",
+  "habilidad_titulo": "Devoción Fanática",
+  "habilidad": "Individuos entregados a una fe oscura, a menudo sacrificando su propia vida por su señor.",
+  "lore": "Individuos entregados a una fe oscura, a menudo sacrificando su propia vida por su señor. Las crónicas de las Sombras relatan sus actos secretos."
 }

@@ -2,18 +2,19 @@
   "id": "kobolds",
   "nombre": "Kobolds",
   "rol": "monster",
-  "tipo": "Humanoides Dracónicos",
+  "tipo": "Humanoides Dracónicos Pequeños",
+  "categoria": "Humanoid",
   "imagen": "css/img/kobolds.jpg",
-  "ac": 12,
-  "hp": 5,
-  "speed": "30 ft",
+  "ac": 12, "hp": 5, "speed": "30 ft",
   "stats": {
-    "str": 7,
-    "dex": 15,
-    "con": 9,
-    "int": 8,
-    "wis": 7,
-    "cha": 8
+    "str": 7, "dex": 15, "con": 9, "int": 8, "wis": 7, "cha": 8
   },
-  "lore": "Pequeños reptiles que adoran a los dragones. Son expertos tramperos y mineros que compensan su debilidad con el número. Las crónicas de las Minas de la Oscuridad Profunda cuentan que a los Kobolds se les enseña el arte de la emboscada desde que rompen el cascarón. No son solo estorbos; su devoción a sus amos alados los convierte en una plaga que puede hundir castillos desde abajo."
+  "peligro": 1,
+  "habitat": "Minas, Cuevas Dracónicas, Alcantarillas",
+  "vulnerable": "Fuego, Perforante",
+  "resistente": "Magia (Ventaja en grupo)",
+  "supervivencia": "No los subestimes por su tamaño. Si ves uno, hay diez más en las sombras. Son maestros de las trampas; mira bien dónde pisas antes de entrar en su territorio.",
+  "habilidad_titulo": "Tácticas de Manada",
+  "habilidad": "Pequeños seres de linaje dracónico que compensan su debilidad física con ingenio y trampas letales.",
+  "lore": "Pequeños seres de linaje dracónico que compensan su debilidad física con ingenio y trampas letales. Adoran a los dragones como dioses."
 }

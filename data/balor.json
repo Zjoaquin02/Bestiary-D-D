@@ -3,17 +3,18 @@
   "nombre": "Demonio Balor",
   "rol": "boss",
   "tipo": "Entidad Abisal",
+  "categoria": "Fiend",
   "imagen": "css/img/balor.jpg",
-  "ac": 19,
-  "hp": 262,
-  "speed": "40 ft, fly 60 ft",
+  "ac": 19, "hp": 262, "speed": "40 ft, fly 60 ft",
   "stats": {
-    "str": 26,
-    "dex": 15,
-    "con": 22,
-    "int": 20,
-    "wis": 16,
-    "cha": 22
+    "str": 26, "dex": 15, "con": 22, "int": 20, "wis": 16, "cha": 22
   },
-  "lore": "Un general de las hordas demoníacas, envuelto en llamas y portando un látigo de fuego. Su mera presencia corrompe la tierra que pisa. Las crónicas abisales dicen que los Balors nacen de las almas de los generales caídos en una traición de mil años. Su látigo de fuego es una manifestación de la agonía de sus legiones, y su espada de rayos puede partir montañas en dos. No son solo bestias, son estrategas del caos que buscan convertir el mundo material en una extensión de su plano desolado. Se rumorea que si un Balor muere, su último estallido de fuego puede consumir ciudades enteras a su alrededor."
+  "peligro": 5,
+  "habitat": "Abismo (Plasmado del Caos)",
+  "vulnerable": "Frío Extremo, Magia Sagrada",
+  "resistente": "Fuego (Inmune), Rayo, Veneno, No-mágico",
+  "supervivencia": "No intentes apagar su fuego; es parte de su esencia. La única forma de derrotar a un Balor es mantener la distancia y usar ataques a distancia de energía sagrada. Y ten cuidado: su explosión final al morir puede arrasar con todo a su alrededor.",
+  "habilidad_titulo": "Aura de Llamas Abisales",
+  "habilidad": "Un general de las hordas demoníacas, envuelto en llamas y portando un látigo de fuego. Su sola presencia corrompe la tierra.",
+  "lore": "Un general de las hordas demoníacas, envuelto en llamas y portando un látigo de fuego. Su mera presencia corrompe la tierra que pisa."
 }

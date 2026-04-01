@@ -2,20 +2,19 @@
   "id": "gnolls",
   "nombre": "Gnolls",
   "rol": "monster",
-  "tipo": "Humanoides Hienas",
+  "tipo": "Humanoides Hienoides",
+  "categoria": "Humanoid",
   "imagen": "css/img/gnolls.jpg",
-  "ac": 15,
-  "hp": 22,
-  "speed": "30 ft",
+  "ac": 15, "hp": 22, "speed": "30 ft",
   "stats": {
-    "str": 14,
-    "dex": 12,
-    "con": 11,
-    "int": 6,
-    "wis": 10,
-    "cha": 7
+    "str": 14, "dex": 12, "con": 11, "int": 6, "wis": 10, "cha": 7
   },
-  "habilidad_titulo": "Frenesí de Sangre (Rampage)",
-  "habilidad": "Cuando el Gnoll reduce a una criatura a 0 HP con un ataque cuerpo a cuerpo en su turno, puede usar una acción adicional para moverse hasta la mitad de su velocidad y realizar un ataque de mordisco.",
-  "lore": "Los Gnolls son guerreros salvajes y sedientos de sangre que sirven al señor de los demonios Yeenoghu. Su risa histérica es el presagio del fin de las caravanas y de las aldeas fronterizas. No conocen la misericordia y su única meta es el festín de carne y miedo. Las crónicas de las Llanuras de la Sangre relatan que un brote de Gnolls es como una herida abierta en el mundo que no se cierra hasta que la última de sus hienas humanas haya sido exterminada."
+  "peligro": 2,
+  "habitat": "Sabanas, Altiplanos, Desiertos",
+  "vulnerable": "Fuego, Magia de Control",
+  "resistente": "Miedos y Encantos",
+  "supervivencia": "No los ataques de frente si están en manada; su risa es el presagio de un ataque coordinado. Usa magia de área para dispersar su horda antes de entrar en combate cuerpo a cuerpo.",
+  "habilidad_titulo": "Frenesí de Manada",
+  "habilidad": "Hunters hienoides insaciables que solo conocen la glotonería y la guerra.",
+  "lore": "Hunters hienoides insaciables que solo conocen la glotonería y la guerra. Adoran al demonio Yeenoghu."
 }

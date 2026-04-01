@@ -3,17 +3,20 @@
   "nombre": "Kraken",
   "rol": "boss",
   "tipo": "Monstruosidad Submarina",
+  "categoria": "Monstrosity",
   "imagen": "css/img/kraken.jpg",
   "ac": 18,
   "hp": 472,
   "speed": "20 ft, swim 60 ft",
   "stats": {
-    "str": 30,
-    "dex": 11,
-    "con": 25,
-    "int": 22,
-    "wis": 18,
-    "cha": 20
+    "str": 30, "dex": 11, "con": 25, "int": 22, "wis": 18, "cha": 20
   },
-  "lore": "El terror de los siete mares. Un ser de inteligencia milenaria que puede hundir flotas enteras con un solo movimiento de sus tentáculos. Las crónicas de los Navegantes del Olvido cuentan que el Kraken es el guardián de los tesoros de dioses caídos que yacen en las fosas más profundas. No es solo un calamar gigante, es una mente antigua que controla las mareas y las tormentas. Ver su silueta bajo el casco de un barco es el presagio final de una tumba acuática. Muchos creen que duerme el Sueño del Abismo, esperando el día en que la tierra vuelva a ser reclamada por el océano."
+  "peligro": 5,
+  "habitat": "Fosas Marinas, Océanos del Olvido",
+  "vulnerable": "Rayo (Extremo)",
+  "resistente": "Frío, No-mágico",
+  "supervivencia": "No lo combatas en el agua si no tienes magia de rayo potente. Sus tentáculos pueden envolver tu barco y hundirlo en segundos. Busca el ojo central, es su único punto vulnerable real.",
+  "habilidad_titulo": "Control de Tormentas Submarinas",
+  "habilidad": "Un ser de inteligencia milenaria que puede hundir flotas enteras con un solo movimiento de sus tentáculos.",
+  "lore": "El terror de los siete mares. Un ser de inteligencia milenaria que puede hundir flotas enteras con un solo movimiento."
 }

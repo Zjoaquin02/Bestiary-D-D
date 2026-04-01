@@ -3,19 +3,18 @@
   "nombre": "Nightwalker",
   "rol": "boss",
   "tipo": "Monstruosidad de la Sombra",
+  "categoria": "Undead",
   "imagen": "css/img/nightwalker.jpg",
-  "ac": 14,
-  "hp": 297,
-  "speed": "40 ft, fly 40 ft (hover)",
+  "ac": 14, "hp": 297, "speed": "40 ft, fly 40 ft (hover)",
   "stats": {
-    "str": 22,
-    "dex": 19,
-    "con": 24,
-    "int": 6,
-    "wis": 16,
-    "cha": 12
+    "str": 22, "dex": 19, "con": 24, "int": 6, "wis": 16, "cha": 12
   },
+  "peligro": 5,
+  "habitat": "Plano Sombrío, Cementerios del Vacío",
+  "vulnerable": "Radiante, Luz Sagrada",
+  "resistente": "Necrótico, Veneno, No-mágico",
+  "supervivencia": "No intentes combatir a un Nightwalker sin luz sagrada potente. Su aura drena tu vitalidad máxima permanentemente. Si te toca su caricia de sombra, tu alma dejará de existir.",
   "habilidad_titulo": "Aniquilación de la Vida",
-  "habilidad": "Cualquier criatura viva en un radio de 30 pies ve reducida su salud máxima permanentemente en 10 puntos al inicio de cada turno. Si una criatura muere en su presencia, es borrada de la existencia y no puede ser resucitada por ningún medio tradicional.",
-  "lore": "Un gigante de sombras puras que emana del Plano Sombrío. No tiene otra meta que el fin de toda luz y vida orgánica. Allí donde pisa, la vegetación se marchita y los seres vivos son consumidos por el vacío gélido de su ser."
+  "habilidad": "Cualquier criatura viva en un radio de 30 pies ve reducida su salud máxima permanentemente.",
+  "lore": "Un gigante de sombras puras que emana del Plano Sombrío. No tiene otra meta que el fin de toda luz y vida orgánica."
 }

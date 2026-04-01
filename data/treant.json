@@ -3,19 +3,20 @@
   "nombre": "Treant",
   "rol": "monster",
   "tipo": "Planta Colosal",
+  "categoria": "Plant",
   "imagen": "css/img/treant.jpg",
   "ac": 16,
   "hp": 138,
   "speed": "30 ft",
   "stats": {
-    "str": 23,
-    "dex": 8,
-    "con": 21,
-    "int": 12,
-    "wis": 16,
-    "cha": 12
+    "str": 23, "dex": 8, "con": 21, "int": 12, "wis": 16, "cha": 12
   },
+  "peligro": 4,
+  "habitat": "Bosques Ancestrales, Arboledas Sagradas",
+  "vulnerable": "Fuego (Letal), Cortante",
+  "resistente": "Impacto, Miedos y Encantos",
+  "supervivencia": "No intentes combatir al Treant sin fuego; es su única debilidad real. Ataca desde las raíces y usa hachas pesadas si quieres sobrevivir a sus ramas de roble frío.",
   "habilidad_titulo": "Animar Árboles",
-  "habilidad": "El Treant puede imbuir vida a los árboles cercanos, convirtiéndolos en aliados que atacan a sus enemigos con la misma ferocidad y lentitud implacable.",
-  "lore": "Pastores de los bosques antiguos que han visto nacer y morir imperios. No descansan, sino que observan el crecimiento de la naturaleza y protegen sus dominios contra todo aquello que intente romper el equilibrio."
+  "habilidad": "Pastores de los bosques antiguos que han visto nacer y morir imperios.",
+  "lore": "Pastores de los bosques antiguos que han visto nacer y morir imperios."
 }

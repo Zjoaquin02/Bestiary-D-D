@@ -1,21 +1,20 @@
 {
   "id": "vecna",
-  "nombre": "Vecna, El Archienemigo",
+  "nombre": "Vecna",
   "rol": "boss",
-  "tipo": "Dios Menor de los Secretos",
+  "tipo": "Archidios de los Secretos",
+  "categoria": "Undead",
   "imagen": "css/img/vecna.jpg",
-  "ac": 21,
-  "hp": 480,
-  "speed": "30 ft, fly 40 ft (hover)",
+  "ac": 18, "hp": 272, "speed": "30 ft, fly 30 ft (hover)",
   "stats": {
-    "str": 22,
-    "dex": 20,
-    "con": 24,
-    "int": 30,
-    "wis": 24,
-    "cha": 22
+    "str": 10, "dex": 15, "con": 18, "int": 22, "wis": 24, "cha": 16
   },
-  "habilidad_titulo": "Velo de los Secretos Perdidos",
-  "habilidad": "Vecna es inmune a ser detectado por cualquier medio mágico y posee la capacidad de lanzar 'Palabra de Poder: Muerte' como una acción legendaria. Además, su sola presencia obliga a los enemigos a realizar una salvación de Sabiduría o ser paralizados por el terror de las verdades prohibidas que él susurra en sus mentes.",
-  "lore": "Las crónicas de la Torre de los Susurros relatan que Vecna fue una vez un mortal que desgarró el tejido de la realidad para alcanzar la divinidad. Es el señor de todo lo que no se sabe y de todo lo que se oculta. Poseedor de un poder que desafía la comprensión de los magos más sabios, se dice que su mano y su ojo, perdidos en batallas milenarias, siguen siendo los artefactos más destructivos del multiverso. Vecna no desea simplemente gobernar; desea ser el único que posea la verdad detrás del vacío. Encontrarse con él no es una batalla, es un juicio final donde tu propia existencia es el precio por el conocimiento que nunca debiste buscar."
+  "peligro": 5,
+  "habitat": "Torres de la Eternidad, Planos de la Sombra",
+  "vulnerable": "Radiante, Artefactos de la Justicia",
+  "resistente": "Necrótico, Veneno, No-mágico, Mentes Profanas",
+  "supervivencia": "No intentes ocultar nada; Vecna ya conoce tus secretos. Usa magia de protección contra el mal y busca los artefactos perdidos de los dioses si quieres tener una mínima oportunidad. Si mueres en su presencia, tu alma le pertenecerá para siempre.",
+  "habilidad_titulo": "Susurro de los Secretos Olvidados",
+  "habilidad": "Vecna puede paralizar a sus enemigos revelando verdades que sus mentes no pueden procesar.",
+  "lore": "El Archidios de los Secretos, Vecna, es una entidad que ha trascendido la muerte misma para gobernar sobre lo prohibido."
 }

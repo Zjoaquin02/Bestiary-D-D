@@ -2,20 +2,21 @@
   "id": "displacer_beast",
   "nombre": "Displacer Beast",
   "rol": "monster",
-  "tipo": "Monstruosidad de las Hadas",
+  "tipo": "Monstruosidad de Desplazamiento",
+  "categoria": "Monstrosity",
   "imagen": "css/img/displacer_beast.jpg",
   "ac": 13,
   "hp": 85,
   "speed": "40 ft",
   "stats": {
-    "str": 18,
-    "dex": 15,
-    "con": 16,
-    "int": 6,
-    "wis": 12,
-    "cha": 8
+    "str": 18, "dex": 15, "con": 16, "int": 6, "wis": 12, "cha": 8
   },
-  "habilidad_titulo": "Ilusión de Desplazamiento",
-  "habilidad": "La bestia proyecta una imagen ilusoria de sí misma a varios pies de distancia, dificultando los ataques enemigos. Cualquier ataque que no tenga ventaja tiene desventaja automática mientras la ilusión no sea disipada por un golpe directo o fuego.",
-  "lore": "Un pantera de seis patas con tentáculos espinosos que emanan de su lomo. Proviene de las tierras salvajes del Feywild y es el depredador definitivo que no solo acecha a su presa, sino que engaña a su propia vista."
+  "peligro": 3,
+  "habitat": "Bosques Extraños, Planos Exteriores",
+  "vulnerable": "Ninguna Conocida (Cegado anula su poder)",
+  "resistente": "Todo daño de área, No-mágico",
+  "supervivencia": "No ataques a la imagen proyectada por su desplazamiento. Usa magia que no requiera ver al objetivo o intenta cegar a la bestia; si no puede ver, su imagen dejará de desplazarse. Ataca con ataques de área amplios.",
+  "habilidad_titulo": "Capa de Desplazamiento",
+  "habilidad": "Una pantera de seis patas que puede proyectar una imagen falsa de sí misma a pocos pies de distancia.",
+  "lore": "Una pantera de seis patas que puede proyectar una imagen falsa de sí misma a pocos pies de distancia. Las crónicas de los Exploradores del Velo relatan su evasión letal."
 }

@@ -3,19 +3,20 @@
   "nombre": "Lizardfolk",
   "rol": "monster",
   "tipo": "Humanoide Reptiliano",
+  "categoria": "Humanoid",
   "imagen": "css/img/lizardfolk.jpg",
   "ac": 15,
   "hp": 22,
   "speed": "30 ft, swim 30 ft",
   "stats": {
-    "str": 15,
-    "dex": 10,
-    "con": 13,
-    "int": 7,
-    "wis": 12,
-    "cha": 7
+    "str": 15, "dex": 10, "con": 13, "int": 7, "wis": 12, "cha": 7
   },
+  "peligro": 2,
+  "habitat": "Pantanos Profundos, Selvas Tropicales",
+  "vulnerable": "Frío Extremo, Perforante",
+  "resistente": "Ácido, Veneno",
+  "supervivencia": "No los ataques en el agua; son nadadores expertos. Atácalos desde terreno seco y usa magia de frío para mermar su agilidad antes de entrar en combate.",
   "habilidad_titulo": "Artesano Astuto (Cunning Artisan)",
-  "habilidad": "Capaces de fabricar armas rudimentarias con los huesos y la piel de sus enemigos en solo una hora de descanso, lo que les permite reponer su equipo constantemente incluso en zonas inhóspitas.",
-  "lore": "Un pueblo tribal que habita en los pantanos más profundos. No conocen el miedo de la misma manera que los humanos; ven la vida como una serie de necesidades de supervivencia calculadas. Su astucia reside en su paciencia y en su capacidad de fundirse con el agua antes de saltar sobre su presa."
+  "habilidad": "Capaces de fabricar armas rudimentarias con los huesos y la piel de sus enemigos en solo una hora de descanso.",
+  "lore": "Un pueblo tribal que habita en los pantanos más profundos. Las crónicas de las Tribus de Escama de Jade relatan su astucia calculada."
 }

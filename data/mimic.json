@@ -3,17 +3,18 @@
   "nombre": "Mimic",
   "rol": "monster",
   "tipo": "Monstruo de Dungeon",
+  "categoria": "Monstrosity",
   "imagen": "css/img/mimic.jpg",
-  "ac": 12,
-  "hp": 58,
-  "speed": "15 ft",
+  "ac": 12, "hp": 58, "speed": "15 ft",
   "stats": {
-    "str": 17,
-    "dex": 12,
-    "con": 15,
-    "int": 5,
-    "wis": 13,
-    "cha": 8
+    "str": 17, "dex": 12, "con": 15, "int": 5, "wis": 13, "cha": 8
   },
-  "lore": "Un depredador cambiaformas capaz de imitar la apariencia de objetos inanimados, como cofres o puertas, para atraer a aventureros codiciosos. Las crónicas de las Mazmorras de la Codicia mencionan que los Mimics no son solo bestias, sino experimentos de alquimistas locos que buscaban proteger sus tesoros. Su lengua pegajosa y sus dientes afilados son lo último que muchos ven antes de ser engullidos enteros. Se dice que si escuchas un leve chasquido al abrir un cofre, es mejor soltar el asa y correr, pues el hambre del Mimic es insaciable y su imitación es tan perfecta que incluso el olor a oro y cuero viejo emana de su cuerpo falso."
+  "peligro": 2,
+  "habitat": "Dungeons, Castillos, Lugares con Tesoros",
+  "vulnerable": "Fuego, Ácido",
+  "resistente": "Cortante, Impacto",
+  "supervivencia": "No toques nada que parezca demasiado limpio. Si un cofre no tiene polvo, es un Mimic. Golpéalo antes de intentar abrirlo; es preferible romper la cerradura que perder una mano.",
+  "habilidad_titulo": "Capa Externa Pegajosa",
+  "habilidad": "Se mimetizan con el entorno y sus mandíbulas son tan fuertes como el acero.",
+  "lore": "Un depredador cambiaformas capaz de imitar la apariencia de objetos inanimados, como cofres o puertas."
 }

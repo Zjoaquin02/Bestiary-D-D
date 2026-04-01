@@ -4,7 +4,7 @@ let allCreatures = [];
 async function loadList() {
     const res = await fetch('data/list.json');
     allCreatures = await res.json();
-    
+
     // Recuperar el último filtro usado o por defecto 'monster'
     const lastFilter = localStorage.getItem('bestiaryFilter') || 'monster';
     filterType(lastFilter);
@@ -15,10 +15,10 @@ function filterType(type) {
     if (!grid) return;
 
     grid.innerHTML = '';
-    
+
     // Guardar la elección
     localStorage.setItem('bestiaryFilter', type);
-    
+
     // Update active button
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     if (type === 'monster') document.getElementById('btn-monsters')?.classList.add('active');
@@ -32,7 +32,7 @@ function filterType(type) {
     }
 
     const filtered = allCreatures.filter(c => c.tipo === type);
-    
+
     filtered.forEach(c => {
         const div = document.createElement('div');
         div.className = 'card' + (type === 'boss' ? ' boss-card' : '');
@@ -56,6 +56,31 @@ async function loadCreature() {
         document.getElementById('cursed-seal')?.classList.remove('seal-hidden');
         document.getElementById('cursed-seal')?.classList.add('void-seal');
     }
+    // Populating Tactical Metadata
+    const dangerLvl = document.getElementById('danger-level');
+    if (dangerLvl) {
+        const skulls = "☠️".repeat(c.peligro || 1);
+        dangerLvl.innerHTML = `Nivel de Peligro: ${skulls}`;
+    }
+
+    const habitatBadge = document.getElementById('habitat-badge');
+    if (habitatBadge) {
+        habitatBadge.innerHTML = ` Hábitat: ${c.habitat || 'Desconocido'}`;
+    }
+
+    // Vulnerabilidades y Resistencias
+    document.getElementById('vulnerable').innerText = c.vulnerable || 'Limitada';
+    document.getElementById('resistente').innerText = c.resistente || 'Variada';
+
+    // Survival Note
+    if (c.supervivencia) {
+        const survBox = document.getElementById('survival-box');
+        if (survBox) {
+            survBox.style.display = 'block';
+            document.getElementById('survival-text').innerText = c.supervivencia;
+        }
+    }
+
     // Populating Skill section
     if (c.habilidad) {
         const skillSec = document.getElementById('skill-section');
@@ -68,6 +93,7 @@ async function loadCreature() {
 
     document.getElementById('name').innerText = c.nombre;
     document.getElementById('type').innerText = c.tipo;
+    document.getElementById('categoria').innerText = c.categoria || 'Desconocida';
     document.getElementById('img').src = c.imagen;
 
     document.getElementById('ac').innerText = c.ac;

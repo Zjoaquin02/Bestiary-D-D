@@ -2,18 +2,19 @@
   "id": "bandidos",
   "nombre": "Bandidos",
   "rol": "monster",
-  "tipo": "Humanoides Ladrones",
+  "tipo": "Humanoides Hostiles",
+  "categoria": "Humanoid",
   "imagen": "css/img/bandidos.jpg",
-  "ac": 12,
-  "hp": 11,
-  "speed": "30 ft",
+  "ac": 12, "hp": 11, "speed": "30 ft",
   "stats": {
-    "str": 11,
-    "dex": 12,
-    "con": 12,
-    "int": 10,
-    "wis": 10,
-    "cha": 10
+    "str": 11, "dex": 12, "con": 12, "int": 10, "wis": 10, "cha": 10
   },
-  "lore": "Hombres y mujeres desesperados que asaltan caminos y bosques. Su mayor arma es la sorpresa y el número. Las crónicas de los Camineros del Olvido relatan que los bandidos no siempre fueron criminales, sino que muchos son desertores de guerras olvidadas que solo buscan sobrevivir un invierno más. No son solo ladrones, son una red de espías y sombras que conocen cada palmo de los senderos más peligrosos de los Reinos."
+  "peligro": 1,
+  "habitat": "Caminos Reales, Bosques, Ciudades Ruidosas",
+  "vulnerable": "Ninguna",
+  "resistente": "Ninguna",
+  "supervivencia": "No dejes que te rodeen. Los bandidos suelen atacar en grupo y usan tácticas simples para distraer a su presa. Si ves a uno solo, es probable que haya cinco más en las sombras.",
+  "habilidad_titulo": "Ataque en Manada",
+  "habilidad": "Grupos de forajidos que acechan en los caminos, esperando a mercaderes y viajeros desprevenidos.",
+  "lore": "Grupos de forajidos que acechan en los caminos, esperando a mercaderes y viajeros desprevenidos. No todos son criminales por voluntad; muchos son víctimas de la guerra."
 }

@@ -3,17 +3,20 @@
   "nombre": "Basilisco",
   "rol": "monster",
   "tipo": "Monstruosidad Letal",
+  "categoria": "Monstrosity",
   "imagen": "css/img/basilisco.jpg",
   "ac": 15,
   "hp": 52,
   "speed": "20 ft",
   "stats": {
-    "str": 16,
-    "dex": 8,
-    "con": 15,
-    "int": 2,
-    "wis": 8,
-    "cha": 7
+    "str": 16, "dex": 8, "con": 15, "int": 2, "wis": 8, "cha": 7
   },
-  "lore": "Un reptil de ocho patas cuya mirada puede convertir a los seres vivos en piedra. Su mera presencia hace que los bosques queden en un silencio sepulcral. Las crónicas de los Exploradores Pétreos cuentan que un Basilisco no solo petrifica con su mirada, sino que sus glándulas segregan un ácido que puede disolver la roca misma. Ver a un Basilisco es el presagio de una estatua de carne y hueso que el tiempo erosionará en polvo. Se dice que si logras capturar su reflejo en un escudo de plata, puedes evitar su mirada mortal, pero ten cuidado de no ser golpeado por su cola pesada o por su aliento cargado de toxinas."
+  "peligro": 3,
+  "habitat": "Pantanos, Cuevas Húmedas",
+  "vulnerable": "Ninguna",
+  "resistente": "Cegado, Petrificado",
+  "supervivencia": "Jamás mires a sus ojos. Si no tienes un espejo para ver su reflejo, ataca a ciegas o confía en tus oídos. Su aliento es fétido, pero su mirada es el verdadero fin.",
+  "habilidad_titulo": "Mirada Petrificante",
+  "habilidad": "Un reptil de ocho patas cuya mirada puede convertir a los seres vivos en piedra. Su mera presencia hace que los bosques queden en un silencio sepulcral.",
+  "lore": "Un reptil de ocho patas cuya mirada puede convertir a los seres vivos en piedra. Su mera presencia hace que los bosques queden en un silencio sepulcral."
 }

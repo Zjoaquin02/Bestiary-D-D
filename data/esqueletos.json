@@ -2,18 +2,19 @@
   "id": "esqueletos",
   "nombre": "Esqueletos",
   "rol": "monster",
-  "tipo": "No-muerto",
+  "tipo": "No-muertos Básicos",
+  "categoria": "Undead",
   "imagen": "css/img/esqueletos.jpg",
-  "ac": 13,
-  "hp": 13,
-  "speed": "30 ft",
+  "ac": 13, "hp": 13, "speed": "30 ft",
   "stats": {
-    "str": 10,
-    "dex": 14,
-    "con": 15,
-    "int": 6,
-    "wis": 8,
-    "cha": 5
+    "str": 10, "dex": 14, "con": 15, "int": 6, "wis": 8, "cha": 5
   },
-  "lore": "Huesos reanimados por magia nigromántica. Carecen de voluntad propia, pero su persistencia los hace peligrosos. Las crónicas de las Catacumbas del Despertar cuentan que un Esqueleto no es solo una pila de huesos, sino una extensión de la voluntad de su creador. No sienten dolor ni miedo, y sus movimientos son una danza mecánica y letal que solo termina cuando el último nudo de magia se desvanece de su estructura."
+  "peligro": 1,
+  "habitat": "Tumbas Profanas, Cementerios",
+  "vulnerable": "Impacto (Caza-huesos)",
+  "resistente": "Veneno (Inmune), Perforante",
+  "supervivencia": "No usa flechas; pasarán entre sus costillas. Usa un mazo o un escudo pesado para astillar sus huesos. Recuerda que no sienten dolor ni miedo; seguirán atacando hasta que sus cráneos sean polvo.",
+  "habilidad_titulo": "Sin Miedo ni Dolor",
+  "habilidad": "Huesos reanimados por magia necrótica que solo buscan la muerte de los vivos.",
+  "lore": "Huesos reanimados por magia necrótica que solo buscan la muerte de los vivos. No tienen voluntad propia, solo la de su creador."
 }

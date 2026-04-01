@@ -3,17 +3,18 @@
   "nombre": "Ankheg",
   "rol": "monster",
   "tipo": "Monstruosidad de Túnel",
+  "categoria": "Monstrosity",
   "imagen": "css/img/ankheg.jpg",
-  "ac": 14,
-  "hp": 39,
-  "speed": "30 ft, burrow 10 ft",
+  "ac": 14, "hp": 39, "speed": "30 ft, burrow 10 ft",
   "stats": {
-    "str": 17,
-    "dex": 11,
-    "con": 13,
-    "int": 1,
-    "wis": 13,
-    "cha": 6
+    "str": 17, "dex": 11, "con": 13, "int": 1, "wis": 13, "cha": 6
   },
-  "lore": "Un insecto gigante excavador que escupe ácido y acecha bajo la tierra fértil esperando que una víctima pase sobre sus túneles. Las crónicas de los Granjeros del Norte relatan que los Ankhegs son una plaga persistente que destruye las cosechas y la ganadería. Su mandíbula es capaz de triturar el hueso y su cuerpo blindado los protege de la mayoría de los ataques. Se dice que si ves un montículo de tierra recién removido, lo mejor es alejarse con cautela, pues el Ankheg caza por las vibraciones del suelo y su hambre es tan feroz como su rapidez subterránea."
+  "peligro": 2,
+  "habitat": "Campos de Cultivo, Bosques",
+  "vulnerable": "Frío, Rayo",
+  "resistente": "Ácido",
+  "supervivencia": "No dejes que te atrape entre sus mandíbulas; una vez que lo haga, verterá ácido en tus heridas. Si escuchas vibraciones bajo tus pies, corre hacia terreno rocoso.",
+  "habilidad_titulo": "Mordisco de Ácido",
+  "habilidad": "Un insecto gigante excavador que escupe ácido y acecha bajo la tierra fértil esperando que una víctima pase sobre sus túneles.",
+  "lore": "Un insecto gigante excavador que escupe ácido y acecha bajo la tierra fértil esperando que una víctima pase sobre sus túneles."
 }
