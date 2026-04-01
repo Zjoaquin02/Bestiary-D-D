@@ -14,9 +14,10 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background-color: #1a120b; /* Deep dark background like a library */
-    background-image: 
-        radial-gradient(circle at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%),
+    background-color: #1a120b;
+    /* Deep dark background like a library */
+    background-image:
+        radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),
         url('https://www.transparenttextures.com/patterns/dark-leather.png');
     font-family: 'Crimson Text', serif;
     color: var(--ink);
@@ -26,13 +27,14 @@ body {
 }
 
 /* COMMON PARCHMENT STYLE */
-.book-cover, .book-open {
+.book-cover,
+.book-open {
     background-color: var(--parchment-base);
-    background-image: 
-        radial-gradient(circle at 50% 50%, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 100%),
+    background-image:
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%),
         url('https://www.transparenttextures.com/patterns/paper-fibers.png');
-    box-shadow: 
-        0 20px 50px rgba(0,0,0,0.8),
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.8),
         inset 0 0 100px rgba(138, 77, 15, 0.3);
     border: 15px solid #2b1b0f;
     border-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100" height="100" fill="none" stroke-width="10" stroke="%233d2b1f" /><circle cx="0" cy="0" r="15" fill="%23b89b5e" /><circle cx="100" cy="0" r="15" fill="%23b89b5e" /><circle cx="0" cy="100" r="15" fill="%23b89b5e" /><circle cx="100" cy="100" r="15" fill="%23b89b5e" /></svg>') 30 stretch;
@@ -59,7 +61,7 @@ header {
     font-size: 4rem;
     margin: 0;
     color: var(--accent);
-    text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 .subtitle {
@@ -86,7 +88,7 @@ header {
     cursor: pointer;
     transition: all 0.3s;
     font-size: 1.1rem;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .filter-btn:hover {
@@ -96,7 +98,7 @@ header {
 
 .filter-btn.active {
     background: var(--accent);
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
     transform: translateY(2px);
     border-color: #ff0000;
 }
@@ -118,21 +120,24 @@ body.boss-mode .back-link {
 }
 
 body.boss-mode .filter-btn {
-    color: #cfcfcf; /* Use a light grey for inactive buttons in boss mode */
+    color: #cfcfcf;
+    /* Use a light grey for inactive buttons in boss mode */
 }
 
-body.boss-mode .book-cover, body.boss-mode .book-open {
-    background-image: 
-        radial-gradient(circle at 50% 50%, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%),
+body.boss-mode .book-cover,
+body.boss-mode .book-open {
+    background-image:
+        radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%),
         url('https://www.transparenttextures.com/patterns/dark-matter.png');
-    box-shadow: 
-        0 30px 60px rgba(0,0,0,1),
+    box-shadow:
+        0 30px 60px rgba(0, 0, 0, 1),
         inset 0 0 150px rgba(255, 0, 0, 0.2);
     border-color: #000;
 }
 
-body.boss-mode h3, body.boss-mode .name {
-    text-shadow: 0 0 15px rgba(255,0,0,0.8);
+body.boss-mode h3,
+body.boss-mode .name {
+    text-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
 }
 
 .boss-card {
@@ -141,9 +146,17 @@ body.boss-mode h3, body.boss-mode .name {
 }
 
 @keyframes pulsar {
-    0% { box-shadow: 0 0 10px rgba(255,0,0,0.5); }
-    50% { box-shadow: 0 0 30px rgba(255,0,0,1); }
-    100% { box-shadow: 0 0 10px rgba(255,0,0,0.5); }
+    0% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 0 30px rgba(255, 0, 0, 1);
+    }
+
+    100% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    }
 }
 
 .grid {
@@ -154,8 +167,8 @@ body.boss-mode h3, body.boss-mode .name {
 
 .card {
     padding: 20px;
-    border: 1px solid rgba(0,0,0,0.1);
-    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.05);
     cursor: pointer;
     transition: all 0.3s ease;
     text-align: center;
@@ -198,12 +211,12 @@ body.boss-mode h3, body.boss-mode .name {
 }
 
 .page-left {
-    border-right: 2px solid rgba(0,0,0,0.1);
-    box-shadow: inset -10px 0 20px rgba(0,0,0,0.05);
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset -10px 0 20px rgba(0, 0, 0, 0.05);
 }
 
 .page-right {
-    box-shadow: inset 10px 0 20px rgba(0,0,0,0.05);
+    box-shadow: inset 10px 0 20px rgba(0, 0, 0, 0.05);
 }
 
 .nav-links {
@@ -229,7 +242,7 @@ body.boss-mode h3, body.boss-mode .name {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 
@@ -238,8 +251,9 @@ body.boss-mode h3, body.boss-mode .name {
     max-height: 400px;
     filter: sepia(0.8) contrast(1.1) brightness(0.9);
     border-radius: 2px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    mix-blend-mode: multiply; /* Makes white background of images blend with parchment */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    mix-blend-mode: multiply;
+    /* Makes white background of images blend with parchment */
 }
 
 body.boss-mode .monster-img {
@@ -249,7 +263,9 @@ body.boss-mode .monster-img {
 }
 
 /* NOVEDAD: Sello del Vacío */
-.seal-hidden { display: none; }
+.seal-hidden {
+    display: none;
+}
 
 .void-seal {
     width: 100px;
@@ -267,8 +283,13 @@ body.boss-mode .monster-img {
 }
 
 @keyframes rotateSeal {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .caption {
@@ -291,7 +312,7 @@ body.boss-mode .monster-img {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 10px;
 }
 
@@ -310,7 +331,7 @@ body.boss-mode .monster-img {
     font-size: 0.9rem;
     color: white;
     font-weight: bold;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .type-container {
@@ -352,7 +373,7 @@ body.boss-mode .monster-img {
     gap: 10px;
     margin-bottom: 20px;
     padding: 10px;
-    background: rgba(0,0,0,0.03);
+    background: rgba(0, 0, 0, 0.03);
     border-radius: 4px;
 }
 
@@ -400,7 +421,8 @@ body.boss-mode .monster-img {
 }
 
 .survival-note::before {
-    content: "✖"; /* Stylized 'nail' or mark */
+    content: "✖";
+    /* Stylized 'nail' or mark */
     position: absolute;
     top: -12px;
     left: 50%;
@@ -425,7 +447,8 @@ body.boss-mode .monster-img {
     font-style: italic;
     font-size: 1.15rem;
     line-height: 1.5;
-    color: var(--ink); /* This will now follow the theme correctly */
+    color: var(--ink);
+    /* This will now follow the theme correctly */
 }
 
 /* Specific fix for boss mode readability in survival note */
@@ -435,7 +458,8 @@ body.boss-mode .survival-note {
 }
 
 body.boss-mode .survival-note p {
-    color: #ffcccc; /* Soft red/white for better contrast on dark red */
+    color: #ffcccc;
+    /* Soft red/white for better contrast on dark red */
 }
 
 .stat-box {
@@ -443,7 +467,7 @@ body.boss-mode .survival-note p {
     padding: 20px;
     margin-bottom: 30px;
     position: relative;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .stat-box p {
@@ -496,18 +520,19 @@ body.boss-mode .survival-note p {
     .book-open {
         flex-direction: column;
     }
+
     .page-left {
         display: none;
     }
-    
+
     .illustration-container {
         margin: 20px 0;
     }
-    
+
     #main-title {
         font-size: 2.5rem;
     }
-    
+
     .book-cover {
         padding: 30px 15px;
     }
@@ -522,7 +547,8 @@ body.boss-mode .survival-note p {
         font-size: 2rem;
     }
 
-    .book-cover, .book-open {
+    .book-cover,
+    .book-open {
         border-width: 10px;
         padding: 20px 10px;
     }
@@ -538,6 +564,7 @@ body.boss-mode .survival-note p {
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .stat-box {
         margin-bottom: 20px;
     }
