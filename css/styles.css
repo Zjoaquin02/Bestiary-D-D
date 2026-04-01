@@ -65,8 +65,20 @@ header {
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
-.subtitle {
+.subtitle,
+.filter-btn,
+.back-link,
+.caption,
+.danger-level,
+.categoria-badge,
+.type,
+.stat-item .label,
+.skill-box h3,
+.survival-note h4 {
     font-family: 'MedievalSharp', cursive;
+}
+
+.subtitle {
     font-size: 1.2rem;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -85,7 +97,6 @@ header {
     color: var(--parchment-base);
     border: 2px solid var(--gold);
     padding: 10px 20px;
-    font-family: 'MedievalSharp', cursive;
     cursor: pointer;
     transition: all 0.3s;
     font-size: 1.1rem;
@@ -229,7 +240,6 @@ body.boss-mode .name {
 .back-link {
     color: var(--parchment-base);
     text-decoration: none;
-    font-family: 'MedievalSharp', cursive;
     font-size: 1.2rem;
     transition: color 0.3s;
 }
@@ -296,7 +306,6 @@ body.boss-mode .monster-img {
 .caption {
     margin-top: 20px;
     font-style: italic;
-    font-family: 'MedievalSharp', cursive;
     opacity: 0.6;
 }
 
@@ -318,7 +327,6 @@ body.boss-mode .monster-img {
 }
 
 .danger-level {
-    font-family: 'MedievalSharp', cursive;
     color: var(--accent);
     font-size: 1rem;
     font-weight: bold;
@@ -346,7 +354,6 @@ body.boss-mode .monster-img {
 
 .categoria-badge {
     text-transform: uppercase;
-    font-family: 'MedievalSharp', cursive;
     font-size: 0.8rem;
     letter-spacing: 2px;
     color: var(--accent);
@@ -355,7 +362,6 @@ body.boss-mode .monster-img {
 
 .type {
     text-align: center;
-    font-family: 'MedievalSharp', cursive;
     font-size: 1.1rem;
     font-style: italic;
     margin-bottom: 20px;
@@ -399,7 +405,6 @@ body.boss-mode .monster-img {
 
 .skill-box h3 {
     margin: 0 0 10px 0;
-    font-family: 'MedievalSharp', cursive;
     font-size: 1.2rem;
     color: var(--accent);
     text-transform: uppercase;
@@ -436,7 +441,6 @@ body.boss-mode .monster-img {
 
 .survival-note h4 {
     margin: 0 0 10px 0;
-    font-family: 'MedievalSharp', cursive;
     color: var(--accent);
     text-align: center;
     text-transform: uppercase;
@@ -488,7 +492,6 @@ body.boss-mode .survival-note p {
 
 .stat-item .label {
     display: block;
-    font-family: 'MedievalSharp', cursive;
     font-size: 0.8rem;
     color: var(--accent);
 }
