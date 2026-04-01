@@ -1,0 +1,19 @@
+{
+  "id": "cubo_gelatinoso",
+  "nombre": "Cubo Gelatinoso",
+  "rol": "monster",
+  "tipo": "Ooze de Dungeon",
+  "imagen": "css/img/cubo_gelatinoso.jpg",
+  "ac": 6,
+  "hp": 84,
+  "speed": "15 ft",
+  "stats": {
+    "str": 14,
+    "dex": 3,
+    "con": 20,
+    "int": 1,
+    "wis": 6,
+    "cha": 1
+  },
+  "lore": "Una masa transparente y ácida que se desliza por los pasillos de las mazmorras, limpiando todo a su paso y engullendo a los imprudentes. Las crónicas de las Alcantarillas de la Eternidad mencionan que los Cubos Gelatinosos son los carroñeros perfectos que eliminan rastro alguno de intrusos. Su cuerpo casi invisible es una trampa mortal en la penumbra. Se dice que si ves huesos flotando en el aire sin nada que los sostenga, es mejor que retrocedas lentamente, pues el hambre del Cubo es insaciable y su parálisis es tan letal como su disolución orgánica."
+}

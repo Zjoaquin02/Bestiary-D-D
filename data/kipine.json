@@ -1,0 +1,19 @@
+{
+  "id": "kipine",
+  "nombre": "Kipine",
+  "rol": "monster",
+  "tipo": "Monstruosidad Alada",
+  "imagen": "css/img/kipine.jpg",
+  "ac": 15,
+  "hp": 78,
+  "speed": "25 ft, fly 50 ft",
+  "stats": {
+    "str": 18,
+    "dex": 17,
+    "con": 16,
+    "int": 4,
+    "wis": 13,
+    "cha": 8
+  },
+  "lore": "Una aberración nacida de magia antigua y experimentos olvidados de los Magos de la Sangre. El Kipine combina la ferocidad de un depredador terrestre con la agilidad de los cielos. Se dice que sus garras pueden perforar el acero y que su grito es capaz de ensordecer a los valientes. Las leyendas cuentan que los Kipines guardan los pasos de montaña que conducen a los valles ocultos del Arcano, actuando como centinelas eternos de secretos que la humanidad nunca debió conocer."
+}

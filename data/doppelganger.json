@@ -1,0 +1,21 @@
+{
+  "id": "doppelganger",
+  "nombre": "Doppelganger",
+  "rol": "monster",
+  "tipo": "Monstruosidad Cambiaformas",
+  "imagen": "css/img/doppelganger.jpg",
+  "ac": 14,
+  "hp": 52,
+  "speed": "30 ft",
+  "stats": {
+    "str": 11,
+    "dex": 18,
+    "con": 14,
+    "int": 11,
+    "wis": 12,
+    "cha": 14
+  },
+  "habilidad_titulo": "Lector de Mentes",
+  "habilidad": "Como acción, el Doppelganger puede leer mágicamente los pensamientos superficiales de una criatura, obteniendo ventaja en pruebas de engaño y sabiendo exactamente cómo imitar la voz y gestos de sus víctimas.",
+  "lore": "Un ser sin rostro que puede convertirse en cualquier persona. Vive entre nosotros, sembrando la paranoia en ciudades y cortes. Su mayor placer es reemplazarte y ver cómo tus seres queridos confían en el monstruo que ocupa tu lugar."
+}

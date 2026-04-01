@@ -1,0 +1,21 @@
+{
+  "id": "golem_hierro",
+  "nombre": "Golem de Hierro",
+  "rol": "monster",
+  "tipo": "Constructo Metálico",
+  "imagen": "css/img/golem_hierro.jpg",
+  "ac": 20,
+  "hp": 210,
+  "speed": "30 ft",
+  "stats": {
+    "str": 24,
+    "dex": 9,
+    "con": 20,
+    "int": 3,
+    "wis": 11,
+    "cha": 1
+  },
+  "habilidad_titulo": "Absorción de Fuego e Inmuidad Mágica",
+  "habilidad": "Cualquier daño de fuego recibido por el Golem no solo es ignorado, sino que cura sus heridas. Además, es inmune a casi todos los hechizos y efectos mágicos que busquen alterar su voluntad o forma física.",
+  "lore": "Un titán de metal forjado por maestros alquimistas y magos de la antigüedad. No conoce el miedo, no respira y no tiene otra voluntad que seguir la orden directa de su creador hasta que sea reducido a chatarra."
+}

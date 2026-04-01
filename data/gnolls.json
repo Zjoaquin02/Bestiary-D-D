@@ -1,0 +1,21 @@
+{
+  "id": "gnolls",
+  "nombre": "Gnolls",
+  "rol": "monster",
+  "tipo": "Humanoides Hienas",
+  "imagen": "css/img/gnolls.jpg",
+  "ac": 15,
+  "hp": 22,
+  "speed": "30 ft",
+  "stats": {
+    "str": 14,
+    "dex": 12,
+    "con": 11,
+    "int": 6,
+    "wis": 10,
+    "cha": 7
+  },
+  "habilidad_titulo": "Frenesí de Sangre (Rampage)",
+  "habilidad": "Cuando el Gnoll reduce a una criatura a 0 HP con un ataque cuerpo a cuerpo en su turno, puede usar una acción adicional para moverse hasta la mitad de su velocidad y realizar un ataque de mordisco.",
+  "lore": "Los Gnolls son guerreros salvajes y sedientos de sangre que sirven al señor de los demonios Yeenoghu. Su risa histérica es el presagio del fin de las caravanas y de las aldeas fronterizas. No conocen la misericordia y su única meta es el festín de carne y miedo. Las crónicas de las Llanuras de la Sangre relatan que un brote de Gnolls es como una herida abierta en el mundo que no se cierra hasta que la última de sus hienas humanas haya sido exterminada."
+}

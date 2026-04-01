@@ -1,0 +1,19 @@
+{
+  "id": "zombies",
+  "nombre": "Zombis",
+  "rol": "monster",
+  "tipo": "No-muerto Putrefacto",
+  "imagen": "css/img/zombies.jpg",
+  "ac": 8,
+  "hp": 22,
+  "speed": "20 ft",
+  "stats": {
+    "str": 13,
+    "dex": 6,
+    "con": 16,
+    "int": 3,
+    "wis": 6,
+    "cha": 5
+  },
+  "lore": "Carne en descomposición que se levanta de sus tumbas. Son lentos y torpes, pero su resistencia sobrenatural es su mayor fortaleza. Las crónicas del Campo de Batalla del Olvido mencionan que los Zombis no mueren tras un golpe mortal de un arma común; solo la decapitación o el fuego pueden detener su incansable marcha fétida. Son seres sin alma que solo buscan saciar el hambre impuesta por la magia que los levantó de su descanso eterno."
+}

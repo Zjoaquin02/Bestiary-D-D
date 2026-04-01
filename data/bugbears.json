@@ -1,0 +1,21 @@
+{
+  "id": "bugbears",
+  "nombre": "Bugbears",
+  "rol": "monster",
+  "tipo": "Humanoides Peludos",
+  "imagen": "css/img/bugbears.jpg",
+  "ac": 16,
+  "hp": 27,
+  "speed": "30 ft",
+  "stats": {
+    "str": 15,
+    "dex": 14,
+    "con": 13,
+    "int": 8,
+    "wis": 11,
+    "cha": 9
+  },
+  "habilidad_titulo": "Ataque por Sorpresa",
+  "habilidad": "Si el Bugbear sorprende a una criatura y la golpea con un ataque durante el primer asalto de combate, el ataque infligirá 2k6 de daño adicional.",
+  "lore": "Los Bugbears son los más grandes y fuertes de los trasgos. Prefieren la emboscada y la sorpresa sobre el combate directo. Sus crónicas cuentan que un Bugbear no ruge antes de atacar, sino que es un susurro en la oscuridad de los bosques que golpea antes de que su víctima pueda siquiera desenvainar su espada. Su astucia y sigilo son su mayor arma, y su fuerza física es suficiente para destrozar a los guerreros más novatos."
+}

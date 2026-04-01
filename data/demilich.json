@@ -1,0 +1,21 @@
+{
+  "id": "demilich",
+  "nombre": "Demilich",
+  "rol": "boss",
+  "tipo": "Cráneo Ancestral",
+  "imagen": "css/img/demilich.jpg",
+  "ac": 20,
+  "hp": 80,
+  "speed": "0 ft, fly 30 ft (hover)",
+  "stats": {
+    "str": 1,
+    "dex": 20,
+    "con": 10,
+    "int": 20,
+    "wis": 17,
+    "cha": 20
+  },
+  "habilidad_titulo": "Aullido de la Muerte Inmediata",
+  "habilidad": "El Demilich lanza un aullido espectral. Todas las criaturas en un radio de 30 pies deben superar una salvación de Constitución o caer instantáneamente a 0 HP de un infarto mágico.",
+  "lore": "Un Lich que ya no tiene un cuerpo físico y se ha convertido en un cráneo flotante imbuido de una maldad absoluta. Su existencia desafía el tiempo mismo y sus gemas albergan las almas de miles de aventureros caídos."
+}

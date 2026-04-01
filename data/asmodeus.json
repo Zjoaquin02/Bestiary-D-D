@@ -1,0 +1,21 @@
+{
+  "id": "asmodeus",
+  "nombre": "Asmodeus, El Señor de Nessus",
+  "rol": "boss",
+  "tipo": "Archidiablo de los Nueve Infiernos",
+  "imagen": "css/img/asmodeus.jpg",
+  "ac": 22,
+  "hp": 550,
+  "speed": "30 ft, fly 60 ft",
+  "stats": {
+    "str": 24,
+    "dex": 18,
+    "con": 26,
+    "int": 30,
+    "wis": 26,
+    "cha": 30
+  },
+  "habilidad_titulo": "Contrato Diabólico del Destino",
+  "habilidad": "Asmodeus puede anular cualquier hechizo o efecto dañino que no provenga de una deidad, y su voz puede obligar a cualquier ser a firmar un contrato que entrega su alma a perpetuidad. Además, su bastón de rubí puede lanzar rayos de fuego infernal de 40 pies en múltiples direcciones. Es el señor del orden maligno y su sola presencia puede alterar las leyes de la física en su dominio.",
+  "lore": "Asmodeus es el epítome de la malicia orquestada. Desde su trono en Nessus, el noveno círculo del infierno, él gobierna sobre las legiones de diablos que buscan corromper el multiverso entero. Se dice que es el autor intelectual de cada gran caída de un imperio y que su paciencia es de milenios. No es solo un guerrero, sino un jurista del mal que usa las leyes para su beneficio. Enfrentarse a Asmodeus no es entrar en combate, es entrar en una negociación donde siempre, inevitablemente, él sale ganando. Suyo es el contrato, suya es la condenación eterna."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "vecna",
+  "nombre": "Vecna, El Archienemigo",
+  "rol": "boss",
+  "tipo": "Dios Menor de los Secretos",
+  "imagen": "css/img/vecna.jpg",
+  "ac": 21,
+  "hp": 480,
+  "speed": "30 ft, fly 40 ft (hover)",
+  "stats": {
+    "str": 22,
+    "dex": 20,
+    "con": 24,
+    "int": 30,
+    "wis": 24,
+    "cha": 22
+  },
+  "habilidad_titulo": "Velo de los Secretos Perdidos",
+  "habilidad": "Vecna es inmune a ser detectado por cualquier medio mágico y posee la capacidad de lanzar 'Palabra de Poder: Muerte' como una acción legendaria. Además, su sola presencia obliga a los enemigos a realizar una salvación de Sabiduría o ser paralizados por el terror de las verdades prohibidas que él susurra en sus mentes.",
+  "lore": "Las crónicas de la Torre de los Susurros relatan que Vecna fue una vez un mortal que desgarró el tejido de la realidad para alcanzar la divinidad. Es el señor de todo lo que no se sabe y de todo lo que se oculta. Poseedor de un poder que desafía la comprensión de los magos más sabios, se dice que su mano y su ojo, perdidos en batallas milenarias, siguen siendo los artefactos más destructivos del multiverso. Vecna no desea simplemente gobernar; desea ser el único que posea la verdad detrás del vacío. Encontrarse con él no es una batalla, es un juicio final donde tu propia existencia es el precio por el conocimiento que nunca debiste buscar."
+}

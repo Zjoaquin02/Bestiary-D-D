@@ -1,0 +1,19 @@
+{
+  "id": "orcos",
+  "nombre": "Orcos",
+  "rol": "monster",
+  "tipo": "Humanoides Guerreros",
+  "imagen": "css/img/orcos.jpg",
+  "ac": 13,
+  "hp": 15,
+  "speed": "30 ft",
+  "stats": {
+    "str": 16,
+    "dex": 12,
+    "con": 16,
+    "int": 7,
+    "wis": 11,
+    "cha": 10
+  },
+  "lore": "Fuertes y brutales, los orcos viven para la guerra y la dominación. Su sociedad se basa en la fuerza del más poderoso, en un código de sangre y colmillos. Se dice que sus hordas no marchan, sino que arrasan como una marea oscura sobre la civilización, dejando tras de sí solo cenizas y leyendas de valor desesperado. Las crónicas de los Pueblos Libres mencionan que un solo orco puede luchar incluso después de recibir heridas mortales, impulsado por una furia ancestral que los conecta con sus dioses de la guerra."
+}

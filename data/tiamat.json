@@ -1,0 +1,21 @@
+{
+  "id": "tiamat",
+  "nombre": "Tiamat, La Reina Dragón",
+  "rol": "boss",
+  "tipo": "Deidad de los Dragones Cromáticos",
+  "imagen": "css/img/tiamat.jpg",
+  "ac": 25,
+  "hp": 615,
+  "speed": "60 ft, fly 120 ft",
+  "stats": {
+    "str": 30,
+    "dex": 10,
+    "con": 30,
+    "int": 26,
+    "wis": 26,
+    "cha": 28
+  },
+  "habilidad_titulo": "Las Cinco Cabezas del Terror",
+  "habilidad": "Tiamat posee cinco cabezas, cada una capaz de realizar un ataque de aliento elemental diferente (Fuego, Frío, Ácido, Rayo y Veneno) en una misma ronda. Es inmune a hechizos de nivel 6 o inferior y recupera 30 HP al inicio de cada turno. Además, su sola presencia aterradora obliga a todos los enemigos en un radio de 240 pies a realizar una salvación de Sabiduría con desventaja.",
+  "lore": "Tiamat es la madre de la avaricia y la reina de los abismos. Sus cinco cabezas representan a las estirpes de los dragones cromáticos que gobiernan sobre los reinos mortales. Encerrada en los Nueve Infiernos, su único deseo es romper sus cadenas y devorar el multiverso entero. Se dice que cada una de sus escamas es más resistente que las armaduras de los dioses y que su odio por los dragones metálicos solo es superado por su hambre de almas mortales. Invocar a Tiamat es invocar el apocalipsis; un evento que solo los héroes de proporciones legendarias pueden soñar con detener."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "beholder",
+  "nombre": "Beholder",
+  "rol": "boss",
+  "tipo": "Aberración Poderosa",
+  "imagen": "css/img/beholder.jpg",
+  "ac": 18,
+  "hp": 180,
+  "speed": "0 ft, fly 20 ft (hover)",
+  "stats": {
+    "str": 10,
+    "dex": 14,
+    "con": 18,
+    "int": 17,
+    "wis": 15,
+    "cha": 17
+  },
+  "lore": "Un ser esférico cubierto de ojos, cada uno capaz de lanzar rayos mortales. Su paranoia solo es comparable con su inmenso poder mágico. Las leyendas afirman que los Beholders son sueños encarnados de una deidad de la locura. Cada uno de sus ojos acecha una realidad distinta, y su mente es un laberinto de conspiraciones. Se dice que habitan en cavernas de geometrías imposibles, donde esculpen la roca con sus rayos desintegradores para crear santuarios a su propia grandeza. Si un Beholder te mira, no solo te observa; está decidiendo en cuál de sus pesadillas encajarías mejor. Su mirada central anula la magia, convirtiendo a los hechiceros en simples mortales ante el juicio de sus diez tallos oculares."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "esqueletos",
+  "nombre": "Esqueletos",
+  "rol": "monster",
+  "tipo": "No-muerto",
+  "imagen": "css/img/esqueletos.jpg",
+  "ac": 13,
+  "hp": 13,
+  "speed": "30 ft",
+  "stats": {
+    "str": 10,
+    "dex": 14,
+    "con": 15,
+    "int": 6,
+    "wis": 8,
+    "cha": 5
+  },
+  "lore": "Huesos reanimados por magia nigromántica. Carecen de voluntad propia, pero su persistencia los hace peligrosos. Las crónicas de las Catacumbas del Despertar cuentan que un Esqueleto no es solo una pila de huesos, sino una extensión de la voluntad de su creador. No sienten dolor ni miedo, y sus movimientos son una danza mecánica y letal que solo termina cuando el último nudo de magia se desvanece de su estructura."
+}

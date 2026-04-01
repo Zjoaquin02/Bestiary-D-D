@@ -1,0 +1,19 @@
+{
+  "id": "osos",
+  "nombre": "Osos",
+  "rol": "monster",
+  "tipo": "Bestia Feroz",
+  "imagen": "css/img/osos.jpg",
+  "ac": 11,
+  "hp": 34,
+  "speed": "40 ft, climb 30 ft",
+  "stats": {
+    "str": 19,
+    "dex": 10,
+    "con": 16,
+    "int": 2,
+    "wis": 13,
+    "cha": 7
+  },
+  "lore": "Poderosos depredadores de los bosques. Su fuerza bruta es suficiente para destrozar armaduras y huesos con facilidad. Las crónicas de los Montañeses del Este relatan que los Osos son los reyes de la floresta, protectores de la vida salvaje que no toleran la intrusión de los hachadores de madera. No son solo bestias, su instinto de supervivencia los convierte en adversarios temibles que pueden perseguirte hasta por las copas de los árboles si te atreves a amenazar su prole."
+}

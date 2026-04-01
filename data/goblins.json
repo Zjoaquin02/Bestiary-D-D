@@ -1,0 +1,19 @@
+{
+  "id": "goblins",
+  "nombre": "Goblins",
+  "rol": "monster",
+  "tipo": "Humanoides Pequeños",
+  "imagen": "css/img/goblins.jpg",
+  "ac": 12,
+  "hp": 7,
+  "speed": "30 ft",
+  "stats": {
+    "str": 8,
+    "dex": 14,
+    "con": 10,
+    "int": 10,
+    "wis": 8,
+    "cha": 8
+  },
+  "lore": "Pequeñas criaturas de piel verdosa, conocidas por su astucia y malicia. Las crónicas de las Montañas de Plata relatan que los Goblins no son solo ladrones, son supervivientes que han aprendido a usar cada pedazo de chatarra como arma. Su sociedad es un laberinto de traiciones y jerarquías impuestas por la fuerza bruta de sus amos más grandes, los Hobgoblins. Se dice que susurran en la oscuridad de las minas olvidadas, planeando emboscadas para aquellos que se atreven a excavar demasiado profundo. Si ves a uno solo, ten cuidado; el resto de su tribu acecha entre las sombras de las vigas podridas del techo o tras las grietas de la roca."
+}

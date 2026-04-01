@@ -1,0 +1,19 @@
+{
+  "id": "tarrasque",
+  "nombre": "Tarrasque",
+  "rol": "boss",
+  "tipo": "Titán Colosal",
+  "imagen": "css/img/tarrasque.jpg",
+  "ac": 25,
+  "hp": 676,
+  "speed": "40 ft, climb 40 ft",
+  "stats": {
+    "str": 30,
+    "dex": 11,
+    "con": 30,
+    "int": 3,
+    "wis": 11,
+    "cha": 11
+  },
+  "lore": "La encarnación de la destrucción pura. Una fuerza de la naturaleza que duerme durante siglos hasta que despierta para devorar reinos enteros. Las antiguas crónicas de la Era de Pangea mencionan que el Tarrasque no es de este mundo, sino un avatar de la entropía que busca resetear el ciclo de la vida. Su caparazón refleja los hechizos más potentes, y su rugido puede desmoronar murallas centenarias. Se dice que solo existe uno en cada millar de años, y que su despertar es el presagio inevitable de una nueva era geológica. No hay negociación ni escape cuando el Tarrasque ruge; solo queda la esperanza de que vuelva a dormir tras saciar su hambre eterna."
+}

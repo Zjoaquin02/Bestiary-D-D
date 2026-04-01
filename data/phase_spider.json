@@ -1,0 +1,21 @@
+{
+  "id": "phase_spider",
+  "nombre": "Phase Spider",
+  "rol": "monster",
+  "tipo": "Monstruosidad Etérea",
+  "imagen": "css/img/phase_spider.jpg",
+  "ac": 13,
+  "hp": 32,
+  "speed": "30 ft, climb 30 ft",
+  "stats": {
+    "str": 15,
+    "dex": 15,
+    "con": 12,
+    "int": 6,
+    "wis": 10,
+    "cha": 6
+  },
+  "habilidad_titulo": "Salto al Plano Etéreo (Ethereal Jaunt)",
+  "habilidad": "Como acción adicional, la araña puede alternar entre el Plano Material y el Plano Etéreo. Sigue siendo invisible en este estado, atacando solo cuando la presa es más vulnerable.",
+  "lore": "Una araña de seis ojos que puede caminar entre las dimensiones. Sus telas no solo atrapan el cuerpo de la víctima, sino que su veneno hiela el alma, llevándola a un letargo entre el mundo de la carne y el de los espíritus."
+}

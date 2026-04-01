@@ -1,0 +1,19 @@
+{
+  "id": "fenix",
+  "nombre": "Fénix Arcano",
+  "rol": "boss",
+  "tipo": "Elemental Legendario",
+  "imagen": "css/img/fenix.jpg",
+  "ac": 18,
+  "hp": 150,
+  "speed": "20 ft, fly 100 ft",
+  "stats": {
+    "str": 14,
+    "dex": 24,
+    "con": 18,
+    "int": 16,
+    "wis": 14,
+    "cha": 20
+  },
+  "lore": "Las crónicas de la Primera Era relatan el avistamiento de una criatura de fuego puro que descendió de los cielos durante el Gran Eclipse. No es un ave de carne y hueso, sino una manifestación de la energía arcana misma. Se dice que sus plumas arden con la intensidad de un sol naciente y que su canto puede curar las heridas más profundas de los valientes o consumir el alma de los impíos. El Fénix no conoce la muerte; cuando su luz flaquea, se entrega a las llamas en un estallido de gloria, dejando tras de sí un huevo de cristal que renace en el siguiente ciclo lunar. Los antiguos alquimistas buscaban sus cenizas desesperadamente, creyendo que eran el ingrediente final para lu vida eterna."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "balor",
+  "nombre": "Demonio Balor",
+  "rol": "boss",
+  "tipo": "Entidad Abisal",
+  "imagen": "css/img/balor.jpg",
+  "ac": 19,
+  "hp": 262,
+  "speed": "40 ft, fly 60 ft",
+  "stats": {
+    "str": 26,
+    "dex": 15,
+    "con": 22,
+    "int": 20,
+    "wis": 16,
+    "cha": 22
+  },
+  "lore": "Un general de las hordas demoníacas, envuelto en llamas y portando un látigo de fuego. Su mera presencia corrompe la tierra que pisa. Las crónicas abisales dicen que los Balors nacen de las almas de los generales caídos en una traición de mil años. Su látigo de fuego es una manifestación de la agonía de sus legiones, y su espada de rayos puede partir montañas en dos. No son solo bestias, son estrategas del caos que buscan convertir el mundo material en una extensión de su plano desolado. Se rumorea que si un Balor muere, su último estallido de fuego puede consumir ciudades enteras a su alrededor."
+}

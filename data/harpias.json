@@ -1,0 +1,21 @@
+{
+  "id": "harpias",
+  "nombre": "Harpías",
+  "rol": "monster",
+  "tipo": "Monstruosidad Voladora",
+  "imagen": "css/img/harpias.jpg",
+  "ac": 11,
+  "hp": 38,
+  "speed": "20 ft, fly 40 ft",
+  "stats": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 7,
+    "wis": 10,
+    "cha": 13
+  },
+  "habilidad_titulo": "Canto de Atracción",
+  "habilidad": "La Harpía entona un canto mágico. Todas las mentes sensibles en un radio de 300 pies deben superar una salvación de Sabiduría o ser hechizadas, viéndose obligadas a moverse hacia la Harpía por el camino más corto posible.",
+  "lore": "Seres con cuerpo de buitre y rostro de mujer que anhelan carne fresca y el sufrimiento de los incautos. Las crónicas de los Marineros Sordos relatan que el canto de una Harpía es la música de tu propia muerte, una melodía que te susurra que el abismo es tu hogar."
+}

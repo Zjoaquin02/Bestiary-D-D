@@ -1,0 +1,19 @@
+{
+  "id": "hobgoblins",
+  "nombre": "Hobgoblins",
+  "rol": "monster",
+  "tipo": "Humanoides Marciales",
+  "imagen": "css/img/hobgoblins.jpg",
+  "ac": 18,
+  "hp": 11,
+  "speed": "30 ft",
+  "stats": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 9
+  },
+  "lore": "Disciplina militar y tácticas feroces. Los hobgoblins son la élite guerrera de los trasgos. Las crónicas de las Legiones de Hierro mencionan que los Hobgoblins no huyen del campo de batalla; su formación es inquebrantable ante el miedo. Su única debilidad es su propia ambición, pues cada uno busca el rango necesario para comandar ejércitos que puedan sojuzgar a sus parientes menos disciplinados."
+}

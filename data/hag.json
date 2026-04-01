@@ -1,0 +1,21 @@
+{
+  "id": "hag",
+  "nombre": "Hag (Bruja)",
+  "rol": "monster",
+  "tipo": "Férico Maligno",
+  "imagen": "css/img/hag.jpg",
+  "ac": 17,
+  "hp": 112,
+  "speed": "30 ft",
+  "stats": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 13,
+    "wis": 14,
+    "cha": 14
+  },
+  "habilidad_titulo": "Apariencia Ilusoria y Magia de Aquelarre",
+  "habilidad": "Las Hag pueden cubrirse con una ilusión para parecer ancianas bondadosas o doncellas, y cuando se agrupan en tríos (aquelarres), su poder mágico se potencia drásticamente, permitiéndoles lanzar hechizos de niveles superiores.",
+  "lore": "Antiguas tejedoras de tratos y desgracias que habitan en pantanos profundos o bosques retorcidos. No matan a su presa de forma directa; prefieren corromper sus deseos y ver cómo sus propias ambiciones se convierten en su ruina."
+}

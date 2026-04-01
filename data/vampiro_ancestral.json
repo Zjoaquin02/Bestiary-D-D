@@ -1,0 +1,19 @@
+{
+  "id": "vampiro_ancestral",
+  "nombre": "Vampiro Ancestral",
+  "rol": "boss",
+  "tipo": "No-muerto Sediento",
+  "imagen": "css/img/vampiro_ancestral.jpg",
+  "ac": 16,
+  "hp": 144,
+  "speed": "30 ft",
+  "stats": {
+    "str": 18,
+    "dex": 18,
+    "con": 18,
+    "int": 17,
+    "wis": 15,
+    "cha": 18
+  },
+  "lore": "Un noble de la noche que ha gobernado su dominio durante milenios. Su carisma es tan letal como sus colmillos. Las crónicas de la Aristocracia Sangrienta dicen que un Vampiro Ancestral no solo bebe la sangre de sus víctimas, sino que absorbe sus recuerdos y habilidades. Muchos creen que la inmortalidad les otorga una sabiduría divina que les permite ver más allá del tiempo. Su elegancia es un velo para la bestia que acecha debajo, y su mirada puede esclavizar a los de voluntad débil. Ver a un Vampiro Ancestral es el presagio de una eternidad de servidumbre en las sombras de un castillo que el tiempo ya ha olvidado."
+}

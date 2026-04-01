@@ -1,0 +1,19 @@
+{
+  "id": "lobos",
+  "nombre": "Lobos",
+  "rol": "monster",
+  "tipo": "Bestia Natural",
+  "imagen": "css/img/lobos.jpg",
+  "ac": 13,
+  "hp": 11,
+  "speed": "40 ft",
+  "stats": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 3,
+    "wis": 12,
+    "cha": 6
+  },
+  "lore": "Cazadores en manada que usan la táctica y el número para derribar a presas mucho mayores que ellos. Sus aullidos hielan la sangre de los viajeros desprevenidos. Las crónicas de los Pastores de las Llanuras relatan que los lobos son tan inteligentes que pueden imitar sonidos humanos para atraer a las víctimas. No son solo bestias, son una hermandad de dientes y piel que no descansa hasta que la presa es consumida por el frío del invierno."
+}

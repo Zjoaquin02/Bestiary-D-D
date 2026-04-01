@@ -1,0 +1,19 @@
+{
+  "id": "lich",
+  "nombre": "Lich Ancestral",
+  "rol": "boss",
+  "tipo": "No-muerto Legendario",
+  "imagen": "css/img/lich.jpg",
+  "ac": 17,
+  "hp": 135,
+  "speed": "30 ft",
+  "stats": {
+    "str": 11,
+    "dex": 16,
+    "con": 16,
+    "int": 20,
+    "wis": 14,
+    "cha": 16
+  },
+  "lore": "Un mago que ha superado a la muerte mediante artes prohibidas. Su filacteria es el único vínculo que lo mantiene en este plano, y su hambre de conocimiento es infinita. Las crónicas prohibidas de Arcania mencionan a un monarca que entregó su propia humanidad al vacío para salvar su reino, solo para verlo marchitarse bajo su dominio inmortal. El Lich no envejece, no sangra y no olvida ninguna ofensa. Su sola presencia desvía la luz del sol y hiela el aliento de los vivos. Se dice que susurros de antiguos dioses le dictan encantamientos que pueden rasgar el velo entre mundos. Si te encuentras ante él, no temas a su magia, teme al tiempo que ha tenido para perfeccionarla."
+}
