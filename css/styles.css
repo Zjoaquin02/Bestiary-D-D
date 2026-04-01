@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 40px 20px;
+    scroll-behavior: smooth;
 }
 
 /* COMMON PARCHMENT STYLE */

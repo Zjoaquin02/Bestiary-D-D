@@ -110,5 +110,13 @@ async function loadCreature() {
     document.getElementById('lore').innerText = c.lore;
 }
 
-loadList();
-loadCreature();
+// Inicialización inteligente basada en la página actual
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.getElementById('grid')) {
+        loadList();
+    }
+    
+    if (document.getElementById('name')) {
+        loadCreature();
+    }
+});
