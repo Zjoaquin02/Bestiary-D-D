@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Monstruosidad Alada",
   "categoria": "Monstrosity",
-  "imagen": "css/img/kipine.jpg",
-  "ac": 15, "hp": 78, "speed": "25 ft, fly 50 ft",
+  "imagen": "css/img/kipine.webp",
+  "ac": 15,
+  "hp": 78,
+  "speed": "25 ft, fly 50 ft",
   "stats": {
-    "str": 18, "dex": 17, "con": 16, "int": 4, "wis": 13, "cha": 8
+    "str": 18,
+    "dex": 17,
+    "con": 16,
+    "int": 4,
+    "wis": 13,
+    "cha": 8
   },
   "peligro": 3,
   "habitat": "Picos de Montaña, Pasos de Nieve",

@@ -4,12 +4,17 @@
   "rol": "monster",
   "tipo": "Monstruosidad de Desplazamiento",
   "categoria": "Monstrosity",
-  "imagen": "css/img/displacer_beast.jpg",
+  "imagen": "css/img/displacer_beast.webp",
   "ac": 13,
   "hp": 85,
   "speed": "40 ft",
   "stats": {
-    "str": 18, "dex": 15, "con": 16, "int": 6, "wis": 12, "cha": 8
+    "str": 18,
+    "dex": 15,
+    "con": 16,
+    "int": 6,
+    "wis": 12,
+    "cha": 8
   },
   "peligro": 3,
   "habitat": "Bosques Extraños, Planos Exteriores",

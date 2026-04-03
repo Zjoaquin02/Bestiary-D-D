@@ -4,12 +4,17 @@
   "rol": "monster",
   "tipo": "Planta Colosal",
   "categoria": "Plant",
-  "imagen": "css/img/treant.jpg",
+  "imagen": "css/img/treant.webp",
   "ac": 16,
   "hp": 138,
   "speed": "30 ft",
   "stats": {
-    "str": 23, "dex": 8, "con": 21, "int": 12, "wis": 16, "cha": 12
+    "str": 23,
+    "dex": 8,
+    "con": 21,
+    "int": 12,
+    "wis": 16,
+    "cha": 12
   },
   "peligro": 4,
   "habitat": "Bosques Ancestrales, Arboledas Sagradas",

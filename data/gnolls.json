@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Humanoides Hienoides",
   "categoria": "Humanoid",
-  "imagen": "css/img/gnolls.jpg",
-  "ac": 15, "hp": 22, "speed": "30 ft",
+  "imagen": "css/img/gnolls.webp",
+  "ac": 15,
+  "hp": 22,
+  "speed": "30 ft",
   "stats": {
-    "str": 14, "dex": 12, "con": 11, "int": 6, "wis": 10, "cha": 7
+    "str": 14,
+    "dex": 12,
+    "con": 11,
+    "int": 6,
+    "wis": 10,
+    "cha": 7
   },
   "peligro": 2,
   "habitat": "Sabanas, Altiplanos, Desiertos",

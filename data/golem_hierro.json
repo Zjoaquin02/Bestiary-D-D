@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Constructo Metálico",
   "categoria": "Construct",
-  "imagen": "css/img/golem_hierro.jpg",
-  "ac": 20, "hp": 210, "speed": "30 ft",
+  "imagen": "css/img/golem_hierro.webp",
+  "ac": 20,
+  "hp": 210,
+  "speed": "30 ft",
   "stats": {
-    "str": 24, "dex": 9, "con": 20, "int": 3, "wis": 11, "cha": 1
+    "str": 24,
+    "dex": 9,
+    "con": 20,
+    "int": 3,
+    "wis": 11,
+    "cha": 1
   },
   "peligro": 4,
   "habitat": "Castillos Antiguos, Cámaras del Tesoro",

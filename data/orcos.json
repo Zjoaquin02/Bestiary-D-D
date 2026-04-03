@@ -4,12 +4,17 @@
   "rol": "monster",
   "tipo": "Humanoides Guerreros",
   "categoria": "Humanoid",
-  "imagen": "css/img/orcos.jpg",
+  "imagen": "css/img/orcos.webp",
   "ac": 13,
   "hp": 15,
   "speed": "30 ft",
   "stats": {
-    "str": 16, "dex": 12, "con": 16, "int": 7, "wis": 11, "cha": 10
+    "str": 16,
+    "dex": 12,
+    "con": 16,
+    "int": 7,
+    "wis": 11,
+    "cha": 10
   },
   "peligro": 2,
   "habitat": "Montañas, Altiplanos, Cuevas",

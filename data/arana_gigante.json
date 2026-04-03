@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Bestia Venenosa",
   "categoria": "Beast",
-  "imagen": "css/img/arana_gigante.jpg",
-  "ac": 14, "hp": 26, "speed": "30 ft, climb 30 ft",
+  "imagen": "css/img/arana_gigante.webp",
+  "ac": 14,
+  "hp": 26,
+  "speed": "30 ft, climb 30 ft",
   "stats": {
-    "str": 14, "dex": 16, "con": 12, "int": 2, "wis": 11, "cha": 4
+    "str": 14,
+    "dex": 16,
+    "con": 12,
+    "int": 2,
+    "wis": 11,
+    "cha": 4
   },
   "peligro": 2,
   "habitat": "Cuevas, Bosques de Telarañas",

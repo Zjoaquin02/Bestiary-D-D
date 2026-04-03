@@ -1,0 +1,27 @@
+{
+  "id": "duergar",
+  "nombre": "Duergar",
+  "rol": "monster",
+  "tipo": "Enano de las Profundidades",
+  "categoria": "Humanoid",
+  "imagen": "css/img/duergar.webp",
+  "ac": 16,
+  "hp": 26,
+  "speed": "25 ft",
+  "stats": {
+    "str": 14,
+    "dex": 11,
+    "con": 14,
+    "int": 11,
+    "wis": 10,
+    "cha": 9
+  },
+  "peligro": 1,
+  "habitat": "El Underdark, Cavernas Volcánicas",
+  "vulnerable": "Ninguna",
+  "resistente": "Veneno (Inmune), Charmed, Paralyzed",
+  "supervivencia": "No confíes en tus ojos, pueden volverse invisibles a voluntad. Evita combatir con ellos en la penumbra, su visión superior y tácticas de emboscada son letales.",
+  "habilidad_titulo": "Agrandar (Enlarge) y Magia Innata",
+  "habilidad": "El Duergar tiene la capacidad innata de volver su cuerpo invisible por un corto periodo y también duplicar su tamaño mágico, ganando una fuerza y resistencia destructivas.",
+  "lore": "Enanos marcados por incontables eras en la oscuridad del Underdark. Forjadores severos y de corazón frío, poseen magia inherente producto de la cruel influencia de su entorno y antiguos amos."
+}

@@ -4,10 +4,17 @@
   "rol": "boss",
   "tipo": "Entidad Abisal",
   "categoria": "Fiend",
-  "imagen": "css/img/balor.jpg",
-  "ac": 19, "hp": 262, "speed": "40 ft, fly 60 ft",
+  "imagen": "css/img/balor.webp",
+  "ac": 19,
+  "hp": 262,
+  "speed": "40 ft, fly 60 ft",
   "stats": {
-    "str": 26, "dex": 15, "con": 22, "int": 20, "wis": 16, "cha": 22
+    "str": 26,
+    "dex": 15,
+    "con": 22,
+    "int": 20,
+    "wis": 16,
+    "cha": 22
   },
   "peligro": 5,
   "habitat": "Abismo (Plasmado del Caos)",
@@ -16,5 +23,5 @@
   "supervivencia": "No intentes apagar su fuego; es parte de su esencia. La única forma de derrotar a un Balor es mantener la distancia y usar ataques a distancia de energía sagrada. Y ten cuidado: su explosión final al morir puede arrasar con todo a su alrededor.",
   "habilidad_titulo": "Aura de Llamas Abisales",
   "habilidad": "Un general de las hordas demoníacas, envuelto en llamas y portando un látigo de fuego. Su sola presencia corrompe la tierra.",
-  "lore": "Un general de las hordas demoníacas, envuelto en llamas y portando un látigo de fuego. Su mera presencia corrompe la tierra que pisa."
+  "lore": "Mariscales supremos y adalides de los ejércitos abisales empuñando el azote de su inminente ira de azufre. Estos titanes miden decenas de pies envueltos en fuego inextinguible. Su espada rúnica desoladora convierte la armadura impenetrable en chatarra fundida. No toleran el fracaso y al ser abatidos corporalmente estallan fulminantemente simulando detonaciones termonucleares asegurando destrucción indiscriminada."
 }

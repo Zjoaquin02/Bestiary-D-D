@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Monstruosidad de Túnel",
   "categoria": "Monstrosity",
-  "imagen": "css/img/ankheg.jpg",
-  "ac": 14, "hp": 39, "speed": "30 ft, burrow 10 ft",
+  "imagen": "css/img/ankheg.webp",
+  "ac": 14,
+  "hp": 39,
+  "speed": "30 ft, burrow 10 ft",
   "stats": {
-    "str": 17, "dex": 11, "con": 13, "int": 1, "wis": 13, "cha": 6
+    "str": 17,
+    "dex": 11,
+    "con": 13,
+    "int": 1,
+    "wis": 13,
+    "cha": 6
   },
   "peligro": 2,
   "habitat": "Campos de Cultivo, Bosques",

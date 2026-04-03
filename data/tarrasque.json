@@ -4,12 +4,17 @@
   "rol": "boss",
   "tipo": "Titán Colosal",
   "categoria": "Monstrosity",
-  "imagen": "css/img/tarrasque.jpg",
+  "imagen": "css/img/tarrasque.webp",
   "ac": 25,
   "hp": 676,
   "speed": "40 ft, climb 40 ft",
   "stats": {
-    "str": 30, "dex": 11, "con": 30, "int": 3, "wis": 11, "cha": 11
+    "str": 30,
+    "dex": 11,
+    "con": 30,
+    "int": 3,
+    "wis": 11,
+    "cha": 11
   },
   "peligro": 5,
   "habitat": "Profundidades de la Tierra (Despertar Apocalíptico)",
@@ -18,5 +23,5 @@
   "supervivencia": "No intentes matarlo; solo intenta sobrevivir. Su caparazón refleja los hechizos de vuelta al lanzador. La única forma documentada de detenerlo es llevarlo a un estado de letargo profundo mediante magia de nivel 9 o un deseo puro. Si ruge, el mundo tiembla.",
   "habilidad_titulo": "Caparazón Reflector",
   "habilidad": "La encarnación de la destrucción pura. Una fuerza de la naturaleza que duerme durante siglos.",
-  "lore": "La encarnación de la destrucción pura. Una fuerza de la naturaleza que duerme durante siglos hasta que despierta para devorar reinos enteros."
+  "lore": "La encarnación del fin de los tiempos, la bestia cataclísmica cuyo nombre aterra a los inmortales. El Tarrasque es una máquina de destrucción ineludible que pasa siglos dormido en el núcleo del mundo. Cuando un hambre ancestral lo despierta, nada florece donde pisa. Reinos enteros han intentado detener su avance y solo han sumado castillos destrozados a sus dientes. Un avatar de ruina absoluta e instinto incomprensible."
 }

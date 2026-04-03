@@ -4,12 +4,17 @@
   "rol": "boss",
   "tipo": "Diosa de los Dragones Cromáticos",
   "categoria": "Dragon",
-  "imagen": "css/img/tiamat.jpg",
+  "imagen": "css/img/tiamat.webp",
   "ac": 25,
   "hp": 615,
   "speed": "60 ft, fly 120 ft",
   "stats": {
-    "str": 30, "dex": 10, "con": 30, "int": 26, "wis": 26, "cha": 28
+    "str": 30,
+    "dex": 10,
+    "con": 30,
+    "int": 26,
+    "wis": 26,
+    "cha": 28
   },
   "peligro": 5,
   "habitat": "Averno (El Primer Infierno)",
@@ -18,5 +23,5 @@
   "supervivencia": "No intentes combatir a Tiamat con una sola cabeza. Cada cabeza tiene su propio aliento y cada una debe ser derrotada por separado. No confíes en su piedad; no tiene ninguna.",
   "habilidad_titulo": "Cinco Cabezas, Cinco Alientos",
   "habilidad": "La reina y madre de los dragones malvados. Cada una de sus cinco cabezas respira la destrucción absoluta.",
-  "lore": "La reina y madre de los dragones malvados. Cada una de sus cinco cabezas respira la destrucción absoluta."
+  "lore": "La Reina Dragón, la majestuosidad cromática en toda su terrible gloria. Tiamat yace cautiva en los Nueve Infiernos, pero su furia hace temblar la tierra misma. Sus cinco cabezas representan a los dragones cromáticos primordiales (rojo, verde, azul, blanco y negro), y sus sectas buscan el ritual para liberarla. Si esta deidad alada cruzase el velo de nuestra realidad, los continentes enteros arderían en una tormenta sin fin de escarcha, veneno, relámpagos, ácido y llamas eternas."
 }

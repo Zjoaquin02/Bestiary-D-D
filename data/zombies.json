@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "No-muertos Putrefactos",
   "categoria": "Undead",
-  "imagen": "css/img/zombies.jpg",
-  "ac": 8, "hp": 22, "speed": "20 ft",
+  "imagen": "css/img/zombies.webp",
+  "ac": 8,
+  "hp": 22,
+  "speed": "20 ft",
   "stats": {
-    "str": 13, "dex": 6, "con": 16, "int": 3, "wis": 6, "cha": 5
+    "str": 13,
+    "dex": 6,
+    "con": 16,
+    "int": 3,
+    "wis": 6,
+    "cha": 5
   },
   "peligro": 1,
   "habitat": "Tumbas Profanas, Pantanos",

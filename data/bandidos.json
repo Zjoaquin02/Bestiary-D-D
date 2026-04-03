@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Humanoides Hostiles",
   "categoria": "Humanoid",
-  "imagen": "css/img/bandidos.jpg",
-  "ac": 12, "hp": 11, "speed": "30 ft",
+  "imagen": "css/img/bandidos.webp",
+  "ac": 12,
+  "hp": 11,
+  "speed": "30 ft",
   "stats": {
-    "str": 11, "dex": 12, "con": 12, "int": 10, "wis": 10, "cha": 10
+    "str": 11,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
   },
   "peligro": 1,
   "habitat": "Caminos Reales, Bosques, Ciudades Ruidosas",

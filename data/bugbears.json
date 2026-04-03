@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Humanoides Peludos",
   "categoria": "Humanoid",
-  "imagen": "css/img/bugbears.jpg",
-  "ac": 16, "hp": 27, "speed": "30 ft",
+  "imagen": "css/img/bugbears.webp",
+  "ac": 16,
+  "hp": 27,
+  "speed": "30 ft",
   "stats": {
-    "str": 15, "dex": 14, "con": 13, "int": 8, "wis": 11, "cha": 9
+    "str": 15,
+    "dex": 14,
+    "con": 13,
+    "int": 8,
+    "wis": 11,
+    "cha": 9
   },
   "peligro": 2,
   "habitat": "Cuevas, Bosques Oscuros, Minas Olvidadas",

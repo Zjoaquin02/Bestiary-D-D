@@ -260,17 +260,17 @@ body.boss-mode .name {
 .monster-img {
     max-width: 100%;
     max-height: 400px;
-    filter: sepia(0.8) contrast(1.1) brightness(0.9);
+    /* filter: sepia(0.8) contrast(1.1) brightness(0.9); */
     border-radius: 2px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
     /* Makes white background of images blend with parchment */
 }
 
 body.boss-mode .monster-img {
-    filter: sepia(0.5) contrast(1.2) brightness(0.8) hue-rotate(-50deg);
+    filter: none;
+    mix-blend-mode: normal;
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
-    mix-blend-mode: multiply;
 }
 
 /* NOVEDAD: Sello del Vacío */

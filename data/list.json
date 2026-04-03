@@ -39,5 +39,7 @@
   { "id": "asmodeus", "nombre": "Asmodeus", "tipo": "boss" },
   { "id": "nightwalker", "nombre": "Nightwalker", "tipo": "boss" },
   { "id": "demilich", "nombre": "Demilich", "tipo": "boss" },
-  { "id": "elder_brain", "nombre": "Elder Brain", "tipo": "boss" }
+  { "id": "elder_brain", "nombre": "Elder Brain", "tipo": "boss" },
+  { "id": "yeti", "nombre": "Yeti", "tipo": "monster" },
+  { "id": "duergar", "nombre": "Duergar", "tipo": "monster" }
 ]

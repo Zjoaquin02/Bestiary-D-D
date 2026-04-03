@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "No-muertos Básicos",
   "categoria": "Undead",
-  "imagen": "css/img/esqueletos.jpg",
-  "ac": 13, "hp": 13, "speed": "30 ft",
+  "imagen": "css/img/esqueletos.webp",
+  "ac": 13,
+  "hp": 13,
+  "speed": "30 ft",
   "stats": {
-    "str": 10, "dex": 14, "con": 15, "int": 6, "wis": 8, "cha": 5
+    "str": 10,
+    "dex": 14,
+    "con": 15,
+    "int": 6,
+    "wis": 8,
+    "cha": 5
   },
   "peligro": 1,
   "habitat": "Tumbas Profanas, Cementerios",

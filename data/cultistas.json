@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Fanáticos del Mal",
   "categoria": "Humanoid",
-  "imagen": "css/img/cultistas.jpg",
-  "ac": 12, "hp": 9, "speed": "30 ft",
+  "imagen": "css/img/cultistas.webp",
+  "ac": 12,
+  "hp": 9,
+  "speed": "30 ft",
   "stats": {
-    "str": 11, "dex": 12, "con": 10, "int": 10, "wis": 11, "cha": 10
+    "str": 11,
+    "dex": 12,
+    "con": 10,
+    "int": 10,
+    "wis": 11,
+    "cha": 10
   },
   "peligro": 1,
   "habitat": "Templos Olvidados, Calabozo Profundos, Ciudades",
@@ -15,6 +22,6 @@
   "resistente": "Miedos y Encantos",
   "supervivencia": "No intentes razonar con ellos; su fe es ciega. Atácalos por sorpresa antes de que puedan completar sus rituales oscuros. Sus túnicas ocultan más que solo secretos.",
   "habilidad_titulo": "Devoción Fanática",
-  "habilidad": "Individuos entregados a una fe oscura, a menudo sacrificando su propia vida por su señor.",
+  "habilidad": "Individuos entregados a una fe oscura, a menudo sacrificando su propia vida por su señor para influenciar a otros permitiendo sacrificar a una criatura para regenerar a otra.",
   "lore": "Individuos entregados a una fe oscura, a menudo sacrificando su propia vida por su señor. Las crónicas de las Sombras relatan sus actos secretos."
 }

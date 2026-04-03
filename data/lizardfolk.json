@@ -4,12 +4,17 @@
   "rol": "monster",
   "tipo": "Humanoide Reptiliano",
   "categoria": "Humanoid",
-  "imagen": "css/img/lizardfolk.jpg",
+  "imagen": "css/img/lizardfolk.webp",
   "ac": 15,
   "hp": 22,
   "speed": "30 ft, swim 30 ft",
   "stats": {
-    "str": 15, "dex": 10, "con": 13, "int": 7, "wis": 12, "cha": 7
+    "str": 15,
+    "dex": 10,
+    "con": 13,
+    "int": 7,
+    "wis": 12,
+    "cha": 7
   },
   "peligro": 2,
   "habitat": "Pantanos Profundos, Selvas Tropicales",

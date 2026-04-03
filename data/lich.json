@@ -1,13 +1,20 @@
 {
   "id": "lich",
   "nombre": "Lich",
-  "rol": "monster",
+  "rol": "boss",
   "tipo": "No-muerto Legendario",
   "categoria": "Undead",
-  "imagen": "css/img/lich.jpg",
-  "ac": 17, "hp": 135, "speed": "30 ft",
+  "imagen": "css/img/lich.webp",
+  "ac": 17,
+  "hp": 135,
+  "speed": "30 ft",
   "stats": {
-    "str": 11, "dex": 16, "con": 16, "int": 20, "wis": 14, "cha": 16
+    "str": 11,
+    "dex": 16,
+    "con": 16,
+    "int": 20,
+    "wis": 14,
+    "cha": 16
   },
   "peligro": 5,
   "habitat": "Torres Arcanas en Ruinas, Filacterias Ocultas",
@@ -16,5 +23,5 @@
   "supervivencia": "No intentes matarlo si no has encontrado su filacteria primero. El Lich regresará eternamente mientras su esencia esté ligada a este mundo. Usa magia de luz para evitar que drene tu alma.",
   "habilidad_titulo": "Toque de la Tumba",
   "habilidad": "Un mago que ha engañado a la muerte mediante rituales oscuros. Su poder arcano es equiparable al de los dioses.",
-  "lore": "Un mago que ha engañado a la muerte mediante rituales oscuros. Las crónicas de la Era de las Sombras relatan que un Lich puede gobernar un imperio desde el silencio de su tumba."
+  "lore": "Hechiceros y maestros arcanos que se negaron a desvanecerse en el olvido, atando sus almas a una filacteria mediante profanación arcana. Un Lich perfecciona magias oscuras prohibidas y erige mazmorras mortíferas o controla imperios moviendo hilos tras la realeza. Estos inmortales planifican sus estratagemas a través de milenios; abatir su forma física apenas es un contratiempo menor hasta que encuentres el misterioso receptáculo de su alma corrompida y lo destruyas."
 }

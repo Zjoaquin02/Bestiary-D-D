@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Humanoides Marciales",
   "categoria": "Humanoid",
-  "imagen": "css/img/hobgoblins.jpg",
-  "ac": 18, "hp": 11, "speed": "30 ft",
+  "imagen": "css/img/hobgoblins.webp",
+  "ac": 18,
+  "hp": 11,
+  "speed": "30 ft",
   "stats": {
-    "str": 13, "dex": 12, "con": 12, "int": 10, "wis": 10, "cha": 9
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 9
   },
   "peligro": 2,
   "habitat": "Fortalezas, Campos de Batalla",

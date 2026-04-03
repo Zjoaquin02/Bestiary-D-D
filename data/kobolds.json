@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Humanoides Dracónicos Pequeños",
   "categoria": "Humanoid",
-  "imagen": "css/img/kobolds.jpg",
-  "ac": 12, "hp": 5, "speed": "30 ft",
+  "imagen": "css/img/kobolds.webp",
+  "ac": 12,
+  "hp": 5,
+  "speed": "30 ft",
   "stats": {
-    "str": 7, "dex": 15, "con": 9, "int": 8, "wis": 7, "cha": 8
+    "str": 7,
+    "dex": 15,
+    "con": 9,
+    "int": 8,
+    "wis": 7,
+    "cha": 8
   },
   "peligro": 1,
   "habitat": "Minas, Cuevas Dracónicas, Alcantarillas",

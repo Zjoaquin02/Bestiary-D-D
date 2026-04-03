@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Férico Maligno del Aire",
   "categoria": "Monstrosity",
-  "imagen": "css/img/harpias.jpg",
-  "ac": 11, "hp": 38, "speed": "20 ft, fly 40 ft",
+  "imagen": "css/img/harpias.webp",
+  "ac": 11,
+  "hp": 38,
+  "speed": "20 ft, fly 40 ft",
   "stats": {
-    "str": 12, "dex": 13, "con": 12, "int": 7, "wis": 10, "cha": 13
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 7,
+    "wis": 10,
+    "cha": 13
   },
   "peligro": 3,
   "habitat": "Acantilados, Ruinas Costeras, Picos del Viento",

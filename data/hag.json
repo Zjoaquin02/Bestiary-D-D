@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Férico Maligno",
   "categoria": "Fey",
-  "imagen": "css/img/hag.jpg",
-  "ac": 17, "hp": 112, "speed": "30 ft",
+  "imagen": "css/img/hag.webp",
+  "ac": 17,
+  "hp": 112,
+  "speed": "30 ft",
   "stats": {
-    "str": 18, "dex": 12, "con": 16, "int": 13, "wis": 14, "cha": 14
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 13,
+    "wis": 14,
+    "cha": 14
   },
   "peligro": 3,
   "habitat": "Pantanos Corruptos, Bosques de Retoños",
@@ -16,5 +23,5 @@
   "supervivencia": "No hagas tratos con ellas; siempre perderás más de lo que ganas. Atácalas por separado; un aquelarre de brujas es exponencialmente más letal que una sola.",
   "habilidad_titulo": "Apariencia Ilusoria y Magia de Aquelarre",
   "habilidad": "Las Hag pueden cubrirse con una ilusión para parecer ancianas bondadosas.",
-  "lore": "Antiguas tejedoras de tratos y desgracias que habitan en pantanos profundos o bosques retorcidos."
+  "lore": "Antiguas y repulsivas tejedoras de desgracias y contratos mortales que habitan en los rincones más putrefactos de los pantanos. Huyendo siempre de su propia miseria, las brujas utilizan siniestras ilusiones para adoptar falsas bellezas o simular una fragilidad compasiva. Desprecian ferozmente la felicidad ajena y la bondad pura; su único deleite consiste en corromper el corazón humano, exigiendo pagos macabros por favores envenenados: lágrimas de un primogénito, el último aliento de un santo o recuerdos de amor. Reunidas en aquelarres profanos, su poder arcano rivaliza con la peor de las maldiciones."
 }

@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Bestia Feroz",
   "categoria": "Beast",
-  "imagen": "css/img/osos.jpg",
-  "ac": 11, "hp": 34, "speed": "40 ft, climb 30 ft",
+  "imagen": "css/img/osos.webp",
+  "ac": 11,
+  "hp": 34,
+  "speed": "40 ft, climb 30 ft",
   "stats": {
-    "str": 19, "dex": 10, "con": 16, "int": 2, "wis": 13, "cha": 7
+    "str": 19,
+    "dex": 10,
+    "con": 16,
+    "int": 2,
+    "wis": 13,
+    "cha": 7
   },
   "peligro": 2,
   "habitat": "Bosques Boscosos, Montañas",
@@ -16,5 +23,5 @@
   "supervivencia": "Si el oso se levanta sobre sus patas traseras, no intentes esquivarlo hacia atrás; corre hacia los flancos. Su abrazo es letal, pero su radio de giro es torpe.",
   "habilidad_titulo": "Carga de Furia",
   "habilidad": "Su fuerza bruta es suficiente para destrozar armaduras y huesos con facilidad. No son solo bestias, su instinto de supervivencia los convierte en adversarios temibles.",
-  "lore": "Poderosos depredadores de los bosques. Su fuerza bruta es suficiente para destrozar armaduras y huesos con facilidad. Las crónicas de los Montañeses del Este relatan que los Osos son los reyes de la floresta."
+  "lore": "Poderosos depredadores de los bosques profundos y las altas cordilleras. Su fuerza bruta es tan aplastante capaz de despedazar gruesas armaduras y quebrar escudos forjados con facilidad indeseada. Venerados por tribus salvajes y temidos por leñadores, raramente atacan a menos que defiendan a sus crías; si el bosque rugiera indignado contra quien lo hiere, lo haría con los indomables zarpazos del oso."
 }

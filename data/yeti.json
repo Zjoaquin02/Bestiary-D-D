@@ -1,0 +1,27 @@
+{
+  "id": "yeti",
+  "nombre": "Yeti",
+  "rol": "monster",
+  "tipo": "Monstruosidad de Hielo",
+  "categoria": "Monstrosity",
+  "imagen": "css/img/yeti.webp",
+  "ac": 12,
+  "hp": 51,
+  "speed": "40 ft, climb 40 ft",
+  "stats": {
+    "str": 18,
+    "dex": 13,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 7
+  },
+  "peligro": 3,
+  "habitat": "Montañas Nevadas, Tundras Congeladas",
+  "vulnerable": "Fuego",
+  "resistente": "Frío (Inmune)",
+  "supervivencia": "El fuego es tu mejor arma; su pelaje arde con facilidad y le aterra. Mantente atento a las ventiscas, pues su camuflaje natural lo hace invisible en la nieve.",
+  "habilidad_titulo": "Mirada Paralizante",
+  "habilidad": "El Yeti puede fijar su mirada en una criatura. Si el objetivo falla su salvación de Constitución, queda paralizado por un miedo gélido que hiela la sangre.",
+  "lore": "Un gran humanoide cubierto de espeso pelaje blanco que caza en los picos más altos. Su fuerza es abismal y se deleitan con la carne fresca de los aventureros perdidos en la nieve."
+}

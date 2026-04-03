@@ -4,10 +4,17 @@
   "rol": "monster",
   "tipo": "Ooze de Dungeon",
   "categoria": "Ooze",
-  "imagen": "css/img/cubo_gelatinoso.jpg",
-  "ac": 6, "hp": 84, "speed": "15 ft",
+  "imagen": "css/img/cubo_gelatinoso.webp",
+  "ac": 6,
+  "hp": 84,
+  "speed": "15 ft",
   "stats": {
-    "str": 14, "dex": 3, "con": 20, "int": 1, "wis": 6, "cha": 1
+    "str": 14,
+    "dex": 3,
+    "con": 20,
+    "int": 1,
+    "wis": 6,
+    "cha": 1
   },
   "peligro": 3,
   "habitat": "Dungeons, Alcantarillas",

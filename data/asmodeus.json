@@ -4,12 +4,17 @@
   "rol": "boss",
   "tipo": "Archidiablo / Dios del Mal",
   "categoria": "Fiend",
-  "imagen": "css/img/asmodeus.jpg",
+  "imagen": "css/img/asmodeus.webp",
   "ac": 22,
   "hp": 666,
   "speed": "30 ft, fly 30 ft",
   "stats": {
-    "str": 24, "dex": 18, "con": 24, "int": 30, "wis": 24, "cha": 30
+    "str": 24,
+    "dex": 18,
+    "con": 24,
+    "int": 30,
+    "wis": 24,
+    "cha": 30
   },
   "peligro": 5,
   "habitat": "Nessus (El Noveno Infierno)",
@@ -18,5 +23,5 @@
   "supervivencia": "No intentes combatir a Asmodeus con armas. Su mayor poder no es su maza, sino su lengua. Si entras en su dominio, ya estás bajo un contrato. Solo un juramento divino de un Dios de la Justicia puede romper su voluntad.",
   "habilidad_titulo": "Señor de los Contratos",
   "habilidad": "La encarnación del orden maligno y el soberano de los Nueve Infiernos. Su sola presencia corrompe el alma de los mortales.",
-  "lore": "La encarnación del orden maligno y el soberano de los Nueve Infiernos. Se dice que Asmodeus es tan antiguo como el concepto mismo del pecado."
+  "lore": "El Padre Supremo y Archiduque indiscutible de la Maldad Legal, el Arquitecto infalible de los Nueve Infiernos. Habitualmente asume presencia humana de gracia divina, no obstante, Asmodeus es la manifestación eterna del pecado cósmico. Tienta la pureza con oscuros contratos insidiosos, urdiendo la telaraña final. Los deíficos le temen profundamente debido a la letal paciencia matemática con la que maquina dictar las caídas desde el alba del multiverso."
 }

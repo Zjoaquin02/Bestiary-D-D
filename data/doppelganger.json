@@ -4,7 +4,7 @@
   "rol": "monster",
   "tipo": "Monstruosidad Cambiaformas",
   "categoria": "Monstrosity",
-  "imagen": "css/img/doppelganger.jpg",
+  "imagen": "css/img/doppelganger.webp",
   "ac": 14,
   "hp": 52,
   "speed": "30 ft",

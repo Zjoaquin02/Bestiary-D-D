@@ -4,10 +4,17 @@
   "rol": "boss",
   "tipo": "Monstruosidad de la Sombra",
   "categoria": "Undead",
-  "imagen": "css/img/nightwalker.jpg",
-  "ac": 14, "hp": 297, "speed": "40 ft, fly 40 ft (hover)",
+  "imagen": "css/img/nightwalker.webp",
+  "ac": 14,
+  "hp": 297,
+  "speed": "40 ft, fly 40 ft (hover)",
   "stats": {
-    "str": 22, "dex": 19, "con": 24, "int": 6, "wis": 16, "cha": 12
+    "str": 22,
+    "dex": 19,
+    "con": 24,
+    "int": 6,
+    "wis": 16,
+    "cha": 12
   },
   "peligro": 5,
   "habitat": "Plano Sombrío, Cementerios del Vacío",
@@ -16,5 +23,5 @@
   "supervivencia": "No intentes combatir a un Nightwalker sin luz sagrada potente. Su aura drena tu vitalidad máxima permanentemente. Si te toca su caricia de sombra, tu alma dejará de existir.",
   "habilidad_titulo": "Aniquilación de la Vida",
   "habilidad": "Cualquier criatura viva en un radio de 30 pies ve reducida su salud máxima permanentemente.",
-  "lore": "Un gigante de sombras puras que emana del Plano Sombrío. No tiene otra meta que el fin de toda luz y vida orgánica."
+  "lore": "Siluetas inenarrables forjadas de vacío dentro del inhóspito Plano Sombrío. El Nightwalker surge cuando esperanzas valientes se ahogan abrumadas ante la entropía negativa. Su vasta corpulencia oscurece e irradia un mortecino aura perniciosa que congela la luz misma. Persisten solo por y para el único instinto universal oscuro: erradicar irreversiblemente las almas orgánicas sin dejar la menor mácula o residuo cárneo."
 }

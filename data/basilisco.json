@@ -4,12 +4,17 @@
   "rol": "monster",
   "tipo": "Monstruosidad Letal",
   "categoria": "Monstrosity",
-  "imagen": "css/img/basilisco.jpg",
+  "imagen": "css/img/basilisco.webp",
   "ac": 15,
   "hp": 52,
   "speed": "20 ft",
   "stats": {
-    "str": 16, "dex": 8, "con": 15, "int": 2, "wis": 8, "cha": 7
+    "str": 16,
+    "dex": 8,
+    "con": 15,
+    "int": 2,
+    "wis": 8,
+    "cha": 7
   },
   "peligro": 3,
   "habitat": "Pantanos, Cuevas Húmedas",

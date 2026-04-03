@@ -4,12 +4,17 @@
   "rol": "boss",
   "tipo": "Aberración Letal",
   "categoria": "Aberration",
-  "imagen": "css/img/beholder.jpg",
+  "imagen": "css/img/beholder.webp",
   "ac": 18,
   "hp": 180,
   "speed": "0 ft, fly 20 ft (hover)",
   "stats": {
-    "str": 10, "dex": 14, "con": 18, "int": 17, "wis": 15, "cha": 17
+    "str": 10,
+    "dex": 14,
+    "con": 18,
+    "int": 17,
+    "wis": 15,
+    "cha": 17
   },
   "peligro": 5,
   "habitat": "Dungeons Profundos (Underdark)",
@@ -18,5 +23,5 @@
   "supervivencia": "No intentes atacar al contemplador de frente; su ojo central anula la magia. Ataca desde los flancos e intenta cegar sus tallos oculares antes de que dispare sus rayos de muerte o desintegración.",
   "habilidad_titulo": "Ojo Central de Antimagia",
   "habilidad": "Una esfera de carne con once ojos, cada uno capaz de lanzar un rayo de destrucción pura.",
-  "lore": "Un ser de pura paranoia y maldad. Se dice que los Beholders no solo ven la realidad, sino que sus sueños pueden moldearla."
+  "lore": "El observador errático y pesadillesco del subterráneo. Un orbe macabro coronado en pedúnculos oculares apuntando y asediando simultáneamente desde la desintegración hasta el terror mortal. Un ser regido por la extrema paranoia; su percepción torcida lo engaña para colegir que la inmensidad del universo y cualquier especie ajena buscan mancillar su inalcanzable diseño genético perfecto."
 }
