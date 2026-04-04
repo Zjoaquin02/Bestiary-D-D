@@ -21,7 +21,7 @@
   "vulnerable": "Fuego, Magia de Control",
   "resistente": "Miedos y Encantos",
   "supervivencia": "No los subestimes por su tamaño; su fuerza muscular es arrolladora. Los bugbears son expertos en el sigilo y en el ataque por sorpresa. Mira bien antes de entrar en una cueva oscura.",
-  "habilidad_titulo": "Ataque Sorpresa",
-  "habilidad": "Cazadores peludos y silenciosos que acechan en las sombras.",
-  "lore": "Cazadores peludos y silenciosos que acechan en las sombras. Las crónicas de las Tribus Garra de Hueso relatan su sigilo letal."
+  "habilidad_titulo": "Ataque Sorpresa (Surprise Attack)",
+  "habilidad": "Si el Bugbear logra sorprender a una criatura y golpearla con un ataque físico durante el primer turno de una contienda, el impacto causa un daño devastador adicional (usualmente 2d6 extra).",
+  "lore": "Los primos mayores y letales del linaje goblin. Estos imponentes asesinos miden fácilmente más de dos metros de altura y están coronados por cuerpos musculosos, pero su espesa e híspida capa de pelo oculta una capacidad antinatural para el sigilo absoluto y pasos indetectables. Los Bugbears son holgazanes por naturaleza cuando no están torturando o asaltando poblados menores. A diferencia de los ruidosos y caóticos ejércitos orcos, un Bugbear cazará deslizándose en total silencio por la negrura antes de abalanzarse de imprevisto con una vieja maza dentada para estrangular y partir los cuellos de guardias distraídos en la madrugada."
 }
