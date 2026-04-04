@@ -21,7 +21,7 @@
   "vulnerable": "Fuego",
   "resistente": "Ácido, Impacto",
   "supervivencia": "No intentes golpearlo con armas de metal; usa magia de fuego para hacerlo explotar. Si logras sacarlo de la mazmorra, su cuerpo se derretirá rápidamente.",
-  "habilidad_titulo": "Cuerpo Transparente y Ácido",
-  "habilidad": "Una masa transparente y ácida que se desliza por los pasillos de las mazmorras, limpiando todo a su paso y engullendo a los imprudentes.",
-  "lore": "Una masa transparente y ácida que se desliza por los pasillos de las mazmorras, limpiando todo a su paso y engullendo a los imprudentes."
+  "habilidad_titulo": "Cuerpo Transparente y Envolvente",
+  "habilidad": "El cubo es casi invisible bajo condiciones de poca luz. Al entrar en contacto físico, engulle enteras a las criaturas pequeñas o medianas, sometiéndolas a daño por ácido constante y a una parálisis que les impide respirar.",
+  "lore": "Estos extraños y temidos depredadores adoptan su inusual forma geométrica, adaptada a la perfección para llenar de extremo a extremo los estrechos pasillos y conductos de las mazmorras subterráneas. No poseen malicia ni consciencia real; actúan como recolectores implacables que barren los suelos de piedra absorbiendo cualquier despojo orgánico. Ajenos a la digestión inorgánica, en sus estómagos transparentes suelen flotar cráneos suspendidos y tesoros invaluables, funcionando como letal cebo para los ladrones que no perciben su peligroso muro gelatinoso transparente a tiempo."
 }

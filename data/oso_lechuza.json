@@ -1,0 +1,27 @@
+{
+  "id": "oso_lechuza",
+  "nombre": "Oso Lechuza",
+  "rol": "monster",
+  "tipo": "Monstruosidad Híbrida",
+  "categoria": "Monstrosity",
+  "imagen": "css/img/oso_lechuza.webp",
+  "ac": 13,
+  "hp": 59,
+  "speed": "40 ft",
+  "stats": {
+    "str": 20,
+    "dex": 12,
+    "con": 17,
+    "int": 3,
+    "wis": 12,
+    "cha": 7
+  },
+  "peligro": 2,
+  "habitat": "Bosques Antiguos, Cavernas Silvestres",
+  "vulnerable": "Ninguna",
+  "resistente": "Ninguna",
+  "supervivencia": "Es una de las bestias con menor control de impulsos que existe. Si la encuentras protegiendo su territorio o a sus crías, peleará a muerte. Su mordisco rompe torsos y sus garras desgarran escudos; atácala a distancia y no la acorrales.",
+  "habilidad_titulo": "Ataques Rápidos y Percepción Aguda",
+  "habilidad": "Combina la fuerza desmedida y zarpazos pesados de un oso herido con la visión privilegiada y rotación cervical de una lechuza, haciéndole casi imposible sufrir una emboscada nocturna exitosa.",
+  "lore": "Un monstruoso híbrido aberrante concebido, según las viejas leyendas, como el producto de los crueles experimentos de un mago enloquecido. El Oso Lechuza posee el cuerpo musculoso de un gran úrsido, pero con la cabeza, el plumaje grueso y el afilado pico de un búho colosal. Son notoriamente de mal genio y sumamente territoriales. Una vez que este depredador huele tu sangre y lanza su sordo y característico chillido gutural en medio de la negrura del bosque tupido, pocas cosas detendrán su furiosa y letal carga frontal."
+}

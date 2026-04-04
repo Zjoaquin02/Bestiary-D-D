@@ -1,0 +1,27 @@
+{
+  "id": "mind_flayer",
+  "nombre": "Azotamentes",
+  "rol": "monster",
+  "tipo": "Aberración Telepática",
+  "categoria": "Aberration",
+  "imagen": "css/img/mind_flayer.webp",
+  "ac": 15,
+  "hp": 71,
+  "speed": "30 ft",
+  "stats": {
+    "str": 11,
+    "dex": 12,
+    "con": 12,
+    "int": 19,
+    "wis": 17,
+    "cha": 17
+  },
+  "peligro": 3,
+  "habitat": "Underdark, Ciudades Ilícidas",
+  "vulnerable": "Ninguna",
+  "resistente": "Magia (Ventaja en Salvaciones)",
+  "supervivencia": "Jamás los enfrentes en combates de desgaste mental. Su ráfaga psíquica aturde en área; mantén la formación dispersa. Si logran aferrarse a tu cabeza, tienes apenas segundos antes de que extraigan tu tejido cerebral.",
+  "habilidad_titulo": "Extracción Cerebral (Brain Extraction)",
+  "habilidad": "Una vez que sus tentáculos faciales aprietan el cráneo de una presa incapacitada, el Azotamentes succiona y devora la médula cerebral, causando la muerte instantánea y absorbiendo los recuerdos de la víctima.",
+  "lore": "Herederos de un imperio extradimensional que alguna vez esclavizó incontables mundos. Los Ilícidos, o Azotamentes, son humanoides de piel purpúrea y rostros coronados por tentáculos que se alimentan exclusivamente del lóbulo frontal de seres inteligentes. Desprecian profundamente todas las razas de la superficie por considerarlas simple ganado nutritivo. Someten a sus presas utilizando implacables asaltos telepáticos que anulan la voluntad antes de hincarle los tentáculos. Operan desde laberínticas colonias subterráneas en perpetua colmena, vinculados mentalmente al Elder Brain que dicta cada uno de sus sádicos movimientos matemáticos."
+}

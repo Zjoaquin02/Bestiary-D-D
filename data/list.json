@@ -41,5 +41,9 @@
   { "id": "demilich", "nombre": "Demilich", "tipo": "boss" },
   { "id": "elder_brain", "nombre": "Elder Brain", "tipo": "boss" },
   { "id": "yeti", "nombre": "Yeti", "tipo": "monster" },
-  { "id": "duergar", "nombre": "Duergar", "tipo": "monster" }
+  { "id": "duergar", "nombre": "Duergar", "tipo": "monster" },
+  { "id": "mind_flayer", "nombre": "Azotamentes", "tipo": "monster" },
+  { "id": "oso_lechuza", "nombre": "Oso Lechuza", "tipo": "monster" },
+  { "id": "aboleth", "nombre": "Aboleth", "tipo": "boss" },
+  { "id": "troll", "nombre": "Troll", "tipo": "monster" }
 ]

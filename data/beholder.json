@@ -1,6 +1,6 @@
 {
   "id": "beholder",
-  "nombre": "Beholder (Contemplador)",
+  "nombre": "Beholder",
   "rol": "boss",
   "tipo": "Aberración Letal",
   "categoria": "Aberration",
@@ -22,6 +22,6 @@
   "resistente": "Magia (Cono Antimagia)",
   "supervivencia": "No intentes atacar al contemplador de frente; su ojo central anula la magia. Ataca desde los flancos e intenta cegar sus tallos oculares antes de que dispare sus rayos de muerte o desintegración.",
   "habilidad_titulo": "Ojo Central de Antimagia",
-  "habilidad": "Una esfera de carne con once ojos, cada uno capaz de lanzar un rayo de destrucción pura.",
+  "habilidad": "El enorme ojo frontal del Contemplador emite un cono invisible de energía antimágica constante. Mientras permanezca abierto, cualquier hechizo, objeto mágico o efecto arcano atrapado dentro de ese campo queda absolutamente suprimido e inutilizable.",
   "lore": "El observador errático y pesadillesco del subterráneo. Un orbe macabro coronado en pedúnculos oculares apuntando y asediando simultáneamente desde la desintegración hasta el terror mortal. Un ser regido por la extrema paranoia; su percepción torcida lo engaña para colegir que la inmensidad del universo y cualquier especie ajena buscan mancillar su inalcanzable diseño genético perfecto."
 }

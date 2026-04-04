@@ -1,0 +1,27 @@
+{
+  "id": "troll",
+  "nombre": "Troll",
+  "rol": "monster",
+  "tipo": "Gigante Mutante",
+  "categoria": "Giant",
+  "imagen": "css/img/troll.webp",
+  "ac": 15,
+  "hp": 84,
+  "speed": "30 ft",
+  "stats": {
+    "str": 18,
+    "dex": 13,
+    "con": 20,
+    "int": 7,
+    "wis": 9,
+    "cha": 7
+  },
+  "peligro": 2,
+  "habitat": "Pantanos, Montañas, Puentes Oscuros",
+  "vulnerable": "Fuego, Ácido",
+  "resistente": "Daño Físico Convencional",
+  "supervivencia": "Jamás emprendas la caza de un Troll sin una antorcha ardiente o frascos de ácido. Da igual si le amputas los brazos o le cortas la cabeza; si no quemas los muñones, regenerará los miembros o la extremidad vivirá por sí sola para atacarte.",
+  "habilidad_titulo": "Regeneración Acelerada y Agarre Violento",
+  "habilidad": "A menos que sufra daño por fuego o ácido en el último turno, la carne deforme del Troll sana sus heridas a un ritmo visible a una velocidad vertiginosa casi repulsiva.",
+  "lore": "Depredadores implacables de proporciones descomunales, nacidos con un hambre incesante que devora cualquier materia orgánica que se cruce en su paso desprolijo. El Troll suele tener una piel gomosa de color verde asqueroso y extremidades asimétricas o desproporcionadas, debido a la innumerable cantidad de veces que ha perdido partes del cuerpo que vuelven a crecer irregularmente. No sienten dolor real y carecen por completo de instinto de autopreservación; solo la visión de una antorcha llameante es capaz de provocarles pánico genuino, instinto arraigado en que la flama es lo único que anula su mutación regenerativa."
+}

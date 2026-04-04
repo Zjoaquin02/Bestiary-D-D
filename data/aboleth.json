@@ -1,0 +1,27 @@
+{
+  "id": "aboleth",
+  "nombre": "Aboleth",
+  "rol": "boss",
+  "tipo": "Aberración Primigenia",
+  "categoria": "Aberration",
+  "imagen": "css/img/aboleth.webp",
+  "ac": 17,
+  "hp": 135,
+  "speed": "10 ft, swim 40 ft",
+  "stats": {
+    "str": 21,
+    "dex": 9,
+    "con": 15,
+    "int": 18,
+    "wis": 15,
+    "cha": 18
+  },
+  "peligro": 4,
+  "habitat": "Profundidades Subterráneas, Lagos del Underdark",
+  "vulnerable": "Ninguna",
+  "resistente": "Magia e Ilusiones Menores",
+  "supervivencia": "No dejes que te toquen sus tentáculos. Su mucosidad transformará tu piel en una membrana traslúcida que se disuelve en el aire, obligándote a vivir bajo el agua o morir asfixiado en la superficie.",
+  "habilidad_titulo": "Esclavitud Psíquica y Enfermedad de la Profundidad",
+  "habilidad": "Además de su poder telepático para subyugar mentes, el Aboleth excreta una mucosa letal. Quien resulta herido por sus tentáculos padece una mutación irreversible que le impide respirar fuera del agua tras pocas horas.",
+  "lore": "Seres anfibios con aspecto de grotescos peces prehistóricos trioculares que dominaban los océanos del mundo mucho antes de que los dioses intervinieran en la creación. Los Aboleths poseen una de las características más aterradoras del multiverso: memoria genética perfecta. Cada individuo recuerda perfectamente la sabiduría de sus ancestros desde el principio de los tiempos, así como el recuerdo grabado de todas las ofensas cometidas por el panteón divino en su contra. Esperan pacientemente en lagos subterráneos, tramando sus venganzas frías y sumando civilizaciones mortales enteras a sus legiones de esclavos hipnotizados."
+}
