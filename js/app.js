@@ -40,6 +40,40 @@ function filterType(type) {
         div.onclick = () => location.href = `criatura.html?id=${c.id}`;
         grid.appendChild(div);
     });
+
+    // Aplicar diseño guardado después de limpiar el grid
+    applySavedLayout();
+}
+
+function toggleLayout() {
+    const grid = document.getElementById('grid');
+    const btn = document.getElementById('btn-col-toggle');
+    if (!grid || !btn) return;
+
+    if (grid.classList.contains('three-cols')) {
+        grid.classList.remove('three-cols');
+        btn.innerText = '3 Columnas';
+        localStorage.setItem('bestiaryLayout', '2-cols');
+    } else {
+        grid.classList.add('three-cols');
+        btn.innerText = '2 Columnas';
+        localStorage.setItem('bestiaryLayout', '3-cols');
+    }
+}
+
+function applySavedLayout() {
+    const grid = document.getElementById('grid');
+    const btn = document.getElementById('btn-col-toggle');
+    if (!grid || !btn) return;
+
+    const savedLayout = localStorage.getItem('bestiaryLayout');
+    if (savedLayout === '3-cols') {
+        grid.classList.add('three-cols');
+        btn.innerText = '2 Columnas';
+    } else {
+        grid.classList.remove('three-cols');
+        btn.innerText = '3 Columnas';
+    }
 }
 
 async function loadCreature() {

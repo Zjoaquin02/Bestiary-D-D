@@ -1,3 +1,6 @@
+/* ============================================================
+   1. VARIABLES & CONFIGURACIÓN BASE
+   ============================================================ */
 :root {
     --parchment-base: #f4e1d2;
     --parchment-dark: #d4a373;
@@ -15,7 +18,6 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: #1a120b;
-    /* Deep dark background like a library */
     background-image:
         radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),
         url('https://www.transparenttextures.com/patterns/dark-leather.png');
@@ -27,7 +29,24 @@ body {
     scroll-behavior: smooth;
 }
 
-/* COMMON PARCHMENT STYLE */
+/* Tipografía Medieval General */
+.subtitle,
+.filter-btn,
+.back-link,
+.caption,
+.danger-level,
+.categoria-badge,
+.type,
+.stat-item .label,
+.skill-box h3,
+.survival-note h4 {
+    font-family: 'MedievalSharp', cursive;
+}
+
+
+/* ============================================================
+   2. ARQUITECTURA DEL LIBRO (PERGAMINO Y BORDES)
+   ============================================================ */
 .book-cover,
 .book-open {
     background-color: var(--parchment-base);
@@ -42,7 +61,6 @@ body {
     position: relative;
 }
 
-/* INDEX PAGE */
 .book-cover {
     max-width: 900px;
     width: 100%;
@@ -50,6 +68,17 @@ body {
     min-height: 80vh;
 }
 
+.book-open {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    min-height: 80vh;
+}
+
+
+/* ============================================================
+   3. PÁGINA DE INICIO (HEADER Y FILTROS)
+   ============================================================ */
 header {
     text-align: center;
     margin-bottom: 50px;
@@ -63,19 +92,6 @@ header {
     margin: 0;
     color: var(--accent);
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
-}
-
-.subtitle,
-.filter-btn,
-.back-link,
-.caption,
-.danger-level,
-.categoria-badge,
-.type,
-.stat-item .label,
-.skill-box h3,
-.survival-note h4 {
-    font-family: 'MedievalSharp', cursive;
 }
 
 .subtitle {
@@ -115,62 +131,55 @@ header {
     border-color: #ff0000;
 }
 
-/* BOSS MODE OVERRIDES */
-body.boss-mode {
-    background-color: #0c0000;
-    --parchment-base: #2e0a0a;
-    --parchment-dark: #1a0505;
-    --ink: #cfcfcf;
-    --accent: #ff0000;
-    --gold: #7a1f1f;
-    --border-color: #000000;
-    transition: all 1s ease;
+
+/* ============================================================
+   4. CONTROLES DE DISEÑO (LISTÓN / COLUMNAS)
+   ============================================================ */
+.layout-nav {
+    position: absolute;
+    top: -15px;
+    right: 15px;
+    margin: 0;
+    z-index: 20;
 }
 
-body.boss-mode .back-link {
-    color: #cfcfcf;
+#btn-col-toggle {
+    background: var(--accent);
+    color: var(--parchment-base);
+    border: none;
+    padding: 15px 12px 35px 12px;
+    cursor: pointer;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 3px 5px 15px rgba(0,0,0,0.5);
+    position: relative;
+    transition: all 0.3s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 85%, 0 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 90px;
 }
 
-body.boss-mode .filter-btn {
-    color: #cfcfcf;
-    /* Use a light grey for inactive buttons in boss mode */
+#btn-col-toggle:hover {
+    transform: translateY(8px);
+    filter: brightness(1.2);
 }
 
-body.boss-mode .book-cover,
-body.boss-mode .book-open {
-    background-image:
-        radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%),
-        url('https://www.transparenttextures.com/patterns/dark-matter.png');
-    box-shadow:
-        0 30px 60px rgba(0, 0, 0, 1),
-        inset 0 0 150px rgba(255, 0, 0, 0.2);
-    border-color: #000;
+#btn-col-toggle::before {
+    content: "◈";
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: var(--gold);
 }
 
-body.boss-mode h3,
-body.boss-mode .name {
-    text-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
-}
 
-.boss-card {
-    border: 3px solid var(--accent) !important;
-    animation: pulsar 2s infinite;
-}
-
-@keyframes pulsar {
-    0% {
-        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
-    }
-
-    50% {
-        box-shadow: 0 0 30px rgba(255, 0, 0, 1);
-    }
-
-    100% {
-        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
-    }
-}
-
+/* ============================================================
+   5. SISTEMA DE CUADRICULA Y TARJETAS (GRID)
+   ============================================================ */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -208,14 +217,10 @@ body.boss-mode .name {
     font-size: 1.5rem;
 }
 
-/* CREATURE PAGE */
-.book-open {
-    display: flex;
-    max-width: 1200px;
-    width: 100%;
-    min-height: 80vh;
-}
 
+/* ============================================================
+   6. FICHA DETALLADA DE LA CRIATURA
+   ============================================================ */
 .page {
     flex: 1;
     padding: 40px;
@@ -248,6 +253,7 @@ body.boss-mode .name {
     color: var(--gold);
 }
 
+/* Ilustración */
 .illustration-container {
     display: flex;
     flex-direction: column;
@@ -260,47 +266,8 @@ body.boss-mode .name {
 .monster-img {
     max-width: 100%;
     max-height: 400px;
-    /* filter: sepia(0.8) contrast(1.1) brightness(0.9); */
     border-radius: 2px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    /* mix-blend-mode: multiply; */
-    /* Makes white background of images blend with parchment */
-}
-
-body.boss-mode .monster-img {
-    filter: none;
-    mix-blend-mode: normal;
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
-}
-
-/* NOVEDAD: Sello del Vacío */
-.seal-hidden {
-    display: none;
-}
-
-.void-seal {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    bottom: -30px;
-    right: -30px;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 5 L95 95 L5 95 Z" fill="none" stroke="red" stroke-width="2" opacity="0.6"/><circle cx="50" cy="65" r="15" fill="none" stroke="red" stroke-width="1"/><path d="M20 40 L80 40 M50 20 L50 80" stroke="red" stroke-width="1" opacity="0.4"/></svg>');
-    background-size: cover;
-    opacity: 0.8;
-    filter: drop-shadow(0 0 10px red);
-    animation: rotateSeal 20s linear infinite;
-    pointer-events: none;
-    z-index: 10;
-}
-
-@keyframes rotateSeal {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
 }
 
 .caption {
@@ -309,6 +276,7 @@ body.boss-mode .monster-img {
     opacity: 0.6;
 }
 
+/* Cabecera de Datos */
 .name {
     font-family: 'Cinzel Decorative', cursive;
     font-size: 3rem;
@@ -367,119 +335,7 @@ body.boss-mode .monster-img {
     margin-bottom: 20px;
 }
 
-.ornament {
-    text-align: center;
-    font-size: 2rem;
-    color: var(--gold);
-    margin: 20px 0;
-}
-
-.resistances-section {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.03);
-    border-radius: 4px;
-}
-
-.resist-item {
-    font-size: 1rem;
-}
-
-.resist-item b {
-    color: var(--accent);
-    margin-right: 5px;
-}
-
-.stat-box {
-    background: rgba(122, 31, 31, 0.05);
-    border-left: 5px solid var(--accent);
-    padding: 15px 20px;
-    margin-bottom: 30px;
-    font-style: italic;
-    position: relative;
-    border-radius: 0 4px 4px 0;
-}
-
-.skill-box h3 {
-    margin: 0 0 10px 0;
-    font-size: 1.2rem;
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.skill-box p {
-    margin: 0;
-    line-height: 1.5;
-    font-size: 1.1rem;
-}
-
-.survival-note {
-    margin-top: 40px;
-    padding: 20px;
-    border: 2px dashed var(--accent);
-    background: rgba(122, 31, 31, 0.05);
-    position: relative;
-    border-radius: 8px;
-}
-
-.survival-note::before {
-    content: "✖";
-    /* Stylized 'nail' or mark */
-    position: absolute;
-    top: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.2rem;
-    color: var(--accent);
-    background: var(--parchment-base);
-    padding: 0 10px;
-}
-
-.survival-note h4 {
-    margin: 0 0 10px 0;
-    color: var(--accent);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.survival-note p {
-    font-family: 'Crimson Text', serif;
-    font-style: italic;
-    font-size: 1.15rem;
-    line-height: 1.5;
-    color: var(--ink);
-    /* This will now follow the theme correctly */
-}
-
-/* Specific fix for boss mode readability in survival note */
-body.boss-mode .survival-note {
-    background: rgba(0, 0, 0, 0.3);
-    border-color: var(--accent);
-}
-
-body.boss-mode .survival-note p {
-    color: #ffcccc;
-    /* Soft red/white for better contrast on dark red */
-}
-
-.stat-box {
-    border: 2px solid var(--accent);
-    padding: 20px;
-    margin-bottom: 30px;
-    position: relative;
-    background: rgba(255, 255, 255, 0.2);
-}
-
-.stat-box p {
-    margin: 5px 0;
-    font-size: 1.1rem;
-}
-
+/* Estadísticas y Bloques de Texto */
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -500,6 +356,42 @@ body.boss-mode .survival-note p {
     font-size: 1.4rem;
 }
 
+.stat-box {
+    border: 2px solid var(--accent);
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.stat-box p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.resistances-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+}
+
+.resist-item b {
+    color: var(--accent);
+    margin-right: 5px;
+}
+
+.skill-box h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 .lore-box h3 {
     font-family: 'Cinzel Decorative', cursive;
     border-bottom: 1px solid var(--ink);
@@ -512,6 +404,73 @@ body.boss-mode .survival-note p {
     text-align: justify;
 }
 
+.survival-note {
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px dashed var(--accent);
+    background: rgba(122, 31, 31, 0.05);
+    position: relative;
+    border-radius: 8px;
+}
+
+.survival-note::before {
+    content: "✖";
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    color: var(--accent);
+    background: var(--parchment-base);
+    padding: 0 10px;
+}
+
+.survival-note h4 {
+    margin: 0 0 10px 0;
+    color: var(--accent);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.survival-note p {
+    font-style: italic;
+    font-size: 1.15rem;
+    line-height: 1.5;
+}
+
+/* Efectos visuales mágicos */
+.void-seal {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 5 L95 95 L5 95 Z" fill="none" stroke="red" stroke-width="2" opacity="0.6"/><circle cx="50" cy="65" r="15" fill="none" stroke="red" stroke-width="1"/><path d="M20 40 L80 40 M50 20 L50 80" stroke="red" stroke-width="1" opacity="0.4"/></svg>');
+    background-size: cover;
+    opacity: 0.8;
+    filter: drop-shadow(0 0 10px red);
+    animation: rotateSeal 20s linear infinite;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.seal-hidden {
+    display: none;
+}
+
+@keyframes rotateSeal {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.ornament {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--gold);
+    margin: 20px 0;
+}
+
 .footer-nav {
     margin-top: 40px;
     text-align: center;
@@ -519,63 +478,81 @@ body.boss-mode .survival-note p {
     padding-top: 20px;
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
-    .book-open {
-        flex-direction: column;
-    }
 
-    .page-left {
-        display: none;
-    }
-
-    .illustration-container {
-        margin: 20px 0;
-    }
-
-    #main-title {
-        font-size: 2.5rem;
-    }
-
-    .book-cover {
-        padding: 30px 15px;
-    }
+/* ============================================================
+   7. MODO JEFE (ESTILOS OSCUROS / BOSS MODE)
+   ============================================================ */
+body.boss-mode {
+    background-color: #0c0000;
+    --parchment-base: #2e0a0a;
+    --parchment-dark: #1a0505;
+    --ink: #cfcfcf;
+    --accent: #ff0000;
+    --gold: #7a1f1f;
+    --border-color: #000000;
+    transition: all 1s ease;
 }
 
-@media (max-width: 500px) {
-    body {
-        padding: 10px;
-    }
+body.boss-mode .back-link,
+body.boss-mode .filter-btn {
+    color: #cfcfcf;
+}
 
-    #main-title {
-        font-size: 2rem;
-    }
+body.boss-mode .book-cover,
+body.boss-mode .book-open {
+    background-image:
+        radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%),
+        url('https://www.transparenttextures.com/patterns/dark-matter.png');
+    box-shadow:
+        0 30px 60px rgba(0, 0, 0, 1),
+        inset 0 0 150px rgba(255, 0, 0, 0.2);
+    border-color: #000;
+}
 
-    .book-cover,
-    .book-open {
-        border-width: 10px;
-        padding: 20px 10px;
-    }
+body.boss-mode h3,
+body.boss-mode .name {
+    text-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+}
 
+body.boss-mode .monster-img {
+    filter: none;
+    mix-blend-mode: normal;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+body.boss-mode .survival-note {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: var(--accent);
+}
+
+body.boss-mode .survival-note p {
+    color: #ffcccc;
+}
+
+.boss-card {
+    border: 3px solid var(--accent) !important;
+    animation: pulsar 2s infinite;
+}
+
+@keyframes pulsar {
+    0% { box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); }
+    50% { box-shadow: 0 0 30px rgba(255, 0, 0, 1); }
+    100% { box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); }
+}
+
+
+/* ============================================================
+   8. RESPONSIVIDAD Y ADAPTACIÓN
+   ============================================================ */
+
+/* Escritorio: Diseño de 2 o 3 columnas */
+@media (min-width: 901px) {
     .grid {
-        grid-template-columns: 1fr;
-    }
-
-    .name {
-        font-size: 2.2rem;
-    }
-
-    .stats-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    .stat-box {
-        margin-bottom: 20px;
+    .grid.three-cols {
+        grid-template-columns: repeat(3, 1fr);
     }
-}
-
-/* ESCRITORIO: Posicionamiento de la ilustración en la página izquierda */
-@media (min-width: 901px) {
     .illustration-container {
         position: absolute;
         left: -100%;
@@ -583,5 +560,54 @@ body.boss-mode .survival-note p {
         width: 100%;
         height: 100%;
         padding: 40px;
+    }
+}
+
+/* Tablet / Móvil Grande */
+@media (max-width: 900px) {
+    .book-open {
+        flex-direction: column;
+    }
+    .page-left {
+        display: none;
+    }
+    .illustration-container {
+        margin: 20px 0;
+    }
+    #main-title {
+        font-size: 2.5rem;
+    }
+    .book-cover {
+        padding: 30px 15px;
+    }
+    .layout-nav {
+        display: none;
+    }
+}
+
+/* Móvil Pequeño */
+@media (max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+    #main-title {
+        font-size: 2rem;
+    }
+    .book-cover,
+    .book-open {
+        border-width: 10px;
+        padding: 20px 10px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .name {
+        font-size: 2.2rem;
+    }
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stat-box {
+        margin-bottom: 20px;
     }
 }
