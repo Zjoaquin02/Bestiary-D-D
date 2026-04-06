@@ -18,20 +18,20 @@
 <body>
 
     <div class="book-cover">
-        <div class="book-content">
+        <main class="book-content">
             <header>
                 <h1 id="main-title">Bestiario Arcano</h1>
                 <p class="subtitle">Crónicas de Criaturas Olvidadas</p>
-                <div class="filter-nav">
+                <nav class="filter-nav">
                     <button class="filter-btn active" id="btn-monsters" onclick="filterType('monster')">Criaturas</button>
                     <button class="filter-btn" id="btn-bosses" onclick="filterType('boss')">Jefes</button>
-                </div>
+                </nav>
             </header>
             <div class="layout-nav">
                 <button id="btn-col-toggle" onclick="toggleLayout()">3 Columnas</button>
             </div>
             <div class="grid" id="grid"></div>
-        </div>
+        </main>
     </div>
 
     <script src="js/app.js"></script>

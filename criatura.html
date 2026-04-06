@@ -17,21 +17,21 @@
 
 <body class="entry">
 
-    <div class="nav-links">
+    <nav class="nav-links">
         <a href="index.html" class="back-link">← Volver al Bestiario</a>
-    </div>
+    </nav>
 
-    <div class="book-open">
+    <main class="book-open">
         <div class="page page-left">
             <!-- La ilustración se movió al content-wrapper para mejor soporte móvil -->
         </div>
 
         <div class="page page-right">
-            <div class="content-wrapper">
-                <div class="meta-header">
+            <article class="content-wrapper">
+                <header class="meta-header">
                     <div class="danger-level" id="danger-level"></div>
                     <div class="habitat-badge" id="habitat-badge"></div>
-                </div>
+                </header>
 
                 <h2 class="name" id="name"></h2>
                 <div class="type-container">
@@ -41,19 +41,19 @@
 
                 <div class="ornament">✺</div>
 
-                <div class="illustration-container">
+                <figure class="illustration-container">
                     <img id="img" class="monster-img">
-                    <div class="caption">Ilustración a mano de la criatura</div>
+                    <figcaption class="caption">Ilustración a mano de la criatura</figcaption>
                     <!-- Novedad: Sello del Vacío -->
                     <div id="cursed-seal" class="seal-hidden"></div>
-                </div>
+                </figure>
 
-                <div class="resistances-section" id="resistances-section">
+                <section class="resistances-section" id="resistances-section">
                     <div class="resist-item debil"><b>Vulnerable:</b> <span id="vulnerable"></span></div>
                     <div class="resist-item resistente"><b>Resistente:</b> <span id="resistente"></span></div>
-                </div>
+                </section>
 
-                <div class="stat-box">
+                <section class="stat-box">
                     <p><b>Clase de Armadura:</b> <span id="ac"></span></p>
                     <p><b>Puntos de Vida:</b> <span id="hp"></span></p>
                     <p><b>Velocidad:</b> <span id="speed"></span></p>
@@ -66,32 +66,32 @@
                         <div class="stat-item"><span class="label">WIS</span> <b id="wis"></b></div>
                         <div class="stat-item"><span class="label">CHA</span> <b id="cha"></b></div>
                     </div>
-                </div>
+                </section>
 
                 <!-- Nuevo Campo de Habilidad -->
-                <div id="skill-section" class="skill-box" style="display:none;">
+                <section id="skill-section" class="skill-box" style="display:none;">
                     <h3 id="skill-title"></h3>
                     <p id="skill-text"></p>
-                </div>
+                </section>
 
                 <!-- Nueva Nota de Lore -->
-                <div class="lore-box">
+                <section class="lore-box">
                     <h3>Crónicas y Relatos</h3>
                     <p id="lore"></p>
-                </div>
+                </section>
 
                 <!-- Nueva Nota de Supervivencia -->
-                <div id="survival-box" class="survival-note" style="display:none;">
+                <section id="survival-box" class="survival-note" style="display:none;">
                     <h4>⚜ Guía de Combate ⚜</h4>
                     <p id="survival-text"></p>
-                </div>
+                </section>
 
-                <div class="footer-nav">
+                <footer class="footer-nav">
                     <button onclick="location.href='index.html'" class="filter-btn">« Regresar al Bestiario</button>
-                </div>
-            </div>
+                </footer>
+            </article>
         </div>
-    </div>
+    </main>
 
     <script src="js/app.js"></script>
 </body>
