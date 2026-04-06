@@ -153,7 +153,7 @@ header {
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    box-shadow: 3px 5px 15px rgba(0,0,0,0.5);
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.5);
     position: relative;
     transition: all 0.3s ease;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 85%, 0 100%);
@@ -460,8 +460,13 @@ header {
 }
 
 @keyframes rotateSeal {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .ornament {
@@ -535,9 +540,17 @@ body.boss-mode .survival-note p {
 }
 
 @keyframes pulsar {
-    0% { box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); }
-    50% { box-shadow: 0 0 30px rgba(255, 0, 0, 1); }
-    100% { box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); }
+    0% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 0 30px rgba(255, 0, 0, 1);
+    }
+
+    100% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    }
 }
 
 
@@ -550,16 +563,25 @@ body.boss-mode .survival-note p {
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .grid.three-cols {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .illustration-container {
         position: absolute;
         left: -100%;
         top: 0;
         width: 100%;
         height: 100%;
-        padding: 40px;
+        padding: 20px;
+    }
+
+    .monster-img {
+        max-height: 600px;
+        max-height: 75vh;
+        width: auto;
+        object-fit: contain;
     }
 }
 
@@ -568,18 +590,23 @@ body.boss-mode .survival-note p {
     .book-open {
         flex-direction: column;
     }
+
     .page-left {
         display: none;
     }
+
     .illustration-container {
         margin: 20px 0;
     }
+
     #main-title {
         font-size: 2.5rem;
     }
+
     .book-cover {
         padding: 30px 15px;
     }
+
     .layout-nav {
         display: none;
     }
@@ -590,23 +617,29 @@ body.boss-mode .survival-note p {
     body {
         padding: 10px;
     }
+
     #main-title {
         font-size: 2rem;
     }
+
     .book-cover,
     .book-open {
         border-width: 10px;
         padding: 20px 10px;
     }
+
     .grid {
         grid-template-columns: 1fr;
     }
+
     .name {
         font-size: 2.2rem;
     }
+
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .stat-box {
         margin-bottom: 20px;
     }
