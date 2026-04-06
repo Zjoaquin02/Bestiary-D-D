@@ -1,54 +1,69 @@
 ============================================================
-              CRÓNICAS DEL BESTIARIO
-         TUTORIAL PARA CREAR NUEVOS MONSTRUOS
+               CRÓNICAS DEL BESTIARIO
+          TUTORIAL PARA CREAR NUEVOS MONSTRUOS
 ============================================================
 
-Para añadir una nueva criatura a tu bestiario, debes seguir estos dos pasos fundamentales:
+Para añadir una nueva criatura a tu bestiario y que todo luzca
+profesional, debes seguir estos tres pasos fundamentales:
 
 ------------------------------------------------------------
 PASO 1: CREAR EL ARCHIVO DE DATOS (.json)
 ------------------------------------------------------------
-Crea un archivo nuevo dentro de la carpeta `data/` con el nombre de tu criatura (usa minúsculas y guiones bajos, ej: `dragon_azul.json`).
+Crea un archivo nuevo dentro de la carpeta `data/` con el id de 
+tu criatura en minúsculas (ej: `espiritu_bosque.json`).
 
-Copia y pega esta estructura base:
+Copia y pega esta estructura actualizada:
 
 {
-  "id": "dragon_azul",
-  "nombre": "Dragón Azul",
-  "rol": "monster",           // "monster" para normales, "boss" para jefes (activa modo oscuro)
-  "tipo": "Dragón Adulto",
-  "categoria": "Dragon",
-  "imagen": "css/img/dragon_azul.jpg", // Asegúrate de subir la imagen a esa carpeta
-  "ac": 19,
-  "hp": 225,
-  "speed": "40 ft, fly 80 ft",
+  "id": "espiritu_bosque",
+  "nombre": "Espíritu del Bosque",
+  "rol": "monster",         // IMPORTANTE: "monster" (normal) o "boss" (activa Modo Jefe)
+  "tipo": "Fata Antigua",
+  "categoria": "Espíritu",
+  "imagen": "css/img/espiritu.jpg", 
+  "ac": 15,
+  "hp": 75,
+  "speed": "30 ft, fly 20 ft",
   "stats": {
-    "str": 25, "dex": 10, "con": 23, "int": 16, "wis": 15, "cha": 19
+    "str": 8, "dex": 18, "con": 12, "int": 14, "wis": 16, "cha": 18
   },
-  "peligro": 5,               // Número de calaveras que aparecerán
-  "habitat": "Desiertos, Cuevas de Cristal",
-  "vulnerable": "Ninguna",
-  "resistente": "Rayo",
-  "habilidad_titulo": "Aliento de Relámpago",
-  "habilidad": "El dragón exhala un rayo en una línea de 60 pies...",
-  "supervivencia": "No te agrupes en línea recta y busca cobertura.",
-  "lore": "Los dragones azules son maestros de la arena y el trueno..."
+  "peligro": 3,             // Número de calaveras de peligro (1 a 5)
+  "habitat": "Bosques Ancestrales, Arboledas de Plata",
+  "vulnerable": "Fuego",
+  "resistente": "Veneno, Psíquico",
+  "habilidad_titulo": "Canto de la Arboleda",
+  "habilidad": "La criatura emite una melodía que hechiza a los intrusos...",
+  "supervivencia": "No escuches su canto; usa tapones para los oídos.",
+  "lore": "Se dice que estos espíritus son los guardianes de la naturaleza..."
 }
 
 ------------------------------------------------------------
-PASO 2: REGISTRAR EN EL LISTADO PRINCIPAL
+PASO 2: REGISTRAR EN EL LISTADO PRINCIPAL (list.json)
 ------------------------------------------------------------
-Abre el archivo `data/list.json`. Este archivo controla qué monstruos aparecen en el menú principal. Debes añadir una línea al final de la lista con el siguiente formato:
+Abre `data/list.json`. Añade tu criatura al final de la lista.
+El campo "tipo" aquí controla el filtro en el menú:
 
-  { "id": "dragon_azul", "nombre": "Dragón Azul", "tipo": "monster" }
+  { "id": "espiritu_bosque", "nombre": "Espíritu del Bosque", "tipo": "monster" }
 
-*IMPORTANTE:* Recuerda poner una coma (,) al final de la línea anterior antes de añadir la tuya.
+*NOTA:* Usa "monster" para Criaturas normales y "boss" para Jefes.
 
 ------------------------------------------------------------
 PASO 3: LA IMAGEN
 ------------------------------------------------------------
 1. Guarda la imagen en la carpeta `css/img/`.
-2. El formato ideal es `.jpg` o `.png`.
-3. Asegúrate de que el nombre en el archivo `.json` coincida exactamente con el nombre del archivo de imagen.
+2. Formato recomendado: .jpg (mejor balance calidad/peso).
+3. Asegúrate de que la ruta en el .json sea exacta.
 
-¡Y listo! Al recargar la página, tu nueva criatura debería aparecer automáticamente en el bestiario.
+============================================================
+CONSEJOS DEL ESCRIBA ARCANO:
+============================================================
+- Modo Jefe: Si pones "rol": "boss", la ficha cambiará a color 
+  rojo sangre, el fondo será oscuro y aparecerá el "Sello del 
+  Vacío" girando en la esquina.
+- Calaveras: El campo "peligro" dibuja automáticamente las 
+  calaveras de advertencia.
+- Simetría: Las ilustraciones se ajustan automáticamente a 
+  las proporciones del libro abierto en PC.
+
+¡Tu bestiario sigue creciendo en conocimiento y misterio!
+============================================================
