@@ -638,3 +638,53 @@ body.boss-mode .survival-note p {
         margin-bottom: 20px;
     }
 }
+
+/* ============================================================
+   9. ANOTACIONES DEL ERUDITO (SISTEMA DE NOTAS)
+   ============================================================ */
+.annotations-box {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    position: relative;
+    border: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+.annotations-box h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    color: #4a3728;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+#notes-area {
+    width: 100%;
+    min-height: 150px;
+    background: transparent;
+    border: none;
+    font-family: 'Caveat', cursive;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #1a2a6c; /* Color de tinta azul oscuro */
+    resize: none;
+    outline: none;
+    padding: 10px;
+}
+
+#notes-area::placeholder {
+    color: rgba(74, 55, 40, 0.4);
+    font-style: italic;
+}
+
+/* Efecto de rotación sutil solo para escritorio para simular escritura manual */
+@media (min-width: 901px) {
+    .annotations-box {
+        transform: rotate(-1.5deg);
+        width: 110%;
+        margin-left: -5%;
+        margin-top: 60px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+    }
+}

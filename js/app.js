@@ -47,6 +47,7 @@ async function loadCreature() {
         
         const c = await res.json();
         renderCreatureDetail(c);
+        renderAnnotations(id); // Cargar las notas personalizadas
     } catch (error) {
         console.error('Error:', error);
         renderCreatureError();
@@ -180,6 +181,23 @@ function renderCreatureError() {
     }
 }
 
+/**
+ * Carga y renderiza las anotaciones desde localStorage
+ */
+function renderAnnotations(id) {
+    const notesArea = document.getElementById('notes-area');
+    if (!notesArea) return;
+
+    // Recuperar nota guardada
+    const savedNote = localStorage.getItem(`bestiary_note_${id}`) || '';
+    notesArea.value = savedNote;
+
+    // Configurar el autoguardado mientras se escribe
+    notesArea.addEventListener('input', (e) => {
+        saveAnnotation(id, e.target.value);
+    });
+}
+
 /* ============================================================
    4. GESTIÓN DE ESTADO Y DISEÑO (LAYOUT)
    ============================================================ */
@@ -219,6 +237,13 @@ function applySavedLayout() {
         grid.classList.remove('three-cols');
         btn.innerText = '3 Columnas';
     }
+}
+
+/**
+ * Guarda la anotación en el almacenamiento local
+ */
+function saveAnnotation(id, text) {
+    localStorage.setItem(`bestiary_note_${id}`, text);
 }
 
 /* ============================================================
