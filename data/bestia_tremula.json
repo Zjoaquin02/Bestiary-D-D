@@ -1,0 +1,27 @@
+{
+  "id": "bestia_tremula",
+  "nombre": "Bestia Trémula",
+  "rol": "monster",
+  "tipo": "Monstruosidad Predadora",
+  "categoria": "Monstrosity",
+  "imagen": "css/img/bestia_tremula.webp",
+  "ac": 13,
+  "hp": 85,
+  "speed": "40 ft",
+  "stats": {
+    "str": 18,
+    "dex": 15,
+    "con": 16,
+    "int": 6,
+    "wis": 12,
+    "cha": 8
+  },
+  "peligro": 3,
+  "habitat": "Bosques Extraños, Planos Exteriores (Tierras Feéricas)",
+  "vulnerable": "Gran dependencia de su visión (Cegarla anula su ilusión)",
+  "resistente": "Magia y ataques de área",
+  "supervivencia": "No intentes atacar a la pantera que estás viendo, porque no está ahí. Usa hechizos de área o intenta arrojarle arena a los ojos; si logras cegarla, la bestia no podrá proyectar su forma ilusoria y volverá a ser un blanco normal.",
+  "habilidad_titulo": "Capa de Desplazamiento y Latigazos Barbados",
+  "habilidad": "Su pelaje genera una refracción mágica constante, proyectando una ilusión óptica de sí misma a un metro de su verdadera posición. Ataca azotando con dos gruesos tentáculos que nacen de sus hombros y que terminan en almohadillas con púas que destrozan la carne.",
+  "lore": "Originarias de los enigmáticos reinos del Feywild, las Bestias Trémulas son felinos macabros parecidos a grandes panteras de color negro azulado, que caminan silenciosamente sobre seis patas musculares. La criatura está maldita o bendecida con un don feérico: una ilusión permanente que hace que parezca estar siempre ligeramente movida de su lugar auténtico, lo que provoca que los espadazos y flechazos la atraviesen sin hacerle daño. Aquellos desafortunados que se cruzan con una de ellas raras veces viven para contarlo, al ser brutalmente azotados y desgarrados hasta la muerte por los formidables tentáculos espinados de la bestia."
+}

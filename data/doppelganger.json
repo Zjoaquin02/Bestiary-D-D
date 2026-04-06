@@ -17,11 +17,11 @@
     "cha": 14
   },
   "peligro": 3,
-  "habitat": "Ciudades, Cortes Reales, Tabernas",
-  "vulnerable": "Psíquico, Verdad Mágica",
-  "resistente": "Encantos, Ilusiones",
-  "supervivencia": "No confíes en tus ojos ni en los de tus aliados. Un Doppelganger puede leer tus pensamientos superficiales para saber exactamente qué decir. Establece una contraseña secreta con tu grupo antes de entrar en zonas sospechosas.",
-  "habilidad_titulo": "Lector de Mentes",
-  "habilidad": "Un ser sin rostro que puede convertirse en cualquier persona.",
-  "lore": "Un ser sin rostro que puede convertirse en cualquier persona. Vive entre nosotros, sembrando la paranoia en ciudades y cortes."
+  "habitat": "Ciudades, Cortes Reales, Tabernas y Callejones Oscuros",
+  "vulnerable": "Magia reveladora de Verdad (Truesight) o ataques Psíquicos",
+  "resistente": "Magia de Encantamiento, Hechizos de Ilusión",
+  "supervivencia": "No confíes en tus propios aliados si han estado a solas demasiado tiempo. Establece siempre contraseñas o saludos secretos con tu grupo antes de entrar a zonas de sospecha. Y cuidado: un Doppelganger lee tus pensamientos superficiales instintivamente, de modo que sabrá exactamente la respuesta que esperas escuchar si intentas hacerle una pregunta trampa.",
+  "habilidad_titulo": "Cambiaformas Perfecto y Lector de Mentes",
+  "habilidad": "Esta siniestra criatura puede moldear biológicamente su carne para replicar de manera orgánica e idéntica la apariencia, voz e incluso prendas básicas de cualquier humanoide que haya visto. Esto se complementa mágicamente con su don de leer las mentes superficiales, apropiándose de recuerdos recientes o reacciones esperadas para realizar imitaciones impecables e indistinguibles.",
+  "lore": "En su forma verdadera y prístina, un Doppelganger es un ser macabro: una figura humanoide esbelta, de piel grisácea y lampiña, carente casi por completo de rasgos faciales distintivos. No obstante, presenciar este estado es casi imposible, pues son los maestros indiscutibles de la infiltración y el subterfugio. Operando de forma similar a parásitos sociales, no poseen sociedades ni reinos propios; subsisten invadiendo las culturas de otras razas al apoderarse de las vidas e identidades de nobles influyentes, guardias o incluso héroes locales. Al amparo de la confianza que roban, son capaces de orquestar golpes de estado o sumir familias enteras en la paranoia absoluta, destruyéndolos desde adentro sin necesidad de derramar una sola gota de sangre en combate directo."
 }

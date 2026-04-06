@@ -29,7 +29,7 @@
   { "id": "lizardfolk", "nombre": "Lizardfolk", "tipo": "monster" },
   { "id": "doppelganger", "nombre": "Doppelganger", "tipo": "monster" },
   { "id": "rust_monster", "nombre": "Rust Monster", "tipo": "monster" },
-  { "id": "displacer_beast", "nombre": "Displacer Beast", "tipo": "monster" },
+  { "id": "bestia_tremula", "nombre": "Bestia Trémula", "tipo": "monster" },
   { "id": "phase_spider", "nombre": "Phase Spider", "tipo": "monster" },
   { "id": "treant", "nombre": "Treant", "tipo": "monster" },
   { "id": "golem_hierro", "nombre": "Golem de Hierro", "tipo": "monster" },
@@ -45,5 +45,9 @@
   { "id": "mind_flayer", "nombre": "Azotamentes", "tipo": "monster" },
   { "id": "oso_lechuza", "nombre": "Oso Lechuza", "tipo": "monster" },
   { "id": "aboleth", "nombre": "Aboleth", "tipo": "boss" },
-  { "id": "troll", "nombre": "Troll", "tipo": "monster" }
+  { "id": "troll", "nombre": "Troll", "tipo": "monster" },
+  { "id": "slaad", "nombre": "Slaad", "tipo": "monster" },
+  { "id": "behir", "nombre": "Behir", "tipo": "monster" },
+  { "id": "espantapajaros", "nombre": "Espantapájaros", "tipo": "monster" },
+  { "id": "xorn", "nombre": "Xorn", "tipo": "monster" }
 ]

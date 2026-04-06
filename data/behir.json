@@ -1,0 +1,27 @@
+{
+  "id": "behir",
+  "nombre": "Behir",
+  "rol": "monster",
+  "tipo": "Monstruosidad Enorme",
+  "categoria": "Monstrosity",
+  "imagen": "css/img/behir.webp",
+  "ac": 17,
+  "hp": 168,
+  "speed": "50 ft, Escala 40 ft",
+  "stats": {
+    "str": 23,
+    "dex": 16,
+    "con": 18,
+    "int": 7,
+    "wis": 14,
+    "cha": 12
+  },
+  "peligro": 11,
+  "habitat": "Profundas Cavernas y Altas Montañas",
+  "vulnerable": "Gran tamaño lo vuelve un blanco fácil al aire libre",
+  "resistente": "Inmune al Daño por Relámpago o veneno",
+  "supervivencia": "Evita los pasillos estrechos en los que su aliento de relámpago no tenga a dónde disiparse. Si se abalanza sobre ti, prioriza mantener tu distancia: si te muerde, usarás sus anillos musculares para inmovilizarte y no parará de estrujarte hasta romper tus huesos.",
+  "habilidad_titulo": "Aliento Eléctrico y Constricción Asfixiante",
+  "habilidad": "Acumula energía estática masiva en sus pulmones para exhalar una devastadora y alargada línea de relámpago. Además, usa su enorme cuerpo serpentino y sus doce garras (en sus seis patas) para prensar y asfixiar a gigantes e incautos por igual, antes de tragarlos enteros.",
+  "lore": "El Behir es un terrorífico depredador de más de 12 metros de longitud y pesado como una roca enorme. Semejante a una serpiente acorazada que repta a enorme velocidad con sus seis fuertes patas, está provisto de gruesos cuernos apuntando hacia atrás en su cabeza. Las leyendas antiguas sostienen que estas aberrantes monstruosidades fueron moldeadas biológicamente por los Gigantes en épocas remotas, creados como una implacable arma de asedio para dar caza y matar Dragones durante milenarias guerras territoriales. Este origen genético sobrevive hoy en el odio irracional y genético que el Behir profesa contra la estirpe dracónica."
+}

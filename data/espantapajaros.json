@@ -1,0 +1,27 @@
+{
+  "id": "espantapajaros",
+  "nombre": "Espantapájaros",
+  "rol": "monster",
+  "tipo": "Constructo Maldito",
+  "categoria": "Construct",
+  "imagen": "css/img/espantapajaros.webp",
+  "ac": 11,
+  "hp": 36,
+  "speed": "30 ft",
+  "stats": {
+    "str": 11,
+    "dex": 13,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 13
+  },
+  "peligro": 1,
+  "habitat": "Cultivos Abandonados, Granjas Malditas y Caminos Rurales",
+  "vulnerable": "Extrema debilidad al Fuego",
+  "resistente": "Inmune al veneno y resistente a ataques físicos no mágicos",
+  "supervivencia": "No los mires directamente a los ojos si no quieres quedar paralizado de terror. Además, ten mucho cuidado al cruzarte con uno: los espantapájaros comparten un oscuro vínculo con su amo. En el preciso instante en que entran en combate, la bruja o el hechicero que los creó es alertado automáticamente de tu presencia. Usa fuego rápido para reducirlos a cenizas.",
+  "habilidad_titulo": "Mirada Aterradora y Garras Irregulares",
+  "habilidad": "Fija su mirada de energías necróticas o sus cuencos vacíos sobre una víctima, petrificándola temporalmente por el pánico. Además, ataca desgarrando sin piedad con afilados restos de madera, horcas oxidadas o clavos incrustados en sus manos.",
+  "lore": "Dotados de una imitación de vida por oscuros rituales practicados por brujas (Hags) o demonólogos, los espantapájaros no son simples trucos mecánicos. Para que existan, su creador debe atar mágicamente el alma atormentada de una criatura asesinada o un demonio menor directamente al muñeco de paja y harapos, dándole vida por medio del poder de ese espíritu. Son apostados como vigilantes en campos malditos; durante el día se mantienen completamente inmóviles, pero en la noche o ante la presencia de intrusos, bajan de sus postes cobrando una agilidad mortal impulsada por la rabia del alma aprisionada en su interior."
+}

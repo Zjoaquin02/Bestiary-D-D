@@ -1,0 +1,27 @@
+{
+  "id": "xorn",
+  "nombre": "Xorn",
+  "rol": "monster",
+  "tipo": "Elemental de Tierra",
+  "categoria": "Elemental",
+  "imagen": "css/img/xorn.webp",
+  "ac": 19,
+  "hp": 73,
+  "speed": "20 ft, Excavar 20 ft",
+  "stats": {
+    "str": 17,
+    "dex": 10,
+    "con": 22,
+    "int": 11,
+    "wis": 10,
+    "cha": 11
+  },
+  "peligro": 5,
+  "habitat": "Plano Elemental de la Tierra y Cavernas Profundas",
+  "vulnerable": "Ataques de Trueno o armas de Adamantina",
+  "resistente": "Cortante y perforante de armas no mágicas",
+  "supervivencia": "Si los enfureces, no hay escapatoria por tierra firme: rastrean y 'nadan' a través de la roca sólida para emboscarte desde abajo. Si deseas evitar una batalla mortal, siempre puedes intentar razonar con ellos ofreciéndoles tributos de oro, gemas o metales preciosos; prefieren un buen banquete a derramar sangre.",
+  "habilidad_titulo": "Camuflaje de Piedra y Deslizamiento Terrenal",
+  "habilidad": "Puede bucear a través del barro brillante, de la piedra maciza y de la tierra no deformada como si fueran agua y sin dejar ningún rastro o túnel atrás. Su sentido sísmico innato le permite percibir las vibraciones de cualquier entidad cercana o piedra preciosa mientras ataca velozmente con sus tres brazos pétreos.",
+  "lore": "Oriundos del hostil e hiperdenso Plano Elemental de la Tierra, los Xorn son bestias sumamente extrañas caracterizadas por una bizarra simetría trilateral: poseen tres fuertes piernas, tres brazos recubiertos de duras escamas similares a rocas y tres enormes ojos esféricos ubicados alrededor del torso que rodean su gigantesca boca dentada, situada justo en la parte superior de su cuerpo, mirando siempre al techo. A pesar de su apariencia aterradora, los Xorn no devoran carne. Tienen un hambre insaciable y letal dictada por el consumo constante de metales preciosos genuinos (oro, platino) e invaluables joyas. En sus expediciones extraplanares hacia la Infraoscuridad o las minas enanas, son capaces de sentir la fortuna en las mochilas de los exploradores, tendiéndoles feroces emboscadas subterráneas o exigiéndoles las riquezas a modo de un agresivo e innegociable \"peaje\" minero."
+}

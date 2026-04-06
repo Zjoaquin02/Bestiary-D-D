@@ -1,0 +1,27 @@
+{
+  "id": "slaad",
+  "nombre": "Slaad",
+  "rol": "monster",
+  "tipo": "Aberración del Caos",
+  "categoria": "Aberration",
+  "imagen": "css/img/slaad.webp",
+  "ac": 15,
+  "hp": 93,
+  "speed": "30 ft",
+  "stats": {
+    "str": 16,
+    "dex": 12,
+    "con": 17,
+    "int": 9,
+    "wis": 10,
+    "cha": 9
+  },
+  "peligro": 3,
+  "habitat": "El Limbo, Zonas de Caos Mágico",
+  "vulnerable": "Estabilidad y Orden, Fuerzas Legales",
+  "resistente": "Magia Irregular, Elementos Aleatorios",
+  "supervivencia": "Jamás dejes que te arañen o te muerdan sin recibir curación mágica inmediatamente. Sus ataques pueden implantar huevos en tu cuerpo que eclosionarán devorándote desde el interior, o contagiarte una enfermedad que te transformará lenta y dolorosamente en uno de ellos.",
+  "habilidad_titulo": "Infección Slaad y Mutación Caótica",
+  "habilidad": "Las garras y colmillos del Slaad transmiten la esencia pura del Caos del Limbo. Pueden usar a sus víctimas como incubadoras vivas o infectarlas para que muten, perpetuando su especie alienígena y bizarra.",
+  "lore": "Procedentes del tormentoso e inestable plano del Limbo, los Slaads son aberraciones monstruosas de aspecto batracio y naturaleza profundamente impredecible. Impulsados por una necesidad instintiva de propagar el caos y su propia especie, atacan de manera salvaje y sin aparente lógica. Su ciclo reproductivo es el terror de los eruditos y aventureros: algunas castas implantan huevos bajo la piel de anfitriones vivos, mientras que otras propagan un virus mutágeno mortal. Su anatomía mutante y regenerativa, combinada con su salvajismo implacable, los vuelve adversarios formidables. No hay forma de razonar con un ser cuya misma existencia es una aberración del orden natural."
+}
