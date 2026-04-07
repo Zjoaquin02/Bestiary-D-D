@@ -1,0 +1,27 @@
+{
+  "id": "merrow",
+  "nombre": "Merrow",
+  "rol": "monster",
+  "tipo": "Monstruosidad",
+  "categoria": "Acuática",
+  "imagen": "css/img/merrow.webp",
+  "ac": 13,
+  "hp": 45,
+  "speed": "10 ft, swim 40 ft",
+  "stats": {
+    "str": 18,
+    "dex": 10,
+    "con": 15,
+    "int": 8,
+    "wis": 10,
+    "cha": 9
+  },
+  "peligro": 2,
+  "habitat": "Costas Submarinas, Arrecifes Oscuros y Cuevas Abisales",
+  "vulnerable": "Rayo",
+  "resistente": "Frío",
+  "habilidad_titulo": "Arpón Arrastrador",
+  "habilidad": "La monstruosidad lanza un pesado arpón atado a una cuerda. Si impacta, puede arrastrar a la víctima hasta 20 pies bajo las aguas oscuras en un instante.",
+  "supervivencia": "Mantén las distancias en combates acuáticos y evita estar en el borde de barcos o muelles donde puedan engancharte y arrastrarte al fondo.",
+  "lore": "Alguna vez fueron orgullosos tritones, pero sus ancestros cayeron en la corrupción tras adorar a ídolos de los abismos. Transformados por energías demoníacas, ahora son cazadores crueles de las profundidades marinas que emergen para cobrar víctimas y arrastrarlas a sus guaridas sumergidas, donde realizan oscuros rituales carnivoros."
+}

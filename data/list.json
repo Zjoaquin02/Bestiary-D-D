@@ -49,5 +49,12 @@
   { "id": "slaad", "nombre": "Slaad", "tipo": "monster" },
   { "id": "behir", "nombre": "Behir", "tipo": "monster" },
   { "id": "espantapajaros", "nombre": "Espantapájaros", "tipo": "monster" },
-  { "id": "xorn", "nombre": "Xorn", "tipo": "monster" }
+  { "id": "xorn", "nombre": "Xorn", "tipo": "monster" },
+  { "id": "merrow", "nombre": "Merrow", "tipo": "monster" },
+  { "id": "notico", "nombre": "Nótico", "tipo": "monster" },
+  { "id": "minotauro", "nombre": "Minotauro", "tipo": "monster" },
+  { "id": "otyugh", "nombre": "Otyugh", "tipo": "monster" },
+  { "id": "mastin_sombrio", "nombre": "Mastín Sombrío", "tipo": "monster" },
+  { "id": "saga", "nombre": "Saga", "tipo": "monster" },
+  { "id": "manticora", "nombre": "Mantícora", "tipo": "boss" }
 ]

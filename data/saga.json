@@ -1,0 +1,27 @@
+{
+  "id": "saga",
+  "nombre": "Saga",
+  "rol": "monster",
+  "tipo": "Feérico Maligno",
+  "categoria": "Fey",
+  "imagen": "css/img/saga.webp",
+  "ac": 15,
+  "hp": 71,
+  "speed": "30 ft",
+  "stats": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 13,
+    "wis": 14,
+    "cha": 14
+  },
+  "peligro": 3,
+  "habitat": "Pantanos, Bosques Retorcidos y Páramos Solitarios",
+  "vulnerable": "Plata (en algunas variantes)",
+  "resistente": "Magia Ilusoria, Encantamientos",
+  "habilidad_titulo": "Ilusión Feérica y Clavos de Hierro",
+  "habilidad": "Capaz de imitar cualquier sonido y disfrazar su horripilante figura bajo la forma de una joven y hermosa doncella o una anciana desamparada, utiliza magia para engañar a los incautos antes de desgarrarlos con sus afiladas garras parecidas a hierro.",
+  "supervivencia": "No confíes en extraños en lugares desolados y nunca hagas un trato ni aceptes regalos de una Saga; su magia contractual siempre tiene una trampa retorcida.",
+  "lore": "Hermanas oscuras de la naturaleza, las sagas son fey macabras corrompidas por el rencor y la malevolencia. Saborean la miseria y el dolor ajeno, creando intrincadas redes de engaño para arruinar vidas. Aquellas que forman un Aquelarre comparten un Ojo de Saga y ganan acceso a magias arcanas destructivas. Son maestras en pociones de dudosa procedencia y profecías envueltas en maldiciones."
+}

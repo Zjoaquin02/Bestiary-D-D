@@ -1,0 +1,27 @@
+{
+  "id": "manticora",
+  "nombre": "Mantícora",
+  "rol": "boss",
+  "tipo": "Monstruosidad Terribilísima",
+  "categoria": "Bestia Alada",
+  "imagen": "css/img/manticora.webp",
+  "ac": 14,
+  "hp": 68,
+  "speed": "30 ft, fly 50 ft",
+  "stats": {
+    "str": 17,
+    "dex": 16,
+    "con": 17,
+    "int": 7,
+    "wis": 12,
+    "cha": 8
+  },
+  "peligro": 4,
+  "habitat": "Montañas Altas, Bosques Densos y Cavernas Escarpadas",
+  "vulnerable": "Daño Perforante (a sus alas)",
+  "resistente": "Magia de Encantamiento",
+  "habilidad_titulo": "Lluvia de Púas Mortales",
+  "habilidad": "Con un furioso movimiento de su cola, la mantícora puede lanzar ráfagas de enormes púas afiladas como lanzas sobre sus presas desde el aire, clavándolas al suelo sin piedad.",
+  "supervivencia": "Las mantícoras son extremadamente orgullosas y crueles. No intentes huir en línea recta, busca la cobertura de los árboles pesados o estructuras para evadir sus letales espinas voladoras.",
+  "lore": "Un horror diseñado mediante magia antigua, la mantícora posee el robusto cuerpo de un león salvaje, las imponentes alas coriáceas de un dragón, una letal cola cubierta de espinas y un perturbador rostro vagamente humanoide que refleja una inteligencia sádica. A estas bestias les encanta hablar con sus víctimas antes de destrozarlas, relamiéndose con su miedo y ofreciendo falsas esperanzas de escape solo por diversión. Como dueñas indiscutibles de sus territorios aéreos, rara vez toleran intrusos o competencia."
+}

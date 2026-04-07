@@ -1,0 +1,27 @@
+{
+  "id": "mastin_sombrio",
+  "nombre": "Mastín Sombrío",
+  "rol": "monster",
+  "tipo": "Bestia Mortal",
+  "categoria": "Sombras",
+  "imagen": "css/img/mastin_sombrio.webp",
+  "ac": 12,
+  "hp": 33,
+  "speed": "40 ft",
+  "stats": {
+    "str": 16,
+    "dex": 14,
+    "con": 13,
+    "int": 5,
+    "wis": 12,
+    "cha": 5
+  },
+  "peligro": 2,
+  "habitat": "Parajes Lúgubres, Bosques Nocturnos y Tumbas de Penumbra",
+  "vulnerable": "Luz Radiante",
+  "resistente": "Necrótico, Armas no mágicas en la oscuridad",
+  "habilidad_titulo": "Mezcla Sombría y Aullido Aterrador",
+  "habilidad": "Se vuelven prácticamente invisibles en zonas de luz tenue u oscuridad y su potente y gélido aullido puede congelar la sangre e infundir un pánico absoluto en un radio extenso.",
+  "supervivencia": "La luz intensa y radiante es su mayor debilidad. Usa antorchas, fuego cruzado o hechizos como 'Luz del Día' para eliminar su camuflaje natural y disminuir su letalidad.",
+  "lore": "Bestias caninas originarias de los planos de las sombras, traídos a este reino mágico por sectas oscuras o magia salvaje. Estos perros de caza aterradores son las mascotas y centinelas preferidos de deidades oscuras, licántropos formidables o vampiros. Miden el tamaño de un pony fornido pero carecen del pelaje natural, viéndose como perros infernales completamente compuestos por densas sombras que no reflejan la luz."
+}

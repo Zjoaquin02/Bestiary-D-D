@@ -1,0 +1,27 @@
+{
+  "id": "otyugh",
+  "nombre": "Otyugh",
+  "rol": "monster",
+  "tipo": "Aberración",
+  "categoria": "Putrefacto",
+  "imagen": "css/img/otyugh.webp",
+  "ac": 14,
+  "hp": 114,
+  "speed": "30 ft",
+  "stats": {
+    "str": 16,
+    "dex": 11,
+    "con": 19,
+    "int": 6,
+    "wis": 13,
+    "cha": 6
+  },
+  "peligro": 5,
+  "habitat": "Alcantarillas, Pantanos Inmundos y Vertederos",
+  "vulnerable": "Fuego",
+  "resistente": "Veneno, Ácido",
+  "habilidad_titulo": "Mordisco Infeccioso y Tentáculos Azotadores",
+  "habilidad": "Abalanza sus dolorosos tentáculos repletos de espinas sobre sus presas para inmovilizarlas y acercarlas a sus temibles fauces. Una mordedura del otyugh transmite graves enfermedades.",
+  "supervivencia": "No los dejes que se acerquen; utiliza fuego para purgarlos y mantente alejado de zonas de desperdicio extremo o aguas estancadas, ya que atacan desde debajo como emboscadores perfectos.",
+  "lore": "Monstruos insaciables nacidos en la podredumbre, los Otyughs son monstruosidades con tres patas musculosas y tentáculos que terminan en parches de púas, coronados por un sensor bulboso de tres ojos. Generalmente ignorados por seres inteligentes con tal que vivan para comer la basura, la porquería o a los intrusos desafortunados de cuevas profundas o alcantarillas; utilizan una rudimentaria telepatía para buscar cadáveres sabrosos."
+}

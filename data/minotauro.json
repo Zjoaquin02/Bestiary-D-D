@@ -1,0 +1,27 @@
+{
+  "id": "minotauro",
+  "nombre": "Minotauro",
+  "rol": "monster",
+  "tipo": "Monstruosidad",
+  "categoria": "Bestia Humanoide",
+  "imagen": "css/img/minotauro.webp",
+  "ac": 14,
+  "hp": 76,
+  "speed": "40 ft",
+  "stats": {
+    "str": 18,
+    "dex": 11,
+    "con": 16,
+    "int": 6,
+    "wis": 16,
+    "cha": 9
+  },
+  "peligro": 3,
+  "habitat": "Laberintos Antiguos, Cavernas Subterráneas",
+  "vulnerable": "Psíquico",
+  "resistente": "Veneno",
+  "habilidad_titulo": "Carga Imparable y Sentido de Laberinto",
+  "habilidad": "Esta temible criatura recuerda perfectamente cualquier camino que haya recorrido y carga con una furia arrolladora, empalando a los intrusos con sus inmensos cuernos antes de despedazarlos con su gran hacha.",
+  "supervivencia": "No intentes correr en pasillos rectos, utiliza la agilidad y las esquinas para evadir su embestida; intentar perderlos en un lugar que consideren su hogar es inútil.",
+  "lore": "Originarios del caos puro de la Infraoscuridad o de antiguos rituales druídicos corruptos, los Minotauros nacieron para ser los guardianes tortuosos de complejos y laberintos abisales. Fieros y guiados por una ira incontenible alimentada por el culto a Baphomet, su orientación antinatural es paralela al horror que infunde su grito ensordecedor antes de un ataque devastador."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "notico",
+  "nombre": "Nótico",
+  "rol": "monster",
+  "tipo": "Aberración",
+  "categoria": "Subterráneo",
+  "imagen": "css/img/notico.webp",
+  "ac": 15,
+  "hp": 45,
+  "speed": "30 ft",
+  "stats": {
+    "str": 14,
+    "dex": 16,
+    "con": 16,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "peligro": 2,
+  "habitat": "Mazmorras Olvidadas, Ruinas Mágicas y Archivos Arcanos",
+  "vulnerable": "Cegadora",
+  "resistente": "Necrótico",
+  "habilidad_titulo": "Mirada Podrida y Perspicacia Extraña",
+  "habilidad": "Con su único ojo ciclópeo, el nótico puede causar la descomposición del tejido (daño necrótico). Además, penetra la mente de sus víctimas, arrancando y desenterrando oscuros secretos.",
+  "supervivencia": "No dejes que te sostenga la mirada y oculta mentalmente tus miedos; se alimenta de los secretos y la paranoia de aquellos que invaden su territorio.",
+  "lore": "Antiguamente eran hechiceros obsesionados con acumular conocimientos arcanos prohibidos. Como castigo por hurgar en misterios demasiado profundos —frecuentemente legados de Vecna— sus mentes se fracturaron y sus cuerpos se deformaron en estas horrendas aberraciones. Ahora acechan en bibliotecas rotas o mazmorras profundas, siempre babeando por el conocimiento mágico y los secretos oscuros que jamás podrán descifrar."
+}
