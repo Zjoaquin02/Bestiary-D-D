@@ -10,6 +10,23 @@ Bestiario digital interactivo basado en la estética de Dungeons & Dragons, dise
 - **Diseño Adaptable**: Funcionalidad para alternar entre vista de **2 y 3 columnas** en escritorio.
 - **Persistencia de Estado**: Recuerda el último filtro y diseño seleccionado por el usuario.
 
+## ⚠️ Escala de Nivel de Peligro
+
+El campo `"peligro"` en cada JSON acepta valores del **1 al 5**, reservando el **6** únicamente para casos muy extremos.
+
+| Nivel | Ícono | Clasificación | Descripción |
+|:-----:|:-----:|---------------|-------------|
+| 1 | ☠️ | **Amenaza Menor** | Criatura débil. Poco riesgo para aventureros. |
+| 2 | ☠️☠️ | **Amenaza Moderada** | Requiere atención y preparación básica. |
+| 3 | ☠️☠️☠️ | **Amenaza Seria** | Peligrosa para grupos inexpertos. |
+| 4 | ☠️☠️☠️☠️ | **Amenaza Grave** | Solo para aventureros experimentados. |
+| 5 | ☠️☠️☠️☠️☠️ | **Amenaza Crítica** | Extremadamente letal. Rara de igualar. |
+| 6 | ☠️☠️☠️☠️☠️☠️ | **⚡ Calamidad** | Casos **muy extremos**. Entidades míticas o apocalípticas (ej: Tarrasque, Tiamat). |
+
+> **Nota:** El nivel 6 debe asignarse con criterio. Solo criaturas que representen una amenaza de escala catastrófica para el mundo justifican esta clasificación.
+
+---
+
 ## 📂 Estructura del Proyecto
 
 - `index.html`: Portada del Bestiario.
