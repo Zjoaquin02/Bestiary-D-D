@@ -99,7 +99,7 @@ function filterType(type) {
  * Inyecta los datos de la criatura en la página de detalles
  */
 function renderCreatureDetail(c) {
-    if (c.rol === 'boss') {
+    if (c.rol === 'boss' || c.tipo === 'boss') {
         document.body.classList.add('boss-mode');
         document.getElementById('cursed-seal')?.classList.remove('seal-hidden');
         document.getElementById('cursed-seal')?.classList.add('void-seal');
