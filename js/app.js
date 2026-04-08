@@ -46,7 +46,15 @@ async function loadCreature() {
         if (!res.ok) throw new Error('Criatura no encontrada en los registros');
         
         const c = await res.json();
-        renderCreatureDetail(c);
+        
+        if (c.is_multi) {
+            renderMultiCreature(c);
+        } else {
+            const tabsContainer = document.getElementById('variant-tabs');
+            if (tabsContainer) tabsContainer.style.display = 'none';
+            renderCreatureDetail(c);
+        }
+        
         renderAnnotations(id); // Cargar las notas personalizadas
     } catch (error) {
         console.error('Error:', error);
@@ -57,6 +65,41 @@ async function loadCreature() {
 /* ============================================================
    3. RENDERIZADO DE IU (MANIPULACIÓN DEL DOM)
    ============================================================ */
+
+/**
+ * Renderiza la navegación de pestañas y maneja variantes
+ */
+function renderMultiCreature(c) {
+    const tabsContainer = document.getElementById('variant-tabs');
+    if (!tabsContainer) return;
+    
+    tabsContainer.style.display = 'flex';
+    tabsContainer.innerHTML = '';
+    
+    // Asignar fondo temporalmente para que mantenga el id de anotacion
+    document.getElementById('name').dataset.parentId = c.id;
+    
+    c.variantes.forEach((variant, index) => {
+        const btn = document.createElement('button');
+        btn.className = 'variant-btn';
+        btn.innerText = variant.nombre.replace("Elemental de ", "");
+        
+        btn.onclick = () => {
+            document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            // Render the specific variant
+            renderCreatureDetail(variant);
+        };
+        
+        if (index === 0) {
+            btn.classList.add('active');
+            renderCreatureDetail(variant);
+        }
+        
+        tabsContainer.appendChild(btn);
+    });
+}
 
 /**
  * Filtra y renderiza las tarjetas de criaturas en el grid

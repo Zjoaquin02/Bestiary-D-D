@@ -1,0 +1,27 @@
+{
+  "id": "gargola",
+  "nombre": "Gárgola",
+  "rol": "monster",
+  "tipo": "Elemental Mediano",
+  "categoria": "Elemental",
+  "imagen": "css/img/gargola.webp",
+  "ac": 15,
+  "hp": 67,
+  "speed": "9 m, volar 18 m",
+  "stats": {
+    "str": 15,
+    "dex": 11,
+    "con": 16,
+    "int": 6,
+    "wis": 11,
+    "cha": 7
+  },
+  "peligro": 2,
+  "habitat": "Infraoscuridad, localidades y ruinas",
+  "vulnerable": "Ninguna especial",
+  "resistente": "Inmunidad a: veneno (daño), cansancio, estado envenenado y petrificado.",
+  "supervivencia": "Examina cuidadosamente las estatuas y la arquitectura antes de avanzar. Su paciencia de meses las vuelve letales atacantes sorpresa. Tienen la capacidad de retirarse en el aire sin sufrir ataques de oportunidad, así que prioriza interceptarlas en vuelo o atacar a distancia y atraparlas.",
+  "habilidad_titulo": "Emboscada Pétrea y Vuelo Táctico",
+  "habilidad": "Aprovechan su aspecto de piedra para mimetizarse totalmente en entornos urbanos o cavernosos, emboscando sin aviso previo. En combate utilizan su capacidad de «Pasar volando» para acercarse, atacar y retirarse con sus alas sin recibir ataques de oportunidad, desgastando así a las presas con sus garras.",
+  "lore": "Las gárgolas son esculturas en las que habitan espíritus elementales. Estas pesadas criaturas pétreas vuelan gracias a la magia y a sus alas, y suelen posarse en lugares donde pasan inadvertidas, como arquitectura ornamentada, formaciones rocosas o estatuas corrientes. Normalmente sirven a los usuarios de magia que les insuflaron vida; sin embargo, si campan a sus anchas, puede que gasten bromas crueles y roben tesoros que luego almacenan en guaridas elevadas.  Al no tener necesidades biológicas y poseer una paciencia sobrenatural, pueden esperar inmóviles durante meses para su emboscada idónea."
+}

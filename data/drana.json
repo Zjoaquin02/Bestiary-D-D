@@ -1,0 +1,27 @@
+{
+  "id": "drana",
+  "nombre": "Draña",
+  "rol": "monster",
+  "tipo": "Monstruosidad Grande",
+  "categoria": "Monstrosity",
+  "imagen": "css/img/drana.webp",
+  "ac": 19,
+  "hp": 123,
+  "speed": "9 m, trepar 9 m",
+  "stats": {
+    "str": 16,
+    "dex": 19,
+    "con": 18,
+    "int": 13,
+    "wis": 16,
+    "cha": 12
+  },
+  "peligro": 4,
+  "habitat": "Bosque, Infraoscuridad",
+  "vulnerable": "Sensible a la luz solar",
+  "resistente": "Ninguna especial",
+  "supervivencia": "Ten cuidado con sus múltiples ataques y su magia engañosa. Cuentan con excelente visión en la oscuridad y caminan libremente sobre telarañas sin ser obstaculizadas. Intenta llevarlas hacia la luz solar o utiliza destellos, ya que sufren desventaja en estas condiciones; y prepara antídotos para su estallido venenoso.",
+  "habilidad_titulo": "Ataques Ágiles y Magia de la Reina Araña",
+  "habilidad": "La draña aprovecha sus temibles patas y capacidad de trepar techos para emboscar. Puede realizar hasta tres ataques rápidos, intercalando asaltos con sus filosas patas delanteras o un estallido a distancia compuesto de veneno. Gracias a la bendición de Lolth, en ocasiones conjuran oscuridad, telarañas o fuego feérico.",
+  "lore": "Las drañas combinan rasgos de drows y de arañas gigantes. La malvada diosa Lolth es propensa a transformar a sus adoradores drows en drañas, ya sea como bendición o como maldición. Estas drañas suelen convertirse en siervas fanáticas de su diosa, o bien se sienten abrumadas por su transformación y viven únicamente para satisfacer sus instintos arácnidos depredadores. Las drañas también aparecen cuando comunidades enteras se ven transformadas por la ira de un dios perverso u otros medios mágicos, aunque también podrían ser parte de la población natural de un mundo. La mayoría viven bajo tierra o en frondosos bosques, donde mejor pueden aprovechar sus ágiles rasgos arácnidos."
+}

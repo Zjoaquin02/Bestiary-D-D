@@ -1,0 +1,27 @@
+{
+  "id": "banshee",
+  "nombre": "Banshee",
+  "rol": "monster",
+  "tipo": "Muerto viviente Mediano",
+  "categoria": "Undead",
+  "imagen": "css/img/banshee.webp",
+  "ac": 12,
+  "hp": 54,
+  "speed": "1,5 m, volar 12 m (levitar)",
+  "stats": {
+    "str": 1,
+    "dex": 14,
+    "con": 10,
+    "int": 12,
+    "wis": 11,
+    "cha": 17
+  },
+  "peligro": 4,
+  "habitat": "Cualquiera",
+  "vulnerable": "Ninguna especial",
+  "resistente": "Ácido, contundente, cortante, fuego, perforante, relámpago, trueno. Inmunidad a frío, necrótico, veneno.",
+  "supervivencia": "Evita enfrentarla en la oscuridad si es posible y asegúrate de fortalecer tu voluntad. Un éxito al resistir su terror te inmuniza durante un día, pero si profiere su lamento mortífero, quienes flaqueen pueden perder toda su vitalidad en un instante.",
+  "habilidad_titulo": "Toque Corruptor y Lamento",
+  "habilidad": "La banshee drena la vitalidad mediante un toque corruptor y posee un poder aterrador sobre las mentes. Puede emitir un Lamento Mortífero (una vez al día, lejos de la luz solar) que destroza los espíritus e instantáneamente puede derribar a las criaturas que lo oyen.",
+  "lore": "Las banshees, mensajeras de la desgracia y azote de los vivos, son espíritus obsesionados por una amargura o una tristeza sin resolver. Estos seres fantasmales de leyenda acaban con la vida de cualquiera que las vislumbre o que escuche sus aullidos siniestros. Aunque cualquier alma atormentada puede revivir en forma de banshee, son especialmente temidas por algunas comunidades élficas, que creen que quienes acumulan o destruyen la belleza (natural o de otro tipo) se arriesgan a regresar como estos seres."
+}

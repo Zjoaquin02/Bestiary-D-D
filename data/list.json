@@ -60,5 +60,9 @@
   { "id": "leviatan", "nombre": "Leviatán", "tipo": "boss" },
   { "id": "zaratan", "nombre": "Zaratan", "tipo": "boss" },
   { "id": "kruthik", "nombre": "Kruthik", "tipo": "monster" },
-  { "id": "driade", "nombre": "Dríade", "tipo": "monster" }
+  { "id": "driade", "nombre": "Dríade", "tipo": "monster" },
+  { "id": "banshee", "nombre": "Banshee", "tipo": "monster" },
+  { "id": "drana", "nombre": "Draña", "tipo": "monster" },
+  { "id": "gargola", "nombre": "Gárgola", "tipo": "monster" },
+  { "id": "elementales", "nombre": "Elementales", "tipo": "monster" }
 ]

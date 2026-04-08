@@ -1,0 +1,111 @@
+{
+  "id": "elementales",
+  "is_multi": true,
+  "nombre": "Elementales",
+  "variantes": [
+    {
+      "nombre": "Elemental de Agua",
+      "rol": "monster",
+      "tipo": "Elemental Grande",
+      "categoria": "Elemental",
+      "imagen": "css/img/elemental_agua.webp",
+      "ac": 14,
+      "hp": 114,
+      "speed": "9 m, nadar 27 m",
+      "stats": {
+        "str": 18,
+        "dex": 14,
+        "con": 18,
+        "int": 5,
+        "wis": 10,
+        "cha": 8
+      },
+      "peligro": 5,
+      "habitat": "Agua, costa, pantanos, Plano del Agua",
+      "vulnerable": "Ninguna",
+      "resistente": "Resistencia: Ácido, fuego. Inmunidad: Veneno, agarrado, apresado, cansancio, derribado, envenenado, inconsciente, paralizado, petrificado.",
+      "supervivencia": "Extrema precaución al sumergirte; pueden engullirte y aplastarte en su forma acuosa (Anegar). Si logras hacerles daño de frío, reducirás considerablemente su velocidad, ganando ventaja para atacarlos y retirarte.",
+      "habilidad_titulo": "Forma Acuosa y Anegar",
+      "habilidad": "Aprovechan su inestabilidad para moldearse, pudiendo asfixiar y golpear internamente a las criaturas que atrapan en su interior. Pueden moverse libremente ocupando el espacio enemigo sin restricción alguna.",
+      "lore": "Los espíritus del Plano Elemental del Agua transforman los líquidos amorfos en elementales de agua, que son seres acuosos que poseen el poder del oleaje. Son tan mutables como cualquier líquido, lo que les permite romper como olas contra sus enemigos y filtrarse por grietas estrechas. Son capaces de aplastar a sus adversarios con géiseres a modo de extremidades o caer como una riada sobre otras criaturas para ahogarlas en su agitado interior."
+    },
+    {
+      "nombre": "Elemental de Aire",
+      "rol": "monster",
+      "tipo": "Elemental Grande",
+      "categoria": "Elemental",
+      "imagen": "css/img/elemental_aire.webp",
+      "ac": 15,
+      "hp": 90,
+      "speed": "3 m, volar 27 m (levitar)",
+      "stats": {
+        "str": 14,
+        "dex": 20,
+        "con": 14,
+        "int": 6,
+        "wis": 10,
+        "cha": 6
+      },
+      "peligro": 5,
+      "habitat": "Montañas, desiertos, cielos, Plano del Aire",
+      "vulnerable": "Ninguna",
+      "resistente": "Resistencia: Contundente, cortante, perforante, relámpago. Inmunidad: Trueno, veneno, cansancio, derribado, envenenado, inconsciente, paralizado, petrificado.",
+      "supervivencia": "Mantén las distancias si es posible para evitar ser golpeado o arrojado por su torbellino furioso. Su altísima resistencia a armas tradicionales requiere utilizar artes arcanas para dañarles.",
+      "habilidad_titulo": "Forma Aérea y Torbellino",
+      "habilidad": "Se mueven libremente por el espacio enemigo. Utilizan ráfagas violentas de vientos para realizar un «Torbellino» capaz de empujar a múltiples enemigos con fuerza estruendosa, arrojando o derribando a cualquiera en su camino.",
+      "lore": "Los elementales de aire son espíritus de energía del Plano Elemental del Aire que juntan nubes y vientos para formar cuerpos en continuo cambio con extremidades difusas y rasgos imprecisos. Fuera de su plano de origen, pueden servir a los usuarios de magia que los conjuran o congregarse en nexos planarmente inestables."
+    },
+    {
+      "nombre": "Elemental de Fuego",
+      "rol": "monster",
+      "tipo": "Elemental Grande",
+      "categoria": "Elemental",
+      "imagen": "css/img/elemental_fuego.webp",
+      "ac": 13,
+      "hp": 93,
+      "speed": "15 m",
+      "stats": {
+        "str": 10,
+        "dex": 17,
+        "con": 16,
+        "int": 6,
+        "wis": 10,
+        "cha": 7
+      },
+      "peligro": 5,
+      "habitat": "Desiertos, volcanes, Plano del Fuego",
+      "vulnerable": "Agua masiva",
+      "resistente": "Resistencia: Contundente, cortante, perforante. Inmunidad: Fuego, veneno, agarrado, apresado, cansancio, derribado, envenenado, inconsciente, paralizado, petrificado.",
+      "supervivencia": "El agua abundante es su mayor enemigo: arrojar agua o atraerlo a fuentes de la misma lo daña por cada metro que se adentre. No acerques componentes inflamables a este Elemental; te incinerará vivo con tan solo permanecer cerca.",
+      "habilidad_titulo": "Forma e Iluminación de Fuego",
+      "habilidad": "Cuentan con un Aura de Fuego que emana un calor abrasador constante, e incendian todo lo inflamable a su paso. Tienen inmunidad total al fuego e infligen inmenso daño térmico de área solo pasando a tu lado.",
+      "lore": "Los elementales de fuego surgen cuando los espíritus de las llamas habitan candelas o lumbre. Suelen arder con llamas rojas, naranjas, o variadas, y son tangibles, pudiendo prender a sus enemigos velozmente debido a su insaciable apetito destructor."
+    },
+    {
+      "nombre": "Elemental de Tierra",
+      "rol": "monster",
+      "tipo": "Elemental Grande",
+      "categoria": "Elemental",
+      "imagen": "css/img/elemental_tierra.webp",
+      "ac": 17,
+      "hp": 147,
+      "speed": "9 m, excavar 9 m",
+      "stats": {
+        "str": 20,
+        "dex": 8,
+        "con": 20,
+        "int": 5,
+        "wis": 10,
+        "cha": 5
+      },
+      "peligro": 5,
+      "habitat": "Montañas, cavernas, Plano de la Tierra",
+      "vulnerable": "Trueno",
+      "resistente": "Inmunidad: Veneno, cansancio, envenenado, inconsciente, paralizado, petrificado.",
+      "supervivencia": "Un elemental de tierra es devastador física y estructuralmente; puede aparecer desde debajo de la tierra (excluyendo suelo manufacturado, siempre que no sea mágica), lanzándote grandes bloques de roca. Aprovecha su debilidad sónica o conjuros del elemento trueno y evita refugiarte en murallas convencionales.",
+      "habilidad_titulo": "Monstruo de Asedio y Deslizamiento",
+      "habilidad": "Se desliza a través de roca pura sin perturbarla. Además, es un Monstruo de Asedio natural capaz de doblegar y arruinar por completo toda estructura u objeto a base de golpes de inmensa masa pétrea.",
+      "lore": "Los espíritus primordiales del Plano de la Tierra se fusionan con rocas y minerales formando colosos pesados cuyas extremidades asemejan rocas toscas. Inmensamente fuertes e imparables; en sus puños traen la destrucción."
+    }
+  ]
+}

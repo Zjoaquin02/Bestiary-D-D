@@ -740,4 +740,56 @@ body.boss-mode .annotations-box h3 {
 
 body.boss-mode #notes-area {
     color: #ffffff; /* Tinta blanca para los jefes */
+}
+
+/* ============================================================
+   10. VARIANTES (TABS)
+   ============================================================ */
+.variant-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px dashed var(--gold);
+    padding-bottom: 15px;
+}
+
+.variant-btn {
+    background: var(--parchment-dark);
+    color: var(--ink);
+    border: 2px solid var(--border-color);
+    padding: 8px 16px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    transition: all 0.3s;
+}
+
+.variant-btn:hover {
+    background: var(--gold);
+    color: var(--parchment-base);
+}
+
+.variant-btn.active {
+    background: var(--accent);
+    color: var(--parchment-base);
+    border-color: var(--accent);
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+}
+
+body.boss-mode .variant-btn {
+    background: #1a0505;
+    color: #cfcfcf;
+    border-color: #ff0000;
+}
+
+body.boss-mode .variant-btn:hover {
+    background: #7a1f1f;
+}
+
+body.boss-mode .variant-btn.active {
+    background: #ff0000;
+    color: #000;
 }
