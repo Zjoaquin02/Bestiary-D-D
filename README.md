@@ -34,6 +34,13 @@ El campo `"peligro"` en cada JSON acepta valores del **1 al 5**, reservando el *
 - `css/styles.css`: Estilos globales y diseño del libro.
 - `js/app.js`: Lógica principal de la aplicación (carga de datos, renderizado).
 - `data/`: Carpeta que contiene los archivos JSON con la información de las criaturas.
+- `css/img/`: Carpeta de ilustraciones locales. Alternativamente, el campo `"imagen"` de cada JSON puede apuntar a una URL externa de [Cloudinary](https://cloudinary.com) para reducir el peso del repositorio.
+
+  **Ejemplo con Cloudinary:**
+  ```json
+  "imagen": "https://res.cloudinary.com/TU_CLOUD_NAME/image/upload/q_auto,f_auto/bestiary/criatura.webp"
+  ```
+  > `q_auto` optimiza la calidad automáticamente · `f_auto` elige el mejor formato según el navegador (webp/avif)
 
 ## 🚀 Cómo Empezar
 
@@ -45,6 +52,7 @@ El campo `"peligro"` en cada JSON acepta valores del **1 al 5**, reservando el *
 
 - **Fuentes**: [Google Fonts](https://fonts.google.com/)
 - **Texturas**: [Transparent Textures](https://www.transparenttextures.com/)
+- **Imágenes (CDN)**: [Cloudinary](https://cloudinary.com) — almacenamiento y optimización automática de imágenes en la nube. Plan gratuito incluye 25 GB de almacenamiento.
 
 ---
 *Creado con dedicación para la mesa de juego.*
