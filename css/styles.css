@@ -475,6 +475,17 @@ header {
     margin-top: 40px;
     text-align: center;
     padding-top: 20px;
+    position: relative;
+}
+
+.watermark {
+    margin-top: 25px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 0.8rem;
+    opacity: 0.4;
+    letter-spacing: 2px;
+    user-select: none;
+    cursor: default;
 }
 
 
