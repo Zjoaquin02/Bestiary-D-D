@@ -11,7 +11,7 @@
   { "id": "osos", "nombre": "Osos", "tipo": "monster" },
   { "id": "arana_gigante", "nombre": "Araña Gigante", "tipo": "monster" },
   { "id": "esqueletos", "nombre": "Esqueletos", "tipo": "monster" },
-  { "id": "zombies", "nombre": "Zombis", "tipo": "monster" },
+  { "id": "zombies", "nombre": "Zombies", "tipo": "monster" },
   { "id": "mimic", "nombre": "Mimic", "tipo": "monster" },
   { "id": "basilisco", "nombre": "Basilisco", "tipo": "monster" },
   { "id": "cubo_gelatinoso", "nombre": "Cubo Gelatinoso", "tipo": "monster" },
@@ -56,5 +56,9 @@
   { "id": "otyugh", "nombre": "Otyugh", "tipo": "monster" },
   { "id": "mastin_sombrio", "nombre": "Mastín Sombrío", "tipo": "monster" },
   { "id": "saga", "nombre": "Saga", "tipo": "monster" },
-  { "id": "manticora", "nombre": "Mantícora", "tipo": "boss" }
+  { "id": "manticora", "nombre": "Mantícora", "tipo": "boss" },
+  { "id": "leviatan", "nombre": "Leviatán", "tipo": "boss" },
+  { "id": "zaratan", "nombre": "Zaratan", "tipo": "boss" },
+  { "id": "kruthik", "nombre": "Kruthik", "tipo": "monster" },
+  { "id": "driade", "nombre": "Dríade", "tipo": "monster" }
 ]

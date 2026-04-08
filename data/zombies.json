@@ -4,7 +4,7 @@
   "rol": "monster",
   "tipo": "No-muertos Putrefactos",
   "categoria": "Undead",
-  "imagen": "css/img/zombies.webp",
+  "imagen": "https://res.cloudinary.com/dkz5sueps/image/upload/v1775646675/zombies_dqput3.webp",
   "ac": 8,
   "hp": 22,
   "speed": "20 ft",

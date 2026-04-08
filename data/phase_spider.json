@@ -21,7 +21,7 @@
   "vulnerable": "Fuego, Perforante (Magia Arcanum)",
   "resistente": "Magia de Velo, Teletransporte",
   "supervivencia": "No dejes que te lleve al Plano Etéreo solo. Usa magia de 'Ver lo Invisible' para anticipar sus saltos de dimensión y ataca justo después de que pierda su forma de niebla.",
-  "habilidad_titulo": "Salto al Plano Etéreo (Ethereal Jaunt)",
-  "habilidad": "Una araña de seis ojos que puede caminar entre las dimensiones.",
-  "lore": "Una araña de seis ojos que puede caminar entre las dimensiones. Sus telas no solo atrapan el cuerpo de la víctima."
+  "habilidad_titulo": "Tránsito Etéreo (Ethereal Jaunt)",
+  "habilidad": "Como acción adicional, puede desplazarse instantáneamente entre el Plano Material y el Plano Etéreo. Ataca desde la niebla etérea donde los mortales no pueden verla, muerde con su veneno paralizante y desaparece antes de recibir represalia alguna. Sus telarañas, impregnadas de energía del velo, pueden atrapar al objetivo en una semidimensión donde el tiempo fluye distorsionado.",
+  "lore": "Las Phase Spiders son abominaciones que existen en el umbral entre dos mundos. Se cree que son el resultado de arañas normales expuestas durante generaciones a grandes fisuras planares en mazmorras olvidadas. Sus seis ojos de color violáceo perciben simultáneamente ambos planos. Los magos del Colegio Espectral las clasifican como una de las criaturas más difíciles de atrapar vivas, pues mueren en el Plano Etéreo si su cuerpo es destruido en el Material, pero el proceso inverso no aplica. Algunas leyendas hablan de ejemplares ancianos capaces de arrastrar a sus presas al Plano Etéreo para devorarlas donde ningún aliado puede acudir en su auxilio."
 }

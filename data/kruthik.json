@@ -1,0 +1,27 @@
+{
+  "id": "kruthik",
+  "nombre": "Kruthik",
+  "rol": "monster",
+  "tipo": "Monstruosidad",
+  "categoria": "Insectoides Subterráneos",
+  "imagen": "css/img/kruthik.webp",
+  "ac": 16,
+  "hp": 39,
+  "speed": "40 ft, excavar 20 ft",
+  "stats": {
+    "str": 15,
+    "dex": 16,
+    "con": 15,
+    "int": 7,
+    "wis": 12,
+    "cha": 10
+  },
+  "peligro": 2,
+  "habitat": "Sistemas de cuevas, Ruinas enterradas",
+  "vulnerable": "Ninguna",
+  "resistente": "Ninguna",
+  "habilidad_titulo": "Tácticas de Manada y Proyección de Púas",
+  "habilidad": "Se aprovechan de su número atacando todos a la vez a objetivos solitarios o desorientados, lanzando además púas espinosas de sus cuerpos con gran precisión.",
+  "supervivencia": "Intenta mantener terreno elevado o sitúate en superficies endurecidas donde no puedan excavar y emboscarte; además, vigila siempre tu retaguardia.",
+  "lore": "Monstruosidades reptilianas y acorazadas que combinan características de lobos e insectos grandes. Los Kruthiks crean grandes colmenas subterráneas. Devoran de forma agresiva cualquier cosa que cruce las galerías cercanas a su colonia."
+}

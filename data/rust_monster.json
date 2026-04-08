@@ -21,7 +21,7 @@
   "vulnerable": "Ninguna",
   "resistente": "Todo metal (Inmune)",
   "supervivencia": "No uses armas ni armaduras de metal si no quieres perderlas para siempre. Usa palos de madera, piedras o magia pura. Si te acercas, su sola presencia oxidará tus pertenencias en segundos.",
-  "habilidad_titulo": "Antenas Oxidantes",
-  "habilidad": "Se alimenta de metales ferrosos, convirtiendo el acero más duro en polvo oxidado al tacto.",
-  "lore": "Se alimenta de metales ferrosos, convirtiendo el acero más duro en polvo oxidado al tacto. Las crónicas de las Minas de Ocalco relatan su avaricia por el hierro."
+  "habilidad_titulo": "Antenas Corruptoras y Olfato Férreo",
+  "habilidad": "Sus antenas segregan una sustancia química que oxida instantáneamente cualquier metal ferroso al contacto: espadas, armaduras y escudos se desintegran en segundos. Puede detectar metal a través de muros de piedra a más de 30 pies de distancia, lo que lo convierte en un depredador imparable dentro de dungeons. Incluso el roce involuntario con su caparazón puede dañar el filo de un arma de calidad.",
+  "lore": "Pocos seres en todos los planos generan tanto pánico entre aventureros veteranos como el Rust Monster. Un guerrero de armadura completa que ha sobrevivido dragones puede quedar indefenso en segundos ante esta criatura de aspecto inofensivo. Su origen es debatido: algunas teorías arcanas sostienen que fueron creados deliberadamente por magos subterráneos para proteger sus cámaras del tesoro de saqueadores, mientras que otras los consideran una evolución natural de insectos expuestos a vetas de mineral alquímico. Sea cual sea su origen, los mineros, héroes y mercaderes los temen por igual. No matan por placer; solo se alimentan. Pero dejar tu equipo en polvo de óxido antes de enfrentar al resto de una mazmorra puede ser una sentencia de muerte igual de efectiva."
 }

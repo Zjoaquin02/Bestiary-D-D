@@ -21,7 +21,7 @@
   "vulnerable": "Fuego, Perforante",
   "resistente": "Climas Gélidos",
   "supervivencia": "No dejes que te rodeen. Los lobos suelen atacar en manada y usan tácticas simples para distraer a su presa. Si ves a uno solo, es probable que haya cinco más en las sombras.",
-  "habilidad_titulo": "Aullido de Llamada",
-  "habilidad": "Cazadores sociales que acechan en los bosques, esperando a mercaderes y viajeros desprevenidos.",
-  "lore": "Cazadores sociales que acechan en los bosques, esperando a mercaderes y viajeros desprevenidos. Las crónicas de los Montañeses del Norte relatan sus hazañas."
+  "habilidad_titulo": "Aullido de Manada y Derribo",
+  "habilidad": "El lobo alfa emite un aullido escalofriante que convoca a los miembros dispersos de la manada en un radio amplio, pudiendo atraer de 1d4 lobos adicionales en 1d4 rondas. Sus ataques coordinados apuntan siempre a derribar al objetivo: si el mordisco conecta, el objetivo debe superar una prueba de fuerza o caer al suelo, quedando vulnerable a los ataques de todos los demás miembros de la manada que lo rodean.",
+  "lore": "Los lobos son mucho más que simples bestias: son depredadores sociales con inteligencia táctica que rivaliza con la de muchos humanoides. Una manada tiene jerarquía clara, lenguaje corporal complejo y memoria a largo plazo de territorios y enemigos. Conocen las rutas de los mercaderes, los horarios de las patrullas y los puntos ciegos de los campamentos. En el folklore de los pueblos fronterizos, el lobo solitario que cruza el camino de noche es siempre un presagio: no de su presencia, sino de la de toda su manada escondida en los árboles. Venerados como manifestaciones del dios de la caza en culturas bárbaras, y temidos como depredadores implacables en zonas civilizadas, los lobos ocupan un lugar dual en la imaginación del mundo: símbolo de libertad salvaje y de muerte silenciosa que llega sin advertencia."
 }
