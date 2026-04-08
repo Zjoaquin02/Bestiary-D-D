@@ -1,0 +1,27 @@
+{
+  "id": "leviatan",
+  "nombre": "Leviatán",
+  "rol": "boss",
+  "tipo": "Elemental Gigantesco",
+  "categoria": "Elemental del Agua",
+  "imagen": "css/img/leviatan.webp",
+  "ac": 17,
+  "hp": 328,
+  "speed": "40 ft, nado 120 ft",
+  "stats": {
+    "str": 30,
+    "dex": 14,
+    "con": 24,
+    "int": 2,
+    "wis": 18,
+    "cha": 17
+  },
+  "peligro": 20,
+  "habitat": "Profundidades oceánicas, Planos de Agua",
+  "vulnerable": "Ninguna",
+  "resistente": "Ácido, Frío, Fuego, Daño no mágico",
+  "habilidad_titulo": "Maremoto y Ola Gigante",
+  "habilidad": "Crea monstruosas olas a voluntad para arrastrar a sus rivales. Además, su inmenso cuerpo elemental genera grandes corrientes mágicas de agua en una gran zona.",
+  "supervivencia": "Jamás te enfrentes a un Leviatán en el mar abierto; busca escapar a tierra firme, o zonas aéreas. Su tamaño y velocidad en el agua son letales.",
+  "lore": "El Leviatán es la encarnación destructiva del océano y las tormentas acuáticas. Aislado normalmente en las profundidades oceánicas, cuando emerge a la superficie causa desastres a la escala de tsunamis. Es un ente mítico, una calamidad viviente de gran poder."
+}

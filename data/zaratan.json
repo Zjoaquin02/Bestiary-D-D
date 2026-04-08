@@ -1,0 +1,27 @@
+{
+  "id": "zaratan",
+  "nombre": "Zaratan",
+  "rol": "boss",
+  "tipo": "Elemental Gigantesco",
+  "categoria": "Elemental de la Tierra",
+  "imagen": "css/img/zaratan.webp",
+  "ac": 21,
+  "hp": 307,
+  "speed": "40 ft",
+  "stats": {
+    "str": 30,
+    "dex": 10,
+    "con": 30,
+    "int": 2,
+    "wis": 21,
+    "cha": 18
+  },
+  "peligro": 22,
+  "habitat": "Montañas, Desiertos Rocosos y Planos de Tierra",
+  "vulnerable": "Ninguna",
+  "resistente": "Frío, Fuego, Rayo, Daño contundente, cortante y perforante de armas no mágicas",
+  "habilidad_titulo": "Presencia Sísmica y Refugio Terrestre",
+  "habilidad": "Su simple andar genera potentes temblores que fracturan la tierra y derrumban edificaciones. Puede retraerse a su caparazón convirtiéndose en casi indestructible y escupir escombros.",
+  "supervivencia": "Es como luchar contra una montaña en movimiento. Ataca desde gran altura o usa conjuros que ignoren las formidables defensas físicas y se enfoquen en su precaria agilidad.",
+  "lore": "Un Zaratan es un elemental de la tierra de proporciones apocalípticas. A menudo es confundido con una colina grande o una montaña que cobra vida repentinamente y causa temblores a su paso. Simboliza la inmutabilidad y la ira cataclísmica de la propia tierra."
+}

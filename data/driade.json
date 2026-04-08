@@ -1,0 +1,27 @@
+{
+  "id": "driade",
+  "nombre": "Dríade",
+  "rol": "monster",
+  "tipo": "Feérico",
+  "categoria": "Espíritus Naturales",
+  "imagen": "css/img/driade.webp",
+  "ac": 11,
+  "hp": 22,
+  "speed": "30 ft",
+  "stats": {
+    "str": 10,
+    "dex": 12,
+    "con": 11,
+    "int": 14,
+    "wis": 15,
+    "cha": 18
+  },
+  "peligro": 1,
+  "habitat": "Bosques profundos y arboledas sagradas",
+  "vulnerable": "Fuego",
+  "resistente": "Magia Feérica",
+  "habilidad_titulo": "Traslación Arbórea y Encanto",
+  "habilidad": "Cuentan con la poderosa magia del bosque, que les permite encantar a humanoides y bestias, además de poder fundirse mágicamente con la corteza de los árboles para teletransportarse a un árbol cercano.",
+  "supervivencia": "Gánate su favor de manera pacífica o recurre al fuego si la diplomacia no funciona. No te confíes si lucen inofensivas, tienen a todo un ecosistema de su lado.",
+  "lore": "Las dríades son espíritus protectores de los árboles y la naturaleza pura de los bosques antiguos, en su mayoría asociadas a fuertes robles u otras maderas veneradas. Raramente salen de la proximidad del árbol con el que están vinculadas."
+}

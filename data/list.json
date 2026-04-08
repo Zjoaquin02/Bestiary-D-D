@@ -56,5 +56,9 @@
   { "id": "otyugh", "nombre": "Otyugh", "tipo": "monster" },
   { "id": "mastin_sombrio", "nombre": "Mastín Sombrío", "tipo": "monster" },
   { "id": "saga", "nombre": "Saga", "tipo": "monster" },
-  { "id": "manticora", "nombre": "Mantícora", "tipo": "boss" }
+  { "id": "manticora", "nombre": "Mantícora", "tipo": "boss" },
+  { "id": "leviatan", "nombre": "Leviatán", "tipo": "boss" },
+  { "id": "zaratan", "nombre": "Zaratan", "tipo": "boss" },
+  { "id": "kruthik", "nombre": "Kruthik", "tipo": "monster" },
+  { "id": "driade", "nombre": "Dríade", "tipo": "monster" }
 ]
