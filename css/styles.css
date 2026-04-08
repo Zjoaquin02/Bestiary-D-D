@@ -603,8 +603,31 @@ body.boss-mode .survival-note p {
         display: none;
     }
 
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
     .illustration-container {
-        margin: 20px 0;
+        display: contents;
+    }
+
+    .monster-img {
+        margin: 20px auto 10px auto;
+    }
+
+    .caption {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .annotations-box {
+        order: 10;
+        margin-top: 40px;
+    }
+
+    .footer-nav {
+        order: 11;
     }
 
     #main-title {
