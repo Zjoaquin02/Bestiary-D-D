@@ -1,312 +1,64 @@
 [
-  {
-    "id": "fenix",
-    "nombre": "Fénix Arcano",
-    "tipo": "boss"
-  },
-  {
-    "id": "kipine",
-    "nombre": "Kipine",
-    "tipo": "monster"
-  },
-  {
-    "id": "goblins",
-    "nombre": "Goblins",
-    "tipo": "monster"
-  },
-  {
-    "id": "orcos",
-    "nombre": "Orcos",
-    "tipo": "monster"
-  },
-  {
-    "id": "hobgoblins",
-    "nombre": "Hobgoblins",
-    "tipo": "monster"
-  },
-  {
-    "id": "kobolds",
-    "nombre": "Kobolds",
-    "tipo": "monster"
-  },
-  {
-    "id": "bandidos",
-    "nombre": "Bandidos",
-    "tipo": "monster"
-  },
-  {
-    "id": "cultistas",
-    "nombre": "Cultistas",
-    "tipo": "monster"
-  },
-  {
-    "id": "lobos",
-    "nombre": "Lobos",
-    "tipo": "monster"
-  },
-  {
-    "id": "osos",
-    "nombre": "Osos",
-    "tipo": "monster"
-  },
-  {
-    "id": "arana_gigante",
-    "nombre": "Araña Gigante",
-    "tipo": "monster"
-  },
-  {
-    "id": "esqueletos",
-    "nombre": "Esqueletos",
-    "tipo": "monster"
-  },
-  {
-    "id": "zombies",
-    "nombre": "Zombies",
-    "tipo": "monster"
-  },
-  {
-    "id": "mimic",
-    "nombre": "Mimic",
-    "tipo": "monster"
-  },
-  {
-    "id": "basilisco",
-    "nombre": "Basilisco",
-    "tipo": "monster"
-  },
-  {
-    "id": "cubo_gelatinoso",
-    "nombre": "Cubo Gelatinoso",
-    "tipo": "monster"
-  },
-  {
-    "id": "ankheg",
-    "nombre": "Ankheg",
-    "tipo": "monster"
-  },
-  {
-    "id": "dragon_rojo",
-    "nombre": "Dragón Rojo",
-    "tipo": "boss"
-  },
-  {
-    "id": "lich",
-    "nombre": "Lich Ancestral",
-    "tipo": "boss"
-  },
-  {
-    "id": "tarrasque",
-    "nombre": "Tarrasque",
-    "tipo": "boss"
-  },
-  {
-    "id": "beholder",
-    "nombre": "Beholder",
-    "tipo": "boss"
-  },
-  {
-    "id": "kraken",
-    "nombre": "Kraken",
-    "tipo": "boss"
-  },
-  {
-    "id": "balor",
-    "nombre": "Demonio Balor",
-    "tipo": "boss"
-  },
-  {
-    "id": "vampiro_ancestral",
-    "nombre": "Vampiro Ancestral",
-    "tipo": "boss"
-  },
-  {
-    "id": "bugbears",
-    "nombre": "Bugbears",
-    "tipo": "monster"
-  },
-  {
-    "id": "gnolls",
-    "nombre": "Gnolls",
-    "tipo": "monster"
-  },
-  {
-    "id": "harpias",
-    "nombre": "Harpías",
-    "tipo": "monster"
-  },
-  {
-    "id": "lizardfolk",
-    "nombre": "Lizardfolk",
-    "tipo": "monster"
-  },
-  {
-    "id": "doppelganger",
-    "nombre": "Doppelganger",
-    "tipo": "monster"
-  },
-  {
-    "id": "rust_monster",
-    "nombre": "Rust Monster",
-    "tipo": "monster"
-  },
-  {
-    "id": "bestia_tremula",
-    "nombre": "Bestia Trémula",
-    "tipo": "monster"
-  },
-  {
-    "id": "phase_spider",
-    "nombre": "Phase Spider",
-    "tipo": "monster"
-  },
-  {
-    "id": "treant",
-    "nombre": "Treant",
-    "tipo": "monster"
-  },
-  {
-    "id": "golem_hierro",
-    "nombre": "Golem de Hierro",
-    "tipo": "monster"
-  },
-  {
-    "id": "hag",
-    "nombre": "Hag (Bruja)",
-    "tipo": "monster"
-  },
-  {
-    "id": "vecna",
-    "nombre": "Vecna",
-    "tipo": "boss"
-  },
-  {
-    "id": "tiamat",
-    "nombre": "Tiamat",
-    "tipo": "boss"
-  },
-  {
-    "id": "asmodeus",
-    "nombre": "Asmodeus",
-    "tipo": "boss"
-  },
-  {
-    "id": "nightwalker",
-    "nombre": "Nightwalker",
-    "tipo": "boss"
-  },
-  {
-    "id": "demilich",
-    "nombre": "Demilich",
-    "tipo": "boss"
-  },
-  {
-    "id": "elder_brain",
-    "nombre": "Elder Brain",
-    "tipo": "boss"
-  },
-  {
-    "id": "yeti",
-    "nombre": "Yeti",
-    "tipo": "monster"
-  },
-  {
-    "id": "duergar",
-    "nombre": "Duergar",
-    "tipo": "monster"
-  },
-  {
-    "id": "mind_flayer",
-    "nombre": "Azotamentes",
-    "tipo": "monster"
-  },
-  {
-    "id": "oso_lechuza",
-    "nombre": "Oso Lechuza",
-    "tipo": "monster"
-  },
-  {
-    "id": "aboleth",
-    "nombre": "Aboleth",
-    "tipo": "boss"
-  },
-  {
-    "id": "troll",
-    "nombre": "Troll",
-    "tipo": "monster"
-  },
-  {
-    "id": "slaad",
-    "nombre": "Slaad",
-    "tipo": "monster"
-  },
-  {
-    "id": "behir",
-    "nombre": "Behir",
-    "tipo": "monster"
-  },
-  {
-    "id": "espantapajaros",
-    "nombre": "Espantapájaros",
-    "tipo": "monster"
-  },
-  {
-    "id": "xorn",
-    "nombre": "Xorn",
-    "tipo": "monster"
-  },
-  {
-    "id": "merrow",
-    "nombre": "Merrow",
-    "tipo": "monster"
-  },
-  {
-    "id": "notico",
-    "nombre": "Nótico",
-    "tipo": "monster"
-  },
-  {
-    "id": "minotauro",
-    "nombre": "Minotauro",
-    "tipo": "monster"
-  },
-  {
-    "id": "otyugh",
-    "nombre": "Otyugh",
-    "tipo": "monster"
-  },
-  {
-    "id": "mastin_sombrio",
-    "nombre": "Mastín Sombrío",
-    "tipo": "monster"
-  },
-  {
-    "id": "saga",
-    "nombre": "Saga",
-    "tipo": "monster"
-  },
-  {
-    "id": "manticora",
-    "nombre": "Mantícora",
-    "tipo": "boss"
-  },
-  {
-    "id": "leviatan",
-    "nombre": "Leviatán",
-    "tipo": "boss"
-  },
-  {
-    "id": "zaratan",
-    "nombre": "Zaratan",
-    "tipo": "boss"
-  },
-  {
-    "id": "kruthik",
-    "nombre": "Kruthik",
-    "tipo": "monster"
-  },
-  {
-    "id": "driade",
-    "nombre": "Dríade",
-    "tipo": "monster"
-  }
+  { "id": "fenix", "nombre": "Fénix Arcano", "tipo": "boss" },
+  { "id": "kipine", "nombre": "Kipine", "tipo": "monster" },
+  { "id": "goblins", "nombre": "Goblins", "tipo": "monster" },
+  { "id": "orcos", "nombre": "Orcos", "tipo": "monster" },
+  { "id": "hobgoblins", "nombre": "Hobgoblins", "tipo": "monster" },
+  { "id": "kobolds", "nombre": "Kobolds", "tipo": "monster" },
+  { "id": "bandidos", "nombre": "Bandidos", "tipo": "monster" },
+  { "id": "cultistas", "nombre": "Cultistas", "tipo": "monster" },
+  { "id": "lobos", "nombre": "Lobos", "tipo": "monster" },
+  { "id": "osos", "nombre": "Osos", "tipo": "monster" },
+  { "id": "arana_gigante", "nombre": "Araña Gigante", "tipo": "monster" },
+  { "id": "esqueletos", "nombre": "Esqueletos", "tipo": "monster" },
+  { "id": "zombies", "nombre": "Zombies", "tipo": "monster" },
+  { "id": "mimic", "nombre": "Mimic", "tipo": "monster" },
+  { "id": "basilisco", "nombre": "Basilisco", "tipo": "monster" },
+  { "id": "cubo_gelatinoso", "nombre": "Cubo Gelatinoso", "tipo": "monster" },
+  { "id": "ankheg", "nombre": "Ankheg", "tipo": "monster" },
+  { "id": "dragon_rojo", "nombre": "Dragón Rojo", "tipo": "boss" },
+  { "id": "lich", "nombre": "Lich Ancestral", "tipo": "boss" },
+  { "id": "tarrasque", "nombre": "Tarrasque", "tipo": "boss" },
+  { "id": "beholder", "nombre": "Beholder", "tipo": "boss" },
+  { "id": "kraken", "nombre": "Kraken", "tipo": "boss" },
+  { "id": "balor", "nombre": "Demonio Balor", "tipo": "boss" },
+  { "id": "vampiro_ancestral", "nombre": "Vampiro Ancestral", "tipo": "boss" },
+  { "id": "bugbears", "nombre": "Bugbears", "tipo": "monster" },
+  { "id": "gnolls", "nombre": "Gnolls", "tipo": "monster" },
+  { "id": "harpias", "nombre": "Harpías", "tipo": "monster" },
+  { "id": "lizardfolk", "nombre": "Lizardfolk", "tipo": "monster" },
+  { "id": "doppelganger", "nombre": "Doppelganger", "tipo": "monster" },
+  { "id": "rust_monster", "nombre": "Rust Monster", "tipo": "monster" },
+  { "id": "bestia_tremula", "nombre": "Bestia Trémula", "tipo": "monster" },
+  { "id": "phase_spider", "nombre": "Phase Spider", "tipo": "monster" },
+  { "id": "treant", "nombre": "Treant", "tipo": "monster" },
+  { "id": "golem_hierro", "nombre": "Golem de Hierro", "tipo": "monster" },
+  { "id": "hag", "nombre": "Hag (Bruja)", "tipo": "monster" },
+  { "id": "vecna", "nombre": "Vecna", "tipo": "boss" },
+  { "id": "tiamat", "nombre": "Tiamat", "tipo": "boss" },
+  { "id": "asmodeus", "nombre": "Asmodeus", "tipo": "boss" },
+  { "id": "nightwalker", "nombre": "Nightwalker", "tipo": "boss" },
+  { "id": "demilich", "nombre": "Demilich", "tipo": "boss" },
+  { "id": "elder_brain", "nombre": "Elder Brain", "tipo": "boss" },
+  { "id": "yeti", "nombre": "Yeti", "tipo": "monster" },
+  { "id": "duergar", "nombre": "Duergar", "tipo": "monster" },
+  { "id": "mind_flayer", "nombre": "Azotamentes", "tipo": "monster" },
+  { "id": "oso_lechuza", "nombre": "Oso Lechuza", "tipo": "monster" },
+  { "id": "aboleth", "nombre": "Aboleth", "tipo": "boss" },
+  { "id": "troll", "nombre": "Troll", "tipo": "monster" },
+  { "id": "slaad", "nombre": "Slaad", "tipo": "monster" },
+  { "id": "behir", "nombre": "Behir", "tipo": "monster" },
+  { "id": "espantapajaros", "nombre": "Espantapájaros", "tipo": "monster" },
+  { "id": "xorn", "nombre": "Xorn", "tipo": "monster" },
+  { "id": "merrow", "nombre": "Merrow", "tipo": "monster" },
+  { "id": "notico", "nombre": "Nótico", "tipo": "monster" },
+  { "id": "minotauro", "nombre": "Minotauro", "tipo": "monster" },
+  { "id": "otyugh", "nombre": "Otyugh", "tipo": "monster" },
+  { "id": "mastin_sombrio", "nombre": "Mastín Sombrío", "tipo": "monster" },
+  { "id": "saga", "nombre": "Saga", "tipo": "monster" },
+  { "id": "manticora", "nombre": "Mantícora", "tipo": "boss" },
+  { "id": "leviatan", "nombre": "Leviatán", "tipo": "boss" },
+  { "id": "zaratan", "nombre": "Zaratan", "tipo": "boss" },
+  { "id": "kruthik", "nombre": "Kruthik", "tipo": "monster" },
+  { "id": "driade", "nombre": "Dríade", "tipo": "monster" }
 ]
