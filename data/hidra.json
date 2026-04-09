@@ -1,0 +1,27 @@
+{
+  "id": "hidra",
+  "nombre": "Hidra",
+  "rol": "boss",
+  "tipo": "Monstruosidad Enorme",
+  "categoria": "Monstrosity",
+  "imagen": "css/img/hidra.webp",
+  "ac": 15,
+  "hp": 184,
+  "speed": "12 m, nadar 12 m",
+  "stats": {
+    "str": 20,
+    "dex": 12,
+    "con": 20,
+    "int": 2,
+    "wis": 10,
+    "cha": 7
+  },
+  "peligro": 8,
+  "habitat": "costa, pantano",
+  "vulnerable": "Fuego (evita la regeneración)",
+  "resistente": "Ninguna",
+  "supervivencia": "Las armas de fuego o los hechizos ígneos son vitales; el daño de fuego impide que a la hidra le crezcan nuevas cabezas. Céntrate en causarle daño severo para cercenar sus cabezas, procurando quemar las heridas antes del final de su turno.",
+  "habilidad_titulo": "Múltiples cabezas",
+  "habilidad": "La hidra tiene cinco cabezas. Por cada cabeza que tenga además de la primera, obtiene una reacción adicional para ataques de oportunidad. Si recibe 25 o más puntos de daño en un solo turno, pierde una de sus cabezas. Si todas mueren, la hidra morirá. Al final de su turno, le crecen dos cabezas nuevas por cada cabeza perdida desde su último turno, a menos que haya recibido daño de fuego. Recupera 20 PG con cada cabeza nueva.",
+  "lore": "Las hidras son legendarias asesinas de héroes con rabiosas cabezas serpentinas y unos famosos poderes regenerativos. Presas de un hambre infinita, devoran a todas las criaturas a las que atrapan. Las hidras que acaban con todas las presas suelen entrar en un letargo prolongado hasta que llegan otras nuevas. Aunque muchas poseen sus propios territorios, a veces custodian lugares o tesoros de deidades malignas."
+}

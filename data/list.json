@@ -64,5 +64,6 @@
   { "id": "banshee", "nombre": "Banshee", "tipo": "monster" },
   { "id": "drana", "nombre": "Draña", "tipo": "monster" },
   { "id": "gargola", "nombre": "Gárgola", "tipo": "monster" },
-  { "id": "elementales", "nombre": "Elementales", "tipo": "monster" }
+  { "id": "elementales", "nombre": "Elementales", "tipo": "monster" },
+  { "id": "hidra", "nombre": "Hidra", "tipo": "boss" }
 ]
