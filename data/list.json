@@ -70,5 +70,8 @@
   { "id": "hezrou", "nombre": "Hezrou", "tipo": "monster" },
   { "id": "marchitas", "nombre": "Marchitas", "tipo": "monster" },
   { "id": "hidra", "nombre": "Hidra", "tipo": "boss" },
-  { "id": "magmin", "nombre": "Magmin", "tipo": "monster" }
+  { "id": "magmin", "nombre": "Magmin", "tipo": "monster" },
+  { "id": "ifrit", "nombre": "Ifrit", "tipo": "monster" },
+  { "id": "amasijo_aniquilacion", "nombre": "Amasijo de Aniquilación", "tipo": "boss" },
+  { "id": "aparicion", "nombre": "Aparición", "tipo": "monster" }
 ]

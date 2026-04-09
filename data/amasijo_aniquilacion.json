@@ -1,0 +1,27 @@
+{
+  "id": "amasijo_aniquilacion",
+  "nombre": "Amasijo de Aniquilación",
+  "rol": "boss",
+  "tipo": "Cieno Gargantuesco (titán)",
+  "categoria": "Cieno",
+  "imagen": "css/img/amasijo_aniquilacion.webp",
+  "ac": 18,
+  "hp": 448,
+  "speed": "9 m",
+  "stats": {
+    "str": 27,
+    "dex": 14,
+    "con": 28,
+    "int": 10,
+    "wis": 16,
+    "cha": 10
+  },
+  "peligro": 6,
+  "habitat": "Planos Exteriores y Mar Astral",
+  "vulnerable": "Ninguna",
+  "resistente": "Contundente, cortante, perforante / Inmunidad a ácido, veneno, paralizado, petrificado, etc.",
+  "supervivencia": "Este titánico cieno tiene un peligro de 6, lo que indica un desafío apocalíptico. Nunca permitas que se mueva por tu espacio, ya que su inmensa masa te absorberá y aplicará severas condiciones mientras te consume vivo con daño continuo de fuerza y necrosis. Evita por completo los ataques cuerpo a cuerpo sin protección. Emplea ataques que no requieran tiradas salvación ya que cuenta con potentes Resistencias Legendarias (4/día). Si un aliado queda apresado por su viscoso 'Pegote Restrictor', enfoca tus esfuerzos en liberarlo antes de que sea arrastrado directo a su núcleo.",
+  "habilidad_titulo": "Absorción de Titán e Implosión Astral",
+  "habilidad": "Se mueve engullendo todo lo que toca. Quien queda atrapado en su pseudópodo o en la masa es asfixiado, cegado y recibe daño constante. Si logra bajar los puntos de golpe de una criatura absorbida a 0, la victima es pulverizada. Al morir el Amasijo de Aniquilación, implosiona destruyéndose a sí mismo, expulsando al Mar Astral a todos los tragados y dejando una capa caótica de limo viscoso a 180 metros a la redonda. Retornará tarde o temprano tras 1d20 años.",
+  "lore": "El Amasijo de Aniquilación no es una deidad con propósitos, sino una catástrofe encarnada, una masa entrópica y viscosa, un titán primordial del tamaño de enormes edificios o pueblos enteros, completamente ciego en su destrucción. Actúa como un depredador cósmico disolviendo toda estructura y forma de vida a su paso por el multiverso material, dejando tras de sí solo vacío pegajoso."
+}

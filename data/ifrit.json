@@ -1,0 +1,27 @@
+{
+  "id": "ifrit",
+  "nombre": "Ifrit",
+  "rol": "monster",
+  "tipo": "Elemental Grande (Genio)",
+  "categoria": "Elemental",
+  "imagen": "css/img/ifrit.webp",
+  "ac": 17,
+  "hp": 212,
+  "speed": "12 m (Vuelo 18 m)",
+  "stats": {
+    "str": 22,
+    "dex": 12,
+    "con": 24,
+    "int": 16,
+    "wis": 15,
+    "cha": 19
+  },
+  "peligro": 4,
+  "habitat": "Desiertos, Plano Elemental del Fuego",
+  "vulnerable": "Ninguna",
+  "resistente": "Fuego (Inmunidad)",
+  "supervivencia": "Un Ifrit es un enemigo formidable, gracias a su enorme cantidad de puntos de vida, resistencia mágica innata y devastadores atraques ígneos. Es indispensable contar con resistencia al daño de fuego antes de entablar combate. Como su destreza es algo promedio, una buena táctica es utilizar conjuros que obliguen tiradas de salvación de destreza. Ten en cuenta que si mueren fuera del Plano del Fuego, no son erradicados permanentemente, sino que renacen en poco tiempo.",
+  "habilidad_titulo": "Resistencia Mágica y Artes Ígneas",
+  "habilidad": "Posee ventaja en tiradas de salvación contra conjuros. Realizan ataques combinados con letales hojas candentes y ráfagas de fuego a distancia. Además, son capaces de lanzar conjuros mortales como 'Muro de fuego', y los más poderosos incluso pueden conceder la asombrosa cantidad de hasta 3 conjuros de 'Deseo' en ocasiones extremas.",
+  "lore": "Los ifrits arden con la energía y la imprevisibilidad del fuego. Su magia innata les permite conjurar llamas de la nada y moldear tesoros en infiernos mágicos. Moran en desiertos asfixiantes y regiones volcánicas, aunque su verdadero hogar es el Plano Elemental del Fuego, donde han erigido formidables metrópolis resplandecientes como la majestuosa Ciudad de Oropel."
+}

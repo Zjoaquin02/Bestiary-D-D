@@ -127,6 +127,9 @@ function filterType(type) {
 
     const filtered = allCreatures.filter(c => c.tipo === type);
 
+    // Ordenar alfabéticamente por nombre
+    filtered.sort((a, b) => a.nombre.localeCompare(b.nombre));
+
     filtered.forEach(c => {
         const article = document.createElement('article'); // Semántica: article para tarjetas
         article.className = 'card' + (type === 'boss' ? ' boss-card' : '');

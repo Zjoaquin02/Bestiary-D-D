@@ -1,0 +1,27 @@
+{
+  "id": "aparicion",
+  "nombre": "Aparición",
+  "rol": "monster",
+  "tipo": "Muerto Viviente Mediano o Pequeño",
+  "categoria": "Undead",
+  "imagen": "css/img/aparicion.webp",
+  "ac": 13,
+  "hp": 67,
+  "speed": "Vuelo 18 m (Incorpóreo)",
+  "stats": {
+    "str": 6,
+    "dex": 16,
+    "con": 16,
+    "int": 12,
+    "wis": 14,
+    "cha": 15
+  },
+  "peligro": 3,
+  "habitat": "Infraoscuridad, Páramo Sombrío y Ruinas Malditas",
+  "vulnerable": "Sensible a la Luz Solar",
+  "resistente": "Resistente a casi todo el daño físico o elemental / Inmune a Necrótico y Veneno.",
+  "supervivencia": "No intentes bloquearles el paso, ya que se deslizan a través de la materia sólida y muros sin problemas. Sus temibles ataques merman tus Puntos de Vida Máximos directamente, por lo que un par de golpes podrían significar la muerte permamente sin posibilidad de curación mágica. Oblígalas a combatir bajo la luz del sol para menguar drásticamente sus capacidades o intenta dañarlas con magia de fuerza, pues resistirán la gran mayoría de las armas convencionales. Otra regla sagrada: mantén lejos a los caídos; pueden arrancar el alma de los cadáveres recientes para volverlos contra ti.",
+  "habilidad_titulo": "Drenaje Espectral y Esclavitud Anímica",
+  "habilidad": "Aprovechan su naturaleza etérea para atravesar el terreno e ignorar barreras. Su letal toque consume la fuerza vital, reduciendo los Puntos de Golpe máximos hasta matar por completo al objetivo. Además, poseen la espantosa capacidad nigromántica de levantar a un humanoide muerto recientemente transformándolo en un 'espectro' absoluto a sus órdenes (hasta tener a 7 de ellos como sirvientes simultáneos).",
+  "lore": "Las apariciones son mortíferos espíritus corruptos sedientos de vida viva que encarnan la pura maldad. Emergen producto de un sufrimiento inabarcable, atrocidades catastróficas cometidas por tiranos en vida, o magias oscuras aberrantes. Estos remanentes maléficos moran por la penumbra eterna de tierras olvidadas, ansiando ciegamente propagar el dolor al arrebatar el alma de quien ose perturbar su descanso."
+}

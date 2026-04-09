@@ -16,7 +16,7 @@
     "wis": 11,
     "cha": 10
   },
-  "peligro": "1/2",
+  "peligro": 1,
   "habitat": "Plano Elemental del Fuego",
   "vulnerable": "Ninguna",
   "resistente": "Fuego (Inmunidad)",
