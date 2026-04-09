@@ -74,5 +74,7 @@
   { "id": "ifrit", "nombre": "Ifrit", "tipo": "monster" },
   { "id": "amasijo_aniquilacion", "nombre": "Amasijo de Aniquilación", "tipo": "boss" },
   { "id": "aparicion", "nombre": "Aparición", "tipo": "monster" },
-  { "id": "falsa_hidra", "nombre": "Falsa Hidra", "tipo": "boss" }
+  { "id": "falsa_hidra", "nombre": "Falsa Hidra", "tipo": "boss" },
+  { "id": "armadura_animada", "nombre": "Armadura Animada", "tipo": "monster" },
+  { "id": "diablo_oseo", "nombre": "Diablo Óseo", "tipo": "boss" }
 ]

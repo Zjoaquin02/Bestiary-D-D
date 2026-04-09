@@ -1,0 +1,27 @@
+{
+  "id": "armadura_animada",
+  "nombre": "Armadura Animada",
+  "rol": "monster",
+  "tipo": "Constructo Mediano",
+  "categoria": "Construct",
+  "imagen": "css/img/armadura_animada.webp",
+  "ac": 18,
+  "hp": 33,
+  "speed": "7.5 m",
+  "stats": {
+    "str": 14,
+    "dex": 11,
+    "con": 13,
+    "int": 1,
+    "wis": 3,
+    "cha": 1
+  },
+  "peligro": 1,
+  "habitat": "Mazmorras, castillos, ruinas",
+  "vulnerable": "Disipar Magia, Campo Antimágico",
+  "resistente": "Veneno (Inmune), Psíquico (Inmune)",
+  "supervivencia": "Las armaduras animadas son extremadamente susceptibles a la contra-magia. Si tienes un conjuro de Disipar Magia o estás en un campo antimágico, quedarán completamente inútiles o inconscientes. Evita ataques psíquicos o de veneno ya que son inmunes a ellos.",
+  "habilidad_titulo": "Susceptibilidad Antimágica y Falsa Apariencia",
+  "habilidad": "La armadura queda incapacitada mientras permanece en el área de un campo antimágico. Si es el objetivo de 'Disipar Magia', debe tener éxito en una tirada de salvación de Constitución contra la CD del conjuro o caer inconsciente durante 1 minuto. Mientras esté completamente quieta, es indistinguible de una armadura decorativa normal.",
+  "lore": "Esta imponente armadura de placas mágicamente animada clama y rechina en cada uno de sus metálicos movimientos, sonando trágicamente como el ruidoso espíritu vengativo de un antiguo caballero caído. Son aterradores guardianes inquebrantables usualmente fabricados por hechiceros para vigilar tesoros mortales."
+}

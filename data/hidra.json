@@ -16,7 +16,7 @@
     "wis": 10,
     "cha": 7
   },
-  "peligro": 5,
+  "peligro": 4,
   "habitat": "costa, pantano",
   "vulnerable": "Fuego (evita la regeneración)",
   "resistente": "Ninguna",
