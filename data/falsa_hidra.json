@@ -1,0 +1,27 @@
+{
+  "id": "falsa_hidra",
+  "nombre": "Falsa Hidra",
+  "rol": "boss",
+  "tipo": "Aberración Letal (Variable)",
+  "categoria": "Aberration",
+  "imagen": "css/img/falsa_hidra.webp",
+  "ac": 16,
+  "hp": "32 (+30 PG Máx por Cabeza)",
+  "speed": "25 ft, Excavar 25 ft",
+  "stats": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 12,
+    "wis": 20,
+    "cha": 8
+  },
+  "peligro": 4,
+  "habitat": "Pueblos y reinos plagados de mentiras masivas y propaganda",
+  "vulnerable": "Ninguna",
+  "resistente": "Psíquico / Inmunidad a estar Petrificado",
+  "supervivencia": "Combatir a una Falsa Hidra es una guerra puramente psicológica. Su horrendo cántico te obligará a ignorarla y borrará a todo aquel que devore de tu memoria. Para enfrentarla, debes taparte los oídos o utilizar magia que te impida oír para romper su ilusión mental. Ten sumo cuidado: cuantas más personas consuma, más cabezas desarrolla, otorgándole formidables puntos de vida adicionales, letales ataques múltiples y numerosas reacciones por turno.",
+  "habilidad_titulo": "Cántico Discordante y Cabezas Múltiples",
+  "habilidad": "Canta una melodía grotesca en un radio de 5 millas que domina la mente, haciendo que su existencia (y la de sus víctimas devoradas) sea borrada y justificada con mentiras creadas por tu propio cerebro temporalmente. Crece ingiriendo a sus presas; por cada cabeza nueva gana Puntos de Golpe, ventajas contra la mayoría de las mermas de estado y un nuevo ataque mordisco capaz de apresar a su objetivo a 30 pies de distancia.",
+  "lore": "El origen de la Falsa Hidra es uno de los horrores más oscuros del conocimiento arcano. Comienza como un bulto blanco y putrefacto bajo el suelo de ciudades ahogadas en mentiras y propaganda. Brotando a la superficie como un pálido infante deforme, entona una canción perpetua que hechiza a la comunidad entera para que ignoren su gigantesca presencia. A diferencia de un monstruo regular, el peligro de la Falsa Hidra escala, pasando de acechar a habitantes perdidos, a esclavizar naciones enteras cuando madura."
+}

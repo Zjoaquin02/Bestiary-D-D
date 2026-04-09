@@ -73,5 +73,6 @@
   { "id": "magmin", "nombre": "Magmin", "tipo": "monster" },
   { "id": "ifrit", "nombre": "Ifrit", "tipo": "monster" },
   { "id": "amasijo_aniquilacion", "nombre": "Amasijo de Aniquilación", "tipo": "boss" },
-  { "id": "aparicion", "nombre": "Aparición", "tipo": "monster" }
+  { "id": "aparicion", "nombre": "Aparición", "tipo": "monster" },
+  { "id": "falsa_hidra", "nombre": "Falsa Hidra", "tipo": "boss" }
 ]
