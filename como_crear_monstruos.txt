@@ -20,21 +20,21 @@ Copia y pega esta estructura actualizada:
   "rol": "monster",         // IMPORTANTE: "monster" (normal) o "boss" (activa Modo Jefe)
   "tipo": "Fata Antigua",
   "categoria": "Espíritu",
-  "imagen": "css/img/espiritu.jpg", 
+  "imagen": "css/img/espiritu.webp", 
   "ac": 15,
   "hp": 75,
-  "speed": "30 ft, fly 20 ft",
+  "speed": "9 m, volar 6 m", // Usar siempre metros (m)
   "stats": {
     "str": 8, "dex": 18, "con": 12, "int": 14, "wis": 16, "cha": 18
   },
-  "peligro": 3,             // Número de calaveras de peligro (1 a 5)
+  "peligro": 3,             // Escala de calaveras (1 a 6)
   "habitat": "Bosques Ancestrales, Arboledas de Plata",
   "vulnerable": "Fuego",
   "resistente": "Veneno, Psíquico",
   "habilidad_titulo": "Canto de la Arboleda",
   "habilidad": "La criatura emite una melodía que hechiza a los intrusos...",
   "supervivencia": "No escuches su canto; usa tapones para los oídos.",
-  "lore": "Se dice que estos espíritus son los guardianes de la naturaleza..."
+  "lore": "Aquí va el trasfondo narrativo detallado y épico de la criatura..."
 }
 
 ------------------------------------------------------------
@@ -51,20 +51,20 @@ El campo "tipo" aquí controla el filtro en el menú:
 PASO 3: LA IMAGEN
 ------------------------------------------------------------
 1. Guarda la imagen en la carpeta `css/img/`.
-2. Formato recomendado: .jpg (mejor balance calidad/peso).
-3. Asegúrate de que la ruta en el .json sea exacta.
-4. La imagen tambien se puede subir a cloudinary y poner la url en el .json
+2. Formato recomendado: .webp (mejor rendimiento y calidad).
+3. Asegúrate de que el nombre coincida con el ID (ej: `espiritu_bosque.webp`).
+4. La imagen también se puede subir a Cloudinary y poner la URL en el JSON.
 
 ============================================================
-CONSEJOS DEL ESCRIBA ARCANO:
+REGLAS DE CONSISTENCIA ARCANAS:
 ============================================================
-- Modo Jefe: Si pones "rol": "boss", la ficha cambiará a color 
-  rojo sangre, el fondo será oscuro y aparecerá el "Sello del 
-  Vacío" girando en la esquina.
-- Calaveras: El campo "peligro" dibuja automáticamente las 
-  calaveras de advertencia.
-- Simetría: Las ilustraciones se ajustan automáticamente a 
-  las proporciones del libro abierto en PC.
+- PELIGRO 6 = JEFE: Cualquier criatura con nivel 6 de peligro 
+  debe tener "rol": "boss" obligatoriamente.
+- PUREZA DE GRUPOS: No mezcles "monster" y "boss" en un mismo 
+  archivo agrupado. Si es un jefe, debe ir independiente.
+- SISTEMA MÉTRICO: No uses pies (ft). Usa metros (m).
+- GRUPOS (VARIANTES): Para crear pestañas, usa "is_multi": true 
+  y coloca los datos dentro del array "variantes": [].
 
 ¡Tu bestiario sigue creciendo en conocimiento y misterio!
 ============================================================

@@ -1,0 +1,20 @@
+{
+  "id": "marilith",
+  "nombre": "Marilith",
+  "rol": "boss",
+  "tipo": "Infernal Grande (Demonio)",
+  "categoria": "Fiend",
+  "imagen": "css/img/marilith.webp",
+  "ac": 18,
+  "hp": 189,
+  "speed": "12 m",
+  "stats": { "str": 18, "dex": 20, "con": 18, "int": 18, "wis": 16, "cha": 18 },
+  "peligro": 5,
+  "habitat": "El Abismo",
+  "vulnerable": "Magia mental",
+  "resistente": "Frío, Fuego, Rayo; Magia (Ventaja en salvaciones)",
+  "supervivencia": "Jamás la enfrentes cuerpo a cuerpo. Ataca 7 veces por turno y bloquea ataques físicos. Necesitarás mucha magia de control o daño a distancia pura.",
+  "habilidad_titulo": "Torbellino de Espadas y Reacciones Inhumanas",
+  "habilidad": "Lanza un aluvión ofensivo de seis espadas largas en simultáneo. Posee una Reacción para cada turno del round, permitiéndole hacer Parry constantemente.",
+  "lore": "Las Marilith son las reinas de la guerra abisal, generales demoníacas que poseen una mente capaz de procesar cientos de variables tácticas de forma simultánea. Con sus seis brazos y su cuerpo de serpiente, ejecutan una danza de muerte que bloquea y ataca en cada respiración. No solo son guerreras magistrales, sino también estrategas sádicas que disfrutan rompiendo la moral de los ejércitos enemigos antes de aniquilarlos. En el Abismo, se dice que una Marilith nunca olvida una cara ni una derrota, y perseguirá a sus enemigos a través de los planos con una determinación gélida e inquebrantable."
+}

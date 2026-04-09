@@ -1,0 +1,45 @@
+{
+  "id": "yugoloths",
+  "nombre": "Yugoloths",
+  "is_multi": true,
+  "variantes": [
+    {
+      "nombre": "Mezzoloth",
+      "rol": "monster",
+      "tipo": "Infernal Mediano (Yugoloth)",
+      "categoria": "Fiend",
+      "imagen": "css/img/mezzoloth.webp",
+      "ac": 18,
+      "hp": 75,
+      "speed": "12 m",
+      "stats": { "str": 18, "dex": 11, "con": 16, "int": 7, "wis": 10, "cha": 11 },
+      "peligro": 2,
+      "habitat": "El Abismo, Planos Inferiores",
+      "vulnerable": "Daño radiante",
+      "resistente": "Magia (Ventaja), Inmune a Envenenamiento y Corrosión",
+      "supervivencia": "Disipar su nube tóxica es vital. Son especialistas en combate dentro de humos sulfurosos. Usa armas mágicas o de plata para ignorar su dura piel crustácea.",
+      "habilidad_titulo": "Guerrillero de la Nube Tóxica",
+      "habilidad": "Lanza nubes aniquiladoras inmensas donde opera con inmunidad total. Puede teletransportarse instantáneamente para perseguir a los que huyen del veneno.",
+      "lore": "El Mezzoloth es el soldado de infantería perfecto para una guerra sin fin. Son seres pragmáticos y brutales que no conocen la piedad, solo el cumplimiento de un contrato. Cubiertos por una armadura quitinosa natural y capaces de operar en las nubes de veneno más letales, estos mercenarios son la elección predilecta de archimagos y señores de la guerra que necesitan una fuerza de choque que no haga preguntas y que no tenga lealtad a nadie más que al oro o las gemas prometidas."
+    },
+    {
+      "nombre": "Nycaloth",
+      "rol": "monster",
+      "tipo": "Infernal Grande (Yugoloth)",
+      "categoria": "Fiend",
+      "imagen": "css/img/nycaloth.webp",
+      "ac": 18,
+      "hp": 123,
+      "speed": "12 m, volar 18 m",
+      "stats": { "str": 20, "dex": 11, "con": 19, "int": 12, "wis": 10, "cha": 15 },
+      "peligro": 4,
+      "habitat": "Planos Inferiores",
+      "vulnerable": "Ninguna",
+      "resistente": "Físico no mágico, Frío, Fuego, Rayo",
+      "supervivencia": "Cuidado con sus hachas; dejan heridas que sangran y debilitan. Al ser voladores, intentarán llevarse a los miembros más débiles del grupo a las alturas.",
+      "habilidad_titulo": "Asesino Sombrío",
+      "habilidad": "Puede volverse invisible y teletransportarse a voluntad. Sus ataques con hachas grebas provocan hemorragias que no permiten la sanación rápida.",
+      "lore": "Un Nycaloth es un asesino de élite cuya sola sombra es un presagio de muerte. Actúan como los mariscales de campo o los verdugos personales de los señores Yugoloth, utilizando su capacidad de vuelo y su invisibilidad para descabezar ejércitos antes de que empiece la batalla. Su ética es pura y sencillamente comercial: matarán a un dios si el precio es correcto, y lo harán con una eficiencia quirúrgica que deja a sus víctimas sin tiempo para siquiera gritar."
+    }
+  ]
+}

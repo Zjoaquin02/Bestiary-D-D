@@ -12,7 +12,7 @@ Bestiario digital interactivo basado en la estética de Dungeons & Dragons, dise
 
 ## ⚠️ Escala de Nivel de Peligro
 
-El campo `"peligro"` en cada JSON acepta valores del **1 al 5**, reservando el **6** únicamente para casos muy extremos.
+El campo `"peligro"` en cada JSON acepta valores del **1 al 6**, siguiendo la jerarquía de amenaza del multiverso.
 
 | Nivel | Ícono | Clasificación | Descripción |
 |:-----:|:-----:|---------------|-------------|
@@ -21,9 +21,21 @@ El campo `"peligro"` en cada JSON acepta valores del **1 al 5**, reservando el *
 | 3 | ☠️☠️☠️ | **Amenaza Seria** | Peligrosa para grupos inexpertos. |
 | 4 | ☠️☠️☠️☠️ | **Amenaza Grave** | Solo para aventureros experimentados. |
 | 5 | ☠️☠️☠️☠️☠️ | **Amenaza Crítica** | Extremadamente letal. Rara de igualar. |
-| 6 | ☠️☠️☠️☠️☠️☠️ | **⚡ Calamidad** | Casos **muy extremos**. Entidades míticas o apocalípticas (ej: Tarrasque, Tiamat). |
+| 6 | ☠️☠️☠️☠️☠️☠️ | **⚡ Calamidad** | Casos **muy extremos**. Entidades míticas o apocalípticas (ej: Tarrasque, Tiamat). **Clasificados como Jefes.** |
 
-> **Nota:** El nivel 6 debe asignarse con criterio. Solo criaturas que representen una amenaza de escala catastrófica para el mundo justifican esta clasificación.
+> **Nota:** Toda criatura con nivel de Peligro 6 debe tener obligatoriamente el rol de **Jefe (boss)** y poseer su propio archivo individual.
+
+---
+
+## 📜 Reglas de Consistencia
+
+Para mantener el orden, consulta el archivo [**como_crear_monstruos.txt**](file:///c:/Users/zjoaq/OneDrive/Escritorio/Bestiario/Bestiary-D-D/como_crear_monstruos.txt) para ver el tutorial paso a paso y la **Plantilla JSON** oficial.
+
+**Resumen de normas clave:**
+1. **Pureza de Grupos**: No mezcles Monstruos y Jefes en un archivo agrupado (`is_multi`).
+2. **Sistema Métrico**: La velocidad se expresa siempre en **metros (m)**.
+3. **Lore Enriquecido**: Evita descripciones cortas; aporta trasfondo épico.
+4. **Coincidencia de IDs**: El ID debe ser idéntico en el JSON, `list.json` y el nombre de la imagen.
 
 ---
 
@@ -52,13 +64,8 @@ El campo `"peligro"` en cada JSON acepta valores del **1 al 5**, reservando el *
 
 - **Fuentes**: [Google Fonts](https://fonts.google.com/)
 - **Texturas**: [Transparent Textures](https://www.transparenttextures.com/)
-- **Imágenes (CDN)**: [Cloudinary](https://cloudinary.com) — almacenamiento y optimización automática de imágenes en la nube. Plan gratuito incluye 25 GB de almacenamiento.
+- **Imágenes (CDN)**: [Cloudinary](https://cloudinary.com) — almacenamiento y optimización automática.
+- **Libros de Referencia**: [Google Drive](https://drive.google.com/drive/folders/1nOvrMp_12WS0SOxtbLuo-AAL7YgMV19N) — biblioteca de manuales de D&D de varias ediciones.
 
 ---
 *Creado con dedicación para la mesa de juego.*
-
-# Bestiary-D-D
-Bestiario
-
-https://drive.google.com/drive/folders/1nOvrMp_12WS0SOxtbLuo-AAL7YgMV19N
-Drive con libros de Dungean and Dragons varias ediciones

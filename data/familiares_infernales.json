@@ -1,0 +1,45 @@
+{
+  "id": "familiares_infernales",
+  "nombre": "Familiares Infernales",
+  "is_multi": true,
+  "variantes": [
+    {
+      "nombre": "Diablillo",
+      "rol": "monster",
+      "tipo": "Infernal Pequeño (Diablo)",
+      "categoria": "Fiend",
+      "imagen": "css/img/diablillo.webp",
+      "ac": 13,
+      "hp": 10,
+      "speed": "6 m, volar 12 m",
+      "stats": { "str": 6, "dex": 17, "con": 13, "int": 11, "wis": 12, "cha": 14 },
+      "peligro": 1,
+      "habitat": "Nueve Infiernos, Ciudades",
+      "vulnerable": "Ataques divinos masivos",
+      "resistente": "Físico no mágico; Inmune al Fuego y Veneno",
+      "supervivencia": "Es fundamental utilizar armas o munición de plata para evitar su resistencia si no cuentas con conjuros letales. Intentan aprovecharse de la altura para no ser alcanzados por guerreros cuerpo a cuerpo.",
+      "habilidad_titulo": "Maestro Encubierto Infernal",
+      "habilidad": "A voluntad, puede volverse completamente invisible. Puede transformarse en rata, cuervo o araña. Posee Vista del Diablo absoluta para atravesar cualquier oscuridad mágica.",
+      "lore": "El Diablillo es el epítome de la malicia diplomática en la jerarquía infernal. Estos seres no buscan la destrucción directa, sino la corrupción lenta y meticulosa del alma. Acuden al mundo mortal bajo el disfraz de familiares, ofreciendo conocimientos prohibidos y protección a magos ambiciosos, mientras tejen una red de deudas y pecados que aseguran que el alma de su 'amo' sea reclamada por los Infiernos tras su muerte."
+    },
+    {
+      "nombre": "Quasit",
+      "rol": "monster",
+      "tipo": "Infernal Pequeño (Demonio)",
+      "categoria": "Fiend",
+      "imagen": "css/img/quasit.webp",
+      "ac": 13,
+      "hp": 7,
+      "speed": "12 m",
+      "stats": { "str": 5, "dex": 17, "con": 10, "int": 7, "wis": 10, "cha": 10 },
+      "peligro": 1,
+      "habitat": "El Abismo, mazmorras",
+      "vulnerable": "Ninguna",
+      "resistente": "Frío, Fuego, Rayo; Físico no mágico",
+      "supervivencia": "Al tener pocos puntos de golpe, la clave es revelarlos. Usa hechizos que afecten un área o magia que disipe su invisibilidad para evitar sus emboscadas venenosas.",
+      "habilidad_titulo": "Invisibilidad y Cambio de Forma",
+      "habilidad": "Se vuelve invisible a voluntad y puede transformarse en murciélago, ciempiés o sapo. Sus ataques inyectan un veneno debilitante que asusta a sus víctimas.",
+      "lore": "Un Quasit es una manifestación de la traición y el odio irracional que define al Abismo. A diferencia de sus contrapartes diabólicas, estos pequeños demonios no siguen contratos, sino impulsos destructivos. Sirven a amos mortales por puro ego o miedo, pero su lealtad dura solo mientras vean una oportunidad para causar estropicio. Disfrutan sembrando la paranoia y saboteando los planes de sus supuestos aliados desde la seguridad de su invisibilidad."
+    }
+  ]
+}

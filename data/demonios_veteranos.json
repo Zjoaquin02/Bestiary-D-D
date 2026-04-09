@@ -1,0 +1,45 @@
+{
+  "id": "demonios_veteranos",
+  "nombre": "Demonios Veteranos",
+  "is_multi": true,
+  "variantes": [
+    {
+      "nombre": "Hezrou",
+      "rol": "monster",
+      "tipo": "Infernal Grande (Demonio)",
+      "categoria": "Fiend",
+      "imagen": "css/img/hezrou.webp",
+      "ac": 18,
+      "hp": 157,
+      "speed": "9 m",
+      "stats": { "str": 19, "dex": 17, "con": 20, "int": 5, "wis": 12, "cha": 13 },
+      "peligro": 4,
+      "habitat": "El Abismo",
+      "vulnerable": "Ninguna",
+      "resistente": "Frío, Fuego, Relámpago, Veneno (Inmunidad)",
+      "supervivencia": "Jamás luches cuerpo a cuerpo a menos que tengas resistencia al veneno; su hedor te debilitará. Cuenta con resistencia mágica, así que confía en ataques físicos puros o daño a distancia.",
+      "habilidad_titulo": "Hedor y Resistencia Mágica",
+      "habilidad": "Emana una peste insoportable que envenena a sus atacantes en 3 metros a la redonda. Tiene ventaja en salvaciones contra conjuros mágicos.",
+      "lore": "El Hezrou es una aberración de carne purulenta y ferocidad reptiliana, una masa de músculos y pústulas que encarna la brutalidad irracional del Abismo. No hay elegancia en sus ataques, solo una violencia torpe que aplasta y desgarra. Su olor es tan potente que puede marchitar plantas a su paso, y su mente es un torbellino de hambre insaciable. Son utilizados por los señores demoníacos como romperfilas, lanzándolos al frente para que su sola presencia desmoralice y envenene la voluntad de los defensores mortales."
+    },
+    {
+      "nombre": "Chasme",
+      "rol": "monster",
+      "tipo": "Infernal Grande (Demonio)",
+      "categoria": "Fiend",
+      "imagen": "css/img/chasme.webp",
+      "ac": 15,
+      "hp": 84,
+      "speed": "6 m, volar 18 m",
+      "stats": { "str": 15, "dex": 15, "con": 21, "int": 11, "wis": 14, "cha": 10 },
+      "peligro": 3,
+      "habitat": "El Abismo",
+      "vulnerable": "Ninguna",
+      "resistente": "Frío, Fuego, Rayo",
+      "supervivencia": "No dejes que se acerquen. Su zumbido afecta a todos a su alrededor. Atacar de lejos es imperativo para evitar que succione permanentemente tus puntos de vida.",
+      "habilidad_titulo": "Zumbido Zumbador y Probóscide Letal",
+      "habilidad": "Su zumbido obliga a salvaciones de Constitución o caer inconsciente. Su probóscide reduce permanentemente los puntos de vida máximos de la víctima.",
+      "lore": "Un Chasme es un inquisidor alado que patrulla los cielos de hierro de las capas abisales en busca de desertores o intrusos. Con su apariencia de insecto colosal y su zumbido hipnótico, estos demonios son maestros del tormento mental y físico. Disfrutan extrayendo la esencia vital de sus víctimas mientras aún están conscientes, saboreando el pánico que provoca su presencia. Se dice que el zumbido de un Chasme es la última melodía que escuchan las almas que intentan escapar de la tiranía del caos."
+    }
+  ]
+}

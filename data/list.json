@@ -35,7 +35,7 @@
   { "id": "phase_spider", "nombre": "Phase Spider", "tipo": "monster" },
   { "id": "treant", "nombre": "Treant", "tipo": "monster" },
   { "id": "golem_hierro", "nombre": "Golem de Hierro", "tipo": "monster" },
-  { "id": "hag", "nombre": "Hag (Bruja)", "tipo": "monster" },
+  { "id": "hag", "nombre": "Bruja", "tipo": "monster" },
   { "id": "vecna", "nombre": "Vecna", "tipo": "boss" },
   { "id": "tiamat", "nombre": "Tiamat", "tipo": "boss" },
   { "id": "asmodeus", "nombre": "Asmodeus", "tipo": "boss" },
@@ -67,7 +67,6 @@
   { "id": "drana", "nombre": "Draña", "tipo": "monster" },
   { "id": "gargola", "nombre": "Gárgola", "tipo": "monster" },
   { "id": "elementales", "nombre": "Elementales", "tipo": "monster" },
-  { "id": "hezrou", "nombre": "Hezrou", "tipo": "monster" },
   { "id": "marchitas", "nombre": "Marchitas", "tipo": "monster" },
   { "id": "hidra", "nombre": "Hidra", "tipo": "boss" },
   { "id": "magmin", "nombre": "Magmin", "tipo": "monster" },
@@ -76,5 +75,14 @@
   { "id": "aparicion", "nombre": "Aparición", "tipo": "monster" },
   { "id": "falsa_hidra", "nombre": "Falsa Hidra", "tipo": "boss" },
   { "id": "armadura_animada", "nombre": "Armadura Animada", "tipo": "monster" },
-  { "id": "diablo_oseo", "nombre": "Diablo Óseo", "tipo": "boss" }
+  { "id": "familiares_infernales", "nombre": "Familiares Infernales", "tipo": "monster" },
+  { "id": "los_condenados", "nombre": "Los Condenados", "tipo": "monster" },
+  { "id": "yugoloths", "nombre": "Yugoloths", "tipo": "monster" },
+  { "id": "demonios_veteranos", "nombre": "Demonios Veteranos", "tipo": "monster" },
+  { "id": "diablos_veteranos", "nombre": "Diablos Veteranos", "tipo": "monster" },
+  { "id": "principes_abismo", "nombre": "Príncipes del Abismo", "tipo": "boss" },
+  { "id": "senores_infierno", "nombre": "Señores del Infierno", "tipo": "boss" },
+  { "id": "pit_fiend", "nombre": "Pit Fiend", "tipo": "boss" },
+  { "id": "marilith", "nombre": "Marilith", "tipo": "boss" },
+  { "id": "ultroloth", "nombre": "Ultroloth", "tipo": "boss" }
 ]

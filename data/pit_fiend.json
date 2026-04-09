@@ -1,0 +1,20 @@
+{
+  "id": "pit_fiend",
+  "nombre": "Pit Fiend",
+  "rol": "boss",
+  "tipo": "Infernal Grande (Diablo)",
+  "categoria": "Fiend",
+  "imagen": "css/img/pit_fiend.webp",
+  "ac": 19,
+  "hp": 300,
+  "speed": "12 m, volar 18 m",
+  "stats": { "str": 26, "dex": 14, "con": 24, "int": 22, "wis": 18, "cha": 24 },
+  "peligro": 6,
+  "habitat": "Nueve Infiernos",
+  "vulnerable": "Daño Mítico",
+  "resistente": "Inmunidad a Fuego; Resistencia Mágica Absoluta",
+  "supervivencia": "Evita formaciones apretadas debido a sus bolas de fuego. Su mordisco detiene toda regeneración y sanación mágica.",
+  "habilidad_titulo": "Aura de Pánico y Mago Archidiabólico",
+  "habilidad": "Irradia miedo mágico que ahuyenta a los héroes. Lanza bolas de fuego y hechizos de detención de magia indiscriminadamente.",
+  "lore": "Los Pit Fiends son los generales supremos de los Nueve Infiernos, la encarnación perfecta de la ley tiránica y la violencia disciplinada. Como señores de legiones, no solo poseen una fuerza física bruta capaz de aplastar castillos, sino una mente táctica que ha planeado guerras durante milenios. En la jerarquía infernal, solo los Archidiablos están por encima de ellos. Un Pit Fiend no siente duda ni fatiga; su sola presencia en un campo de batalla impone un orden absoluto basado en el terror, dictando el destino de miles de almas con un solo gesto de sus garras de hierro."
+}

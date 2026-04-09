@@ -1,0 +1,20 @@
+{
+  "id": "ultroloth",
+  "nombre": "Ultroloth",
+  "rol": "boss",
+  "tipo": "Infernal Mediano (Yugoloth)",
+  "categoria": "Fiend",
+  "imagen": "css/img/ultroloth.webp",
+  "ac": 19,
+  "hp": 154,
+  "speed": "9 m, volar 18 m",
+  "stats": { "str": 16, "dex": 16, "con": 15, "int": 18, "wis": 15, "cha": 19 },
+  "peligro": 5,
+  "habitat": "Planos Inferiores",
+  "vulnerable": "Daño Psíquico",
+  "resistente": "Frío, Fuego, Rayo; Inmune a Ácido, Veneno",
+  "supervivencia": "Jamás le mires a los ojos. Su mirada hipnótica puede sacarte del combate instantáneamente. Necesitarás protección mental y foco en daño concentrado para vencer su resistencia mágica.",
+  "habilidad_titulo": "Mirada de Hipnosis",
+  "habilidad": "Sus enormes ojos pueden paralizar o encantar a cualquiera que los mire. Es un maestro de la magia de control, capaz de dominar a sus enemigos para que se peleen entre ellos.",
+  "lore": "Los Ultroloths son los aristócratas sombríos de la raza Yugoloth, seres cuya crueldad solo es superada por su intelecto calculador y su avaricia infinita. Con su apariencia alienígena y sus ojos inmensos que parecen contener vacíos planos, estos seres manipulan la Guerra de Sangre como si fuera una partida de ajedrez donde el premio es el oro y el poder arcano. No sirven a ninguna causa más que a su propio beneficio, y su falta total de empatía los convierte en los negociadores más peligrosos del multiverso. Se dice que un Ultroloth puede comprar el alma de un héroe o el destino de un reino con un solo susurro cargado de promesas envenenadas."
+}
