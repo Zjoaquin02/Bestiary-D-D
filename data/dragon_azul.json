@@ -1,0 +1,27 @@
+{
+  "id": "dragon_azul",
+  "nombre": "Dragón Azul",
+  "rol": "boss",
+  "tipo": "Dragón Cromático",
+  "categoria": "Dragon",
+  "imagen": "css/img/dragon_azul.webp",
+  "ac": 22,
+  "hp": 481,
+  "speed": "40 ft, excavar 40 ft, volar 80 ft",
+  "stats": {
+    "str": 29,
+    "dex": 10,
+    "con": 27,
+    "int": 18,
+    "wis": 17,
+    "cha": 25
+  },
+  "peligro": 5,
+  "habitat": "Desierto, Tierras Áridas, Costas",
+  "vulnerable": "Ninguna",
+  "resistente": "Relámpago (Inmunidad)",
+  "supervivencia": "Las regiones cercanas a su guarida están llenas de socavones traicioneros y azotadas por tormentas de polvo cegadoras. El dragón puede volar de forma completamente invisible, por lo que depender de la visión no es suficiente; prepárate para los ataques sorpresa y los estallidos sónicos antes de que escuches el trueno.",
+  "habilidad_titulo": "Aliento de Relámpago y Magia",
+  "habilidad": "El dragón exhala un relámpago fulminante en una línea de 36 m de largo. Además, domina el lanzamiento de conjuros de forma innata para hacerse invisible o despedazar ilusiones mediante estallidos sónicos ensordecedores.",
+  "lore": "Arrogantes e imperiosos, los dragones azules son tiranos formidables que ansían el control y gobiernan mediante redes de seguidores subyugados, sectas y redes criminales. Convirtiendo grandes extensiones de desierto y ruinas abandonadas en sus fortificaciones, transforman sus vastos dominios en imperios dictatoriales. Tesaurizan obras maestras del arte, emblemas de gobierno caídos y repudian diametralmente todo aquello que consideren vulgar o imperfecto."
+}

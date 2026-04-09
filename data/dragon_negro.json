@@ -1,0 +1,27 @@
+{
+  "id": "dragon_negro",
+  "nombre": "Dragón Negro",
+  "rol": "boss",
+  "tipo": "Dragón Cromático",
+  "categoria": "Dragon",
+  "imagen": "css/img/dragon_negro.webp",
+  "ac": 22,
+  "hp": 367,
+  "speed": "40 ft, nadar 40 ft, volar 80 ft",
+  "stats": {
+    "str": 27,
+    "dex": 14,
+    "con": 25,
+    "int": 16,
+    "wis": 15,
+    "cha": 22
+  },
+  "peligro": 5,
+  "habitat": "Pantano, Ruinas Corrompidas",
+  "vulnerable": "Ninguna",
+  "resistente": "Ácido (Inmunidad)",
+  "supervivencia": "Las fuentes de agua cercanas a su guarida estarán corrompidas, así que lleva tus propias provisiones. Mantén distancias amplias para evitar que múltiples aliados sean alcanzados por su línea de aliento ácido, y prepárate para lidiar con el nubarrón de insectos cegador.",
+  "habilidad_titulo": "Aliento Ácido Corrosivo",
+  "habilidad": "El dragón exhala un potente chorro de ácido en una línea de 27 m de largo. Consume tanto armaduras como carne, infligiendo daños letales.",
+  "lore": "Los dragones negros ancianos se deleitan con el sufrimiento y la ruina de reinos enteros. Buscan magia que les permita corromper la tierra y atesoran símbolos de esperanza mancillados y reliquias de imperios caídos. La simple presencia de esta bestia transforma los pantanos deplorables en sitios infestados de horrores y magia nociva."
+}

@@ -1,10 +1,10 @@
 {
-  "id": "harpias",
-  "nombre": "Harpías",
+  "id": "arpias",
+  "nombre": "Arpías",
   "rol": "monster",
   "tipo": "Férico Maligno del Aire",
   "categoria": "Monstrosity",
-  "imagen": "css/img/harpias.webp",
+  "imagen": "css/img/arpias.webp",
   "ac": 11,
   "hp": 38,
   "speed": "20 ft, fly 40 ft",
