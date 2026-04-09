@@ -1,0 +1,27 @@
+{
+  "id": "marchitas",
+  "nombre": "Marchitas",
+  "rol": "monster",
+  "tipo": "Planta Corrupta",
+  "categoria": "Plant",
+  "imagen": "css/img/marchitas.webp",
+  "ac": 12,
+  "hp": 16,
+  "speed": "30 ft",
+  "stats": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 4,
+    "wis": 8,
+    "cha": 3
+  },
+  "peligro": 1,
+  "habitat": "Bosques, Caminos Olvidados",
+  "vulnerable": "Fuego",
+  "resistente": "Ensordecido (Inmunidad)",
+  "supervivencia": "Extremadamente débiles frente al fuego. No bajes la guardia al acampar en el bosque; se camuflan a la perfección entre fardos de leña y vegetación seca, y tenderán emboscadas atacando en grupo para saturar tus defensas.",
+  "habilidad_titulo": "Ataques Punzantes en Manada",
+  "habilidad": "Aprovechan la superioridad numérica para rodear a su presa. Las variantes de 'Aguja' pueden expulsar ráfagas de proyectiles astillados a gran velocidad mientras las de 'Rama' atacan cuerpo a cuerpo.",
+  "lore": "Las marchitas son engendros vegetales maléficos que brotan allí donde la maldad más profunda ha corrompido la tierra. Tienen formas nudosas que vagamente emulan extremidades humanas demacradas, y sus rostros retorcidos reflejan puro odio. Donde ellas aparecen, la vegetación natural muere, los pozos de agua se estancan y los animales huyen despavoridos."
+}

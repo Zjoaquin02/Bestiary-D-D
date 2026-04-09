@@ -1,0 +1,27 @@
+{
+  "id": "magmin",
+  "nombre": "Magmin",
+  "rol": "monster",
+  "tipo": "Elemental Pequeño",
+  "categoria": "Elemental",
+  "imagen": "css/img/magmin.webp",
+  "ac": 14,
+  "hp": 13,
+  "speed": "9 m",
+  "stats": {
+    "str": 7,
+    "dex": 15,
+    "con": 12,
+    "int": 8,
+    "wis": 11,
+    "cha": 10
+  },
+  "peligro": "1/2",
+  "habitat": "Plano Elemental del Fuego",
+  "vulnerable": "Ninguna",
+  "resistente": "Fuego (Inmunidad)",
+  "supervivencia": "Mantén la distancia siempre que sea posible, ya que estos pequeños elementales explotan violentamente al morir. Utiliza ataques a distancia y trata de evitar que se acerquen a objetos inflamables. Su toque prenderá fuego a cualquier cosa que no esté protegida, por lo que el combate cuerpo a cuerpo es sumamente riesgoso.",
+  "habilidad_titulo": "Explotar al Morir",
+  "habilidad": "Cuando el magmin muere, explota. Todas las criaturas a 3 metros deben hacer una tirada de salvación de Destreza (CD 11), sufriendo 2d6 de daño de fuego si fallan, o la mitad si tienen éxito.",
+  "lore": "Los magmins ven el mundo dividido en dos categorías: lo que ya está ardiendo y lo que debería arder. Son criaturas elementales del tamaño de medianos que no actúan por malicia, sino por el puro éxtasis que les produce el fuego primigenio. A menudo resultan atraídos por lugares de extremo calor como volcanes, o son invocados por magos que buscan utilizar su naturaleza destructiva e inflamable en combate."
+}

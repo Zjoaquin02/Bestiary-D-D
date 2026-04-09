@@ -67,5 +67,8 @@
   { "id": "drana", "nombre": "Draña", "tipo": "monster" },
   { "id": "gargola", "nombre": "Gárgola", "tipo": "monster" },
   { "id": "elementales", "nombre": "Elementales", "tipo": "monster" },
-  { "id": "hidra", "nombre": "Hidra", "tipo": "boss" }
+  { "id": "hezrou", "nombre": "Hezrou", "tipo": "monster" },
+  { "id": "marchitas", "nombre": "Marchitas", "tipo": "monster" },
+  { "id": "hidra", "nombre": "Hidra", "tipo": "boss" },
+  { "id": "magmin", "nombre": "Magmin", "tipo": "monster" }
 ]
