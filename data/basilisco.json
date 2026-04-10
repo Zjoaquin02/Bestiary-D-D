@@ -21,7 +21,7 @@
   "vulnerable": "Ninguna",
   "resistente": "Cegado, Petrificado",
   "supervivencia": "Jamás mires a sus ojos. Si no tienes un espejo para ver su reflejo, ataca a ciegas o confía en tus oídos. Su aliento es fétido, pero su mirada es el verdadero fin.",
-  "habilidad_titulo": "Mirada Petrificante",
-  "habilidad": "Un reptil de ocho patas cuya mirada puede convertir a los seres vivos en piedra. Su mera presencia hace que los bosques queden en un silencio sepulcral.",
-  "lore": "Un reptil de ocho patas cuya mirada puede convertir a los seres vivos en piedra. Su mera presencia hace que los bosques queden en un silencio sepulcral."
+  "habilidad_titulo": "Mirada Petrificante Mutiladora",
+  "habilidad": "Su principal terror radica en sus letales ojos de influencia mágica. Si una criatura empieza su turno a menos de 9 metros y el basilisco la mira con los ojos descubiertos, el objetivo debe superar un brutal salvamento de Constitución (CD 12). Al fallar, comienza a convertirse en roca, viéndose mágicamente restringido de velocidad, y un segundo fracaso en su próximo turno sella por completo la transformación del individuo en piedra sólida de forma permanente.",
+  "lore": "Esta temible monstruosidad reptiliana armada de pesadas patas robustas caza guiándose exclusivamente a través de su mortífera mirada empedradora antes que valerse de sus gruesos colmillos para alimentarse. Habitan frecuentemente en áridas zonas rocosas o profundidades desoladas de oscuros sistemas de cavernas, donde comúnmente su guarida es mal augurada por la alarmante e inquietante sobreabundancia de increíblemente precisas 'estatuas de piedra' de animales locales, o aventureros asustados. Remotos rumores de sabios arcanistas narran que una delicada solución oleosa extraída del asqueroso saco gástrico basal del propio basilisco caído puede temporalmente revertir la maldición de la inmovilidad letal sobre una desgraciada alma congelada al ser ungido."
 }

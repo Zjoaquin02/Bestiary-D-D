@@ -20,8 +20,7 @@
   "habitat": "Bosques profundos y arboledas sagradas",
   "vulnerable": "Fuego",
   "resistente": "Magia Feérica",
-  "habilidad_titulo": "Traslación Arbórea y Encanto",
-  "habilidad": "Cuentan con la poderosa magia del bosque, que les permite encantar a humanoides y bestias, además de poder fundirse mágicamente con la corteza de los árboles para teletransportarse a un árbol cercano.",
-  "supervivencia": "Gánate su favor de manera pacífica o recurre al fuego si la diplomacia no funciona. No te confíes si lucen inofensivas, tienen a todo un ecosistema de su lado.",
-  "lore": "Las dríades son espíritus protectores de los árboles y la naturaleza pura de los bosques antiguos, en su mayoría asociadas a fuertes robles u otras maderas veneradas. Raramente salen de la proximidad del árbol con el que están vinculadas."
+  "habilidad_titulo": "Traslación Arbórea, Magia Innata y Encanto Feérico",
+  "habilidad": "Una dríade puede fundirse con la madera de los árboles circundantes para teletransportarse instantáneamente hasta 18 metros a otro árbol. Además de su resistencia pasiva a la magia, puede lanzar 'Piel Robusta', 'Enredar' y 'Pasar sin Dejar Rastro' de forma innata. Su poderosa voz feérica le permite Encantar (Sabiduría CD 14) hasta a tres humanoides o bestias simultáneamente; aquellos bajo su hechizo protegerán a la dríade con sus propias vidas hasta que el efecto se disipe o reciban daño.",
+  "lore": "Las dríades son los espíritus guardianes por excelencia de las florestas inexploradas, vinculadas intrínsecamente al latido de un único árbol milenario al cual su alma permanece atada; si su árbol muere, la dríade descenderá a la locura profunda antes de perecer irrevocablemente. Suelen ser esquivas, espiando pacíficamente a los intrusos desde el denso follaje, mostrándose únicamente cuando estos vulneran la tranquilidad de la flora con crueldad indiscriminada. Su método defensivo prioritario y punitivo se enfoca silenciosamente en malear la voluntad natural ajena, volviendo agresores en contra de sus propios aliados leñadores."
 }

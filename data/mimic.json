@@ -21,7 +21,7 @@
   "vulnerable": "Fuego, Ácido",
   "resistente": "Cortante, Impacto",
   "supervivencia": "No toques nada que parezca demasiado limpio. Si un cofre no tiene polvo, es un Mimic. Golpéalo antes de intentar abrirlo; es preferible romper la cerradura que perder una mano.",
-  "habilidad_titulo": "Capa Externa Pegajosa",
-  "habilidad": "Se mimetizan con el entorno y sus mandíbulas son tan fuertes como el acero.",
-  "lore": "Ingeniosos e impredecibles depredadores nacidos del polvo en rincones olvidados. Adquieren con facilidad pavorosa la figura y materialidad de cualquier objeto común inerte; frecuentemente simulan majestuosos cofres y pesadas puertas de madera para emboscar. La avaricia ajena es su cebo letal, usando pegajosas fauces sorpresa con las que engullen y digieren vivas a sus perplejas víctimas."
+  "habilidad_titulo": "Falsa Apariencia y Superficie Adhesiva",
+  "habilidad": "Mientras permanezca inmóvil usando la forma copiada, el Mimic es lógicamente invisible a nivel de percepción (indistinguible de un objeto normal). Secreta un potente polímero pegajoso natural que recubre por completo todo su cuerpo alterado; cualquier criatura u objeto que lo toque directamente quedará adherido y Gravemente Apresado (Fuerza CD 13) de manera automática. Todas sus tiradas de ataque de impacto contra las presas atascadas a su cuerpo tienen Ventaja directa inquebrantable.",
+  "lore": "Ingeniosos e impredecibles depredadores monomaníacos amorfos nacidos curiosamente de polvo y magia latente en rincones olvidados. Adquieren con facilidad pavorosa la consistencia sólida, texturizada e idéntica de casi cualquier objeto común inerte, comúnmente disimulando su voraz figura corpulenta de monstruosidad como majestuosos baúles, estanterías antiguas o pesadas puertas de madera para emboscar confiados exploradores en mazmorras labradas. La cruda avaricia incauta o descuidada ajena se vuelve el gran cebo letal al quedar fatalmente trabados en brazos estirados o espadas inútilmente aferradas, mientras mortales fauces sorpresa brotan para masticarles y engullirles vivos para perpetuo lamento doloroso."
 }
