@@ -4,6 +4,32 @@
   "is_multi": true,
   "variantes": [
     {
+      "nombre": "Erinyes",
+      "rol": "monster",
+      "tipo": "Infernal Mediano (Diabo)",
+      "categoria": "Fiend",
+      "imagen": "css/img/erinyes.webp",
+      "ac": 18,
+      "hp": 153,
+      "speed": "9 m, volar 15 m",
+      "stats": {
+        "str": 18,
+        "dex": 16,
+        "con": 18,
+        "int": 14,
+        "wis": 14,
+        "cha": 18
+      },
+      "peligro": 4,
+      "habitat": "Nueve Infiernos",
+      "vulnerable": "Inmovilización",
+      "resistente": "Frío, armas no mágicas; Inmune a Fuego y Veneno",
+      "supervivencia": "Usa coberturas contra sus flechazos venenosos. Una vez derribada en tierra, su versatilidad decae ampliamente.",
+      "habilidad_titulo": "Asedio Aéreo y Soga de Enmarañamiento",
+      "habilidad": "Dispara flechas con veneno letal que ignora coberturas. Usa una soga mágica para atrapar y asfixiar a lanzadores de conjuros.",
+      "lore": "Las Erinyes son los ángeles caídos de los Nueve Infiernos, guerreras de una belleza celestial que oculta un corazón de puro hierro frío. A diferencia de otros diablos, las Erinyes rara vez cambian su forma, prefiriendo mostrarse como paladines de la justicia divina para engañar a los mortales antes de reclamar sus almas. Son los asesinos más letales de Asmodeus, cazadores infalibles que utilizan sus sogas de enmarañamiento y sus arcos venenosos para silenciar a cualquiera que se oponga al destino manifiesto del mal legal."
+    },
+    {
       "nombre": "Diablo Óseo",
       "rol": "monster",
       "tipo": "Infernal Grande (Diablo)",
@@ -12,7 +38,14 @@
       "ac": 19,
       "hp": 142,
       "speed": "12 m, volar 12 m",
-      "stats": { "str": 18, "dex": 16, "con": 18, "int": 13, "wis": 14, "cha": 16 },
+      "stats": {
+        "str": 18,
+        "dex": 16,
+        "con": 18,
+        "int": 13,
+        "wis": 14,
+        "cha": 16
+      },
       "peligro": 5,
       "habitat": "Nueve Infiernos",
       "vulnerable": "Armas de plata",
@@ -31,7 +64,14 @@
       "ac": 16,
       "hp": 85,
       "speed": "9 m",
-      "stats": { "str": 18, "dex": 15, "con": 18, "int": 11, "wis": 12, "cha": 14 },
+      "stats": {
+        "str": 18,
+        "dex": 15,
+        "con": 18,
+        "int": 11,
+        "wis": 12,
+        "cha": 14
+      },
       "peligro": 3,
       "habitat": "Nueve Infiernos",
       "vulnerable": "Daño radiante",
@@ -40,25 +80,6 @@
       "habilidad_titulo": "Animación de Cadenas Sádicas",
       "habilidad": "Puede dar vida a cadenas cercanas para atacar y apresar rivales. Su mirada revela las caras de familiares difuntos para aterrorizar.",
       "lore": "El Kyton es una criatura de tormento estético, un carcelero que ha transformado el dolor en una forma de arte. Habitan en la Ciudad de Hierro de Dis, donde animan cadenas para atrapar y desollar a aquellos que han pecado contra el orden. Su cuerpo está cubierto de cicatrices y perforaciones que ellos mismos se infligen, buscando el éxtasis en cada golpe recibido y entregado. Para un Kyton, el miedo es una fragancia y la carne es el lienzo sobre el que esculpen su devoción eterna a la jerarquía infernal."
-    },
-    {
-      "nombre": "Erinyes",
-      "rol": "monster",
-      "tipo": "Infernal Mediano (Diabo)",
-      "categoria": "Fiend",
-      "imagen": "css/img/erinyes.webp",
-      "ac": 18,
-      "hp": 153,
-      "speed": "9 m, volar 15 m",
-      "stats": { "str": 18, "dex": 16, "con": 18, "int": 14, "wis": 14, "cha": 18 },
-      "peligro": 4,
-      "habitat": "Nueve Infiernos",
-      "vulnerable": "Inmovilización",
-      "resistente": "Frío, armas no mágicas; Inmune a Fuego y Veneno",
-      "supervivencia": "Usa coberturas contra sus flechazos venenosos. Una vez derribada en tierra, su versatilidad decae ampliamente.",
-      "habilidad_titulo": "Asedio Aéreo y Soga de Enmarañamiento",
-      "habilidad": "Dispara flechas con veneno letal que ignora coberturas. Usa una soga mágica para atrapar y asfixiar a lanzadores de conjuros.",
-      "lore": "Las Erinyes son los ángeles caídos de los Nueve Infiernos, guerreras de una belleza celestial que oculta un corazón de puro hierro frío. A diferencia de otros diablos, las Erinyes rara vez cambian su forma, prefiriendo mostrarse como paladines de la justicia divina para engañar a los mortales antes de reclamar sus almas. Son los asesinos más letales de Asmodeus, cazadores infalibles que utilizan sus sogas de enmarañamiento y sus arcos venenosos para silenciar a cualquiera que se oponga al destino manifiesto del mal legal."
     }
   ]
 }
