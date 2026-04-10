@@ -82,6 +82,33 @@
       "lore": "Matar a un troll ya es difícil en vida. Reanimarlo es uno de los errores más costosos que puede cometer un nigromante novato. La magia necrótica no elimina la resiliencia sobrenatural del troll, solo la adormece parcialmente. El resultado es una criatura que parece muerta pero se niega a estarlo, arrastrándose de vuelta con garras putrefactas incluso después de recibir golpes que matarían a cualquier otro no-muerto."
     },
     {
+      "nombre": "Zombie Oso",
+      "rol": "monster",
+      "tipo": "No-muerto Grande",
+      "categoria": "Undead",
+      "imagen": "css/img/zombie_oso.webp",
+      "ac": 12,
+      "hp": 85,
+      "speed": "12 m",
+      "stats": {
+        "str": 19,
+        "dex": 8,
+        "con": 18,
+        "int": 3,
+        "wis": 12,
+        "cha": 5
+      },
+      "peligro": 2,
+      "habitat": "Bosques Corrompidos, Páramos Necróticos, Guaridas Profanadas",
+      "vulnerable": "Radiante, Fuego",
+      "resistente": "Veneno (Inmune), Necrótico (Inmune), Perforante y Cortante de armas no mágicas",
+      "supervivencia": "No lo subestimes por ser un animal: su Carga puede derribarte de un golpe y combina inmediatamente con las garras. Mantén distancia y usa daño radiante; es lo único que impide que su Fortaleza No-muerta lo salve. Cada mordisco que recibe lo cura, así que prioriza los impactos contundentes y radiantes sobre el daño físico convencional.",
+      "habilidad_titulo": "Fortaleza No-muerta y Apetito Voraz",
+      "habilidad": "Si cae a 0 PG, hace una tirada de CON (CD 5 + daño recibido) para quedar en 1 PG en su lugar. Cada vez que su mordisco conecta, recupera 1d6 PG. Si se mueve al menos 6 metros en línea recta y golpea con las garras, el objetivo debe superar FUE CD 15 o caerá Derribado.",
+      "lore": "Un cadáver de oso colosal cubierto de carne putrefacta y huesos expuestos que avanza con pasos pesados y un hambre insaciable. Sus ojos brillan con una luz extraña que no pertenece a ningún ser vivo. Estos engendros son el resultado de rituales necróticos oscuros o de bosques corrompidos por magia infernal: la naturaleza misma retorcida y devuelta como arma. A diferencia de los zombies humanos, el zombie oso conserva algo del instinto predador original, lo que lo hace impredecible y brutalmente efectivo en espacios abiertos."
+    },
+    {
+
       "nombre": "Zombie de Beholder",
       "rol": "monster",
       "tipo": "No-muerto Grande",
