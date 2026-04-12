@@ -34,7 +34,7 @@
   { "id": "bestia_tremula", "nombre": "Bestia Trémula", "tipo": "monster" },
   { "id": "phase_spider", "nombre": "Phase Spider", "tipo": "monster" },
   { "id": "treant", "nombre": "Treant", "tipo": "monster" },
-  { "id": "golem_hierro", "nombre": "Golem de Hierro", "tipo": "monster" },
+  { "id": "golems", "nombre": "Golems", "tipo": "monster" },
   { "id": "hag", "nombre": "Bruja", "tipo": "monster" },
   { "id": "vecna", "nombre": "Vecna", "tipo": "boss" },
   { "id": "tiamat", "nombre": "Tiamat", "tipo": "boss" },
