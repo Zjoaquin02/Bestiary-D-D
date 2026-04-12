@@ -23,7 +23,7 @@ El campo `"peligro"` en cada JSON acepta valores del **1 al 6**, siguiendo la je
 | 5 | ☠️☠️☠️☠️☠️ | **Amenaza Crítica** | Extremadamente letal. Rara de igualar. |
 | 6 | ☠️☠️☠️☠️☠️☠️ | **⚡ Calamidad** | Casos **muy extremos**. Entidades míticas o apocalípticas (ej: Tarrasque, Tiamat). **Clasificados como Jefes.** |
 
-> **Nota:** Toda criatura con nivel de Peligro 6 debe tener obligatoriamente el rol de **Jefe (boss)** y poseer su propio archivo individual.
+> **Nota:** Toda criatura con nivel de Peligro 6 debe tener obligatoriamente el rol de **Jefe (boss)**.
 
 ---
 
@@ -64,8 +64,13 @@ Para mantener el orden, consulta el archivo [**como_crear_monstruos.txt**](file:
 
 - **Fuentes**: [Google Fonts](https://fonts.google.com/)
 - **Texturas**: [Transparent Textures](https://www.transparenttextures.com/)
-- **Imágenes (CDN)**: [Cloudinary](https://cloudinary.com) — almacenamiento y optimización automática.
-- **Libros de Referencia**: [Google Drive](https://drive.google.com/drive/folders/1nOvrMp_12WS0SOxtbLuo-AAL7YgMV19N) — biblioteca de manuales de D&D de varias ediciones.
+- **Imágenes (CDN)**: [Cloudinary](https://cloudinary.com) — almacenamiento y optimización automática de imágenes en la nube. Plan gratuito incluye 25 GB de almacenamiento.
 
 ---
 *Creado con dedicación para la mesa de juego.*
+
+# Bestiary-D-D
+Bestiario
+
+https://drive.google.com/drive/folders/1nOvrMp_12WS0SOxtbLuo-AAL7YgMV19N
+Drive con libros de Dungean and Dragons varias ediciones
