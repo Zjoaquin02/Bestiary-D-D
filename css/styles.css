@@ -745,55 +745,57 @@ body.boss-mode #notes-area {
 /* ============================================================
    10. VARIANTES (TABS)
    ============================================================ */
-.variant-tabs {
+/* ============================================================
+   10. VARIANTES (SELECT / DROPDOWN)
+   ============================================================ */
+.variant-select-wrapper {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 8px; /* Reducido un poco */
-    margin-bottom: 25px;
-    border-bottom: 2px dashed var(--gold);
-    padding-bottom: 12px;
-    max-width: 90%; /* Evita que los botones toquen los bordes */
-    margin-left: auto;
-    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto 30px auto;
+    width: 100%;
 }
 
-.variant-btn {
-    background: var(--parchment-dark);
+.select-label {
+    font-family: 'MedievalSharp', cursive;
+    color: var(--accent);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.variant-select {
+    background-color: var(--parchment-dark);
     color: var(--ink);
     border: 2px solid var(--border-color);
-    padding: 6px 12px; /* Reducido */
-    font-family: 'MedievalSharp', cursive;
-    font-size: 0.95rem; /* Reducido un poco */
+    padding: 10px 15px;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 300px;
     cursor: pointer;
-    border-radius: 5px; /* Bordes completos para cuando envuelven */
-    transition: all 0.3s;
-    white-space: nowrap;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    outline: none;
+    transition: all 0.3s ease;
 }
 
-.variant-btn:hover {
-    background: var(--gold);
+.variant-select:hover {
+    background-color: var(--gold);
     color: var(--parchment-base);
 }
 
-.variant-btn.active {
-    background: var(--accent);
-    color: var(--parchment-base);
-    border-color: var(--accent);
-    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
-}
-
-body.boss-mode .variant-btn {
-    background: #1a0505;
+body.boss-mode .variant-select {
+    background-color: #1a0505;
     color: #cfcfcf;
     border-color: #ff0000;
 }
 
-body.boss-mode .variant-btn:hover {
-    background: #7a1f1f;
+body.boss-mode .variant-select:hover {
+    background-color: #7a1f1f;
 }
 
-body.boss-mode .variant-btn.active {
-    background: #ff0000;
-    color: #000;
-}
+body.boss-mode .select-label {
+    color: #ff0000;
+}
+

@@ -76,29 +76,38 @@ function renderMultiCreature(c) {
     tabsContainer.style.display = 'flex';
     tabsContainer.innerHTML = '';
     
-    // Asignar fondo temporalmente para que mantenga el id de anotacion
+    // Asignar el ID del padre para anotaciones
     document.getElementById('name').dataset.parentId = c.id;
     
+    // Crear el contenedor del selector con un label temático
+    const selectWrapper = document.createElement('div');
+    selectWrapper.className = 'variant-select-wrapper';
+    
+    const label = document.createElement('label');
+    label.innerText = 'Escoger Relato: ';
+    label.className = 'select-label';
+    
+    const select = document.createElement('select');
+    select.className = 'variant-select';
+    
     c.variantes.forEach((variant, index) => {
-        const btn = document.createElement('button');
-        btn.className = 'variant-btn';
-        btn.innerText = variant.nombre.replace("Elemental de ", "");
-        
-        btn.onclick = () => {
-            document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            
-            // Render the specific variant
-            renderCreatureDetail(variant);
-        };
-        
-        if (index === 0) {
-            btn.classList.add('active');
-            renderCreatureDetail(variant);
-        }
-        
-        tabsContainer.appendChild(btn);
+        const option = document.createElement('option');
+        option.value = index;
+        option.innerText = variant.nombre.replace("Elemental de ", "");
+        select.appendChild(option);
     });
+    
+    select.onchange = (e) => {
+        const variant = c.variantes[e.target.value];
+        renderCreatureDetail(variant);
+    };
+    
+    // Inicializar con la primera variante
+    renderCreatureDetail(c.variantes[0]);
+    
+    selectWrapper.appendChild(label);
+    selectWrapper.appendChild(select);
+    tabsContainer.appendChild(selectWrapper);
 }
 
 /**
