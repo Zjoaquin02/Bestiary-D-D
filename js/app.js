@@ -277,6 +277,39 @@ function toggleLayout() {
 }
 
 /**
+ * Alterna el modo oscuro (Farol Apagado/Encendido)
+ */
+function toggleDarkMode() {
+    const btn = document.getElementById('btn-moon-toggle');
+    const isDark = document.body.classList.toggle('dark-mode');
+    
+    if (isDark) {
+        localStorage.setItem('bestiaryTheme', 'dark');
+        if (btn) btn.innerText = 'Encender Farol';
+    } else {
+        localStorage.setItem('bestiaryTheme', 'light');
+        if (btn) btn.innerText = 'Apagar Farol';
+    }
+}
+
+/**
+ * Aplica la preferencia de tema guardada
+ */
+function applySavedDarkMode() {
+    const savedTheme = localStorage.getItem('bestiaryTheme');
+    const btn = document.getElementById('btn-moon-toggle');
+    
+    // Iterar en todos los botones de la página (por si acaso hubiese)
+    if (savedTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+        if (btn) btn.innerText = 'Encender Farol';
+    } else {
+        document.body.classList.remove('dark-mode');
+        if (btn) btn.innerText = 'Apagar Farol';
+    }
+}
+
+/**
  * Aplica la preferencia de columnas guardada
  */
 function applySavedLayout() {
@@ -305,6 +338,8 @@ function saveAnnotation(id, text) {
    5. INICIALIZACIÓN
    ============================================================ */
 document.addEventListener('DOMContentLoaded', () => {
+    applySavedDarkMode();
+
     if (document.getElementById('grid')) {
         loadList();
     }

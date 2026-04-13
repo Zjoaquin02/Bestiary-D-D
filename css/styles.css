@@ -10,6 +10,74 @@
     --border-color: #3d2b1f;
 }
 
+body.dark-mode:not(.boss-mode) {
+    --parchment-base: #18191c;
+    --parchment-dark: #111215;
+    --ink: #e2e8f0;
+    --accent: #b84a4a;
+    --gold: #d4af37;
+    --border-color: #2b303b;
+    background-color: #07080a;
+    background-image:
+        radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%),
+        url('https://www.transparenttextures.com/patterns/dark-leather.png');
+}
+
+body.dark-mode:not(.boss-mode) .book-cover,
+body.dark-mode:not(.boss-mode) .book-open {
+    background-image:
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.02) 0%, rgba(0, 0, 0, 0.5) 100%),
+        url('https://www.transparenttextures.com/patterns/black-paper.png');
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.9),
+        inset 0 0 100px rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode:not(.boss-mode) .annotations-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode:not(.boss-mode) .annotations-box h3 {
+    color: #e2e8f0;
+}
+
+body.dark-mode:not(.boss-mode) #notes-area {
+    color: #e8dcc5;
+}
+
+body.dark-mode:not(.boss-mode) #notes-area::placeholder {
+    color: rgba(226, 232, 240, 0.6);
+    font-style: italic;
+}
+
+body.dark-mode:not(.boss-mode) .variant-select {
+    background-color: #111215;
+    color: #e2e8f0;
+    border-color: #b84a4a;
+}
+
+body.dark-mode:not(.boss-mode) .variant-select:hover {
+    background-color: #2b303b;
+}
+
+body.dark-mode:not(.boss-mode) .filter-btn,
+body.dark-mode:not(.boss-mode) .back-link {
+    color: var(--ink);
+    border-color: var(--gold);
+}
+
+body.dark-mode:not(.boss-mode) .filter-btn.active,
+body.dark-mode:not(.boss-mode) .filter-btn:hover {
+    background-color: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+}
+
+body.dark-mode:not(.boss-mode) .back-link:hover {
+    color: var(--accent);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -81,6 +149,7 @@ body {
    ============================================================ */
 header {
     text-align: center;
+    margin-top: 50px;
     margin-bottom: 50px;
     border-bottom: 2px double var(--ink);
     padding-bottom: 20px;
@@ -141,9 +210,11 @@ header {
     right: 15px;
     margin: 0;
     z-index: 20;
+    display: flex;
+    gap: 10px;
 }
 
-#btn-col-toggle {
+#btn-col-toggle, #btn-moon-toggle {
     background: var(--accent);
     color: var(--parchment-base);
     border: none;
@@ -163,9 +234,21 @@ header {
     min-width: 90px;
 }
 
-#btn-col-toggle:hover {
+#btn-col-toggle:hover, #btn-moon-toggle:hover {
     transform: translateY(8px);
     filter: brightness(1.2);
+}
+
+#btn-moon-toggle::before {
+    content: "🌙";
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: var(--gold);
+}
+
+body.dark-mode #btn-moon-toggle::before {
+    content: "☀️";
 }
 
 #btn-col-toggle::before {
@@ -287,6 +370,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 40px;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
@@ -572,6 +656,11 @@ body.boss-mode #notes-area {
     color: #ffffff; /* Tinta blanca para los jefes */
 }
 
+body.boss-mode #notes-area::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+}
+
 /* Modo Jefe para Select de Variantes */
 body.boss-mode .variant-select {
     background-color: #1a0505;
@@ -589,7 +678,92 @@ body.boss-mode .select-label {
 
 
 /* ============================================================
-   8. RESPONSIVIDAD Y ADAPTACIÓN
+   8. ANOTACIONES DEL ERUDITO (SISTEMA DE NOTAS)
+   ============================================================ */
+.annotations-box {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    position: relative;
+    border: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+.annotations-box h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    color: #4a3728;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+#notes-area {
+    width: 100%;
+    min-height: 150px;
+    background: transparent;
+    border: none;
+    font-family: 'Caveat', cursive;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #000000; /* Color de tinta negra */
+    resize: none;
+    outline: none;
+    padding: 10px;
+}
+
+#notes-area::placeholder {
+    color: rgba(74, 55, 40, 0.4);
+    font-style: italic;
+}
+
+
+
+
+
+/* ============================================================
+   9. VARIANTES (SELECT / DROPDOWN)
+   ============================================================ */
+.variant-select-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto 30px auto;
+    width: 100%;
+}
+
+.select-label {
+    font-family: 'MedievalSharp', cursive;
+    color: var(--accent);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.variant-select {
+    background-color: var(--parchment-dark);
+    color: var(--ink);
+    border: 2px solid var(--border-color);
+    padding: 10px 15px;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.variant-select:hover {
+    background-color: var(--gold);
+    color: var(--parchment-base);
+}
+
+
+
+/* ============================================================
+   10. RESPONSIVIDAD Y ADAPTACIÓN
    ============================================================ */
 
 /* Escritorio: Diseño de 2 o 3 columnas */
@@ -674,7 +848,11 @@ body.boss-mode .select-label {
         padding: 30px 15px;
     }
 
-    .layout-nav {
+    header {
+        margin-top: 80px;
+    }
+
+    #btn-col-toggle {
         display: none;
     }
 }
@@ -711,89 +889,4 @@ body.boss-mode .select-label {
         margin-bottom: 20px;
     }
 }
-
-/* ============================================================
-   9. ANOTACIONES DEL ERUDITO (SISTEMA DE NOTAS)
-   ============================================================ */
-.annotations-box {
-    margin-top: 50px;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.02);
-    border-radius: 5px;
-    position: relative;
-    border: 1px dashed rgba(0, 0, 0, 0.1);
-}
-
-.annotations-box h3 {
-    font-family: 'Caveat', cursive;
-    font-size: 1.8rem;
-    color: #4a3728;
-    margin-bottom: 10px;
-    opacity: 0.8;
-}
-
-#notes-area {
-    width: 100%;
-    min-height: 150px;
-    background: transparent;
-    border: none;
-    font-family: 'Caveat', cursive;
-    font-size: 1.4rem;
-    line-height: 1.4;
-    color: #000000; /* Color de tinta negra */
-    resize: none;
-    outline: none;
-    padding: 10px;
-}
-
-#notes-area::placeholder {
-    color: rgba(74, 55, 40, 0.4);
-    font-style: italic;
-}
-
-
-
-
-
-/* ============================================================
-   10. VARIANTES (SELECT / DROPDOWN)
-   ============================================================ */
-.variant-select-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin: 0 auto 30px auto;
-    width: 100%;
-}
-
-.select-label {
-    font-family: 'MedievalSharp', cursive;
-    color: var(--accent);
-    font-size: 1.1rem;
-    letter-spacing: 1px;
-}
-
-.variant-select {
-    background-color: var(--parchment-dark);
-    color: var(--ink);
-    border: 2px solid var(--border-color);
-    padding: 10px 15px;
-    font-family: 'Crimson Text', serif;
-    font-size: 1.2rem;
-    width: 100%;
-    max-width: 300px;
-    cursor: pointer;
-    border-radius: 4px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-    outline: none;
-    transition: all 0.3s ease;
-}
-
-.variant-select:hover {
-    background-color: var(--gold);
-    color: var(--parchment-base);
-}
-
-
 
