@@ -558,6 +558,35 @@ body.boss-mode .survival-note p {
     }
 }
 
+/* Modo Jefe para las Anotaciones (Letras claras sobre fondo oscuro) */
+body.boss-mode .annotations-box {
+    background: rgba(255, 0, 0, 0.05);
+    border-color: rgba(255, 0, 0, 0.2);
+}
+
+body.boss-mode .annotations-box h3 {
+    color: #ffcccc;
+}
+
+body.boss-mode #notes-area {
+    color: #ffffff; /* Tinta blanca para los jefes */
+}
+
+/* Modo Jefe para Select de Variantes */
+body.boss-mode .variant-select {
+    background-color: #1a0505;
+    color: #cfcfcf;
+    border-color: #ff0000;
+}
+
+body.boss-mode .variant-select:hover {
+    background-color: #7a1f1f;
+}
+
+body.boss-mode .select-label {
+    color: #ff0000;
+}
+
 
 /* ============================================================
    8. RESPONSIVIDAD Y ADAPTACIÓN
@@ -582,10 +611,6 @@ body.boss-mode .survival-note p {
         height: 100%;
         padding: 40px 40px 40px 20px;
         /* Apilar imagen y anotaciones verticalmente, centrados en altura */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         gap: 30px;
     }
 
@@ -728,23 +753,8 @@ body.boss-mode .survival-note p {
 
 
 
-/* Modo Jefe para las Anotaciones (Letras claras sobre fondo oscuro) */
-body.boss-mode .annotations-box {
-    background: rgba(255, 0, 0, 0.05);
-    border-color: rgba(255, 0, 0, 0.2);
-}
 
-body.boss-mode .annotations-box h3 {
-    color: #ffcccc;
-}
 
-body.boss-mode #notes-area {
-    color: #ffffff; /* Tinta blanca para los jefes */
-}
-
-/* ============================================================
-   10. VARIANTES (TABS)
-   ============================================================ */
 /* ============================================================
    10. VARIANTES (SELECT / DROPDOWN)
    ============================================================ */
@@ -785,17 +795,5 @@ body.boss-mode #notes-area {
     color: var(--parchment-base);
 }
 
-body.boss-mode .variant-select {
-    background-color: #1a0505;
-    color: #cfcfcf;
-    border-color: #ff0000;
-}
 
-body.boss-mode .variant-select:hover {
-    background-color: #7a1f1f;
-}
 
-body.boss-mode .select-label {
-    color: #ff0000;
-}
-
