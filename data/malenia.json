@@ -1,0 +1,46 @@
+{
+  "id": "malenia",
+  "nombre": "Malenia, Espada de Miquella",
+  "rol": "boss",
+  "tipo": "Humanoide (Titán)",
+  "categoria": "Humanoid",
+  "imagen": "css/img/malenia.webp",
+  "ac": 22,
+  "hp": 287,
+  "speed": "15 m",
+  "stats": {
+    "str": 24,
+    "dex": 26,
+    "con": 25,
+    "int": 17,
+    "wis": 18,
+    "cha": 17
+  },
+  "peligro": 6,
+  "habitat": "El Árbol Hierático, Tierras Intermedias",
+  "vulnerable": "Ninguna",
+  "resistente": "Necrótico, Veneno; Contundente, Perforante y Cortante (No mágicos)",
+  "inmune": "Hechizada, Agotamiento, Asustada, Envenenada",
+  "supervivencia": "No uses escudos, ya que su regeneración se activa incluso si logra golpearlos. Esquiva la 'Danza de las Aves Acuáticas' alejándote de sus 3 zonas de impacto sucesivas. En su segunda fase, huye de la explosión del 'Aeonia Escarlata', o sufrirás una podredumbre que cancela cualquier sanación.",
+  "habilidad_titulo": "Regeneración y Diosa de la Podredumbre",
+  "habilidad": "Se cura 20 PG si inflige daño cortante en su turno. Si cae a 0 PG, activa su forma mítica 'Diosa de la Podredumbre': no muere, recupera 200 PG, gana velocidad de vuelo de 45 m y desata su Aeonia Escarlata de inmediato.",
+  "lore": "Malenia es una de las semidioses más formidables, maldecida desde su nacimiento con la letal Podredumbre Escarlata. Nunca ha conocido la derrota; aquellos que enfrentan su veloz danza de filos rara vez viven para contar cómo su espada no solo corta carne, sino que extrae la propia vitalidad para curar a su portadora.",
+  "tacticas": [
+    {
+      "titulo": "Multiataque e Incursión Veloz",
+      "descripcion": "Realiza tres ataques de espada larga de inmenso poder. Gracias a sus acciones legendarias puede ejecutar el salto 'Blade Dash', atravesando todo el campo de batalla dañando a cualquiera a su paso sin provocar ataques de oportunidad."
+    },
+    {
+      "titulo": "Danza de las Aves Acuáticas (Recarga 5-6)",
+      "descripcion": "Un furioso torbellino de cortes que impacta en tres áreas de explosión (3m de radio) en diferentes puntos. Los enemigos alcanzados por múltiples esferas sufren daños masivos si fallan su salvación de Destreza (CD 24)."
+    },
+    {
+      "titulo": "Parada Precisa (Reacción)",
+      "descripcion": "Como reacción a un ataque cuerpo a cuerpo, suma un increíble +8 a su CA, frustrando incluso los golpes más certeros y bloqueando un daño inminente del que podría vengarse en su turno."
+    },
+    {
+      "titulo": "Aeonia Escarlata (Acción Mítica / Coste 3 Acciones)",
+      "descripcion": "Al estallar en putrefacción (CD 23 CON), el veneno inyectado en quienes fallan anula cualquier recuperación de PG y causa daño pasivo constante, ignorando resistencias e inmunidades al veneno regular."
+    }
+  ]
+}

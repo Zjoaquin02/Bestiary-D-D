@@ -56,32 +56,6 @@
       "lore": "Los nigromantes más astutos reservan a sus guerreros con arco como arqueros esqueléticos, una variante diseñada para saturar de proyectiles a los intrusos desde posiciones elevadas. A diferencia de sus primos de melee, estos no embisten; esperan en silencio sobre parapetos y torres hasta que algo vivo cruce su campo de visión."
     },
     {
-      "nombre": "Esqueleto Mago",
-      "rol": "monster",
-      "tipo": "No-muerto Mediano",
-      "categoria": "Undead",
-      "imagen": "css/img/esqueleto_mago.webp",
-      "ac": 12,
-      "hp": 26,
-      "speed": "9 m",
-      "stats": {
-        "str": 6,
-        "dex": 14,
-        "con": 12,
-        "int": 16,
-        "wis": 10,
-        "cha": 14
-      },
-      "peligro": 2,
-      "habitat": "Torres de Magos Caídos, Tumbas de Arcanistas",
-      "vulnerable": "Contundente (Caza-huesos), Radiante",
-      "resistente": "Veneno (Inmune), Perforante",
-      "supervivencia": "Es el objetivo prioritario: sus conjuros pueden paralizar o drenar vida. Ciérrales la distancia para interrumpir hechizos. El daño radiante vulnera sus restos mágicos.",
-      "habilidad_titulo": "Memoria Arcana Persistente",
-      "habilidad": "Retiene la memoria mágica de su vida anterior. Puede lanzar Rayo de Escarcha, Esfera de Fuego y Drenaje de Vida. Su concentración es vulnerable si recibe daño físico.",
-      "lore": "Cuando un arcanista muere sin completar su obra, a veces el conocimiento queda atrapado en los propios huesos. El esqueleto mago no siempre es creado; a veces surge solo, guiado por el eco de conjuros que alguna vez dominó. Es más peligroso que el esqueleto común precisamente porque actúa con algo parecido a la inteligencia, aunque sea solo el reflejo hueco de lo que fue."
-    },
-    {
       "nombre": "Caballo Esqueleto",
       "rol": "monster",
       "tipo": "No-muerto Grande",
@@ -106,6 +80,32 @@
       "habilidad_titulo": "Montura Infatigable",
       "habilidad": "Funciona como montura para criaturas no-muertas o nigromantes. No necesita comer, dormir ni descansar. Carga a velocidad completa sin penalización por terreno escalado.",
       "lore": "Los caballos de guerra caídos en batalla son presa fácil para los nigromantes que buscan movilidad en sus ejércitos. El caballo esqueleto no relincha ni respira; galopa en silencio absoluto incluso en la oscuridad más densa. Muchos generales no-muertos montan estas bestias como símbolo de estatus: su velocidad es aterradora y no pueden ser intimidadas."
+    },
+    {
+      "nombre": "Esqueleto Mago",
+      "rol": "monster",
+      "tipo": "No-muerto Mediano",
+      "categoria": "Undead",
+      "imagen": "css/img/esqueleto_mago.webp",
+      "ac": 12,
+      "hp": 26,
+      "speed": "9 m",
+      "stats": {
+        "str": 6,
+        "dex": 14,
+        "con": 12,
+        "int": 16,
+        "wis": 10,
+        "cha": 14
+      },
+      "peligro": 2,
+      "habitat": "Torres de Magos Caídos, Tumbas de Arcanistas",
+      "vulnerable": "Contundente (Caza-huesos), Radiante",
+      "resistente": "Veneno (Inmune), Perforante",
+      "supervivencia": "Es el objetivo prioritario: sus conjuros pueden paralizar o drenar vida. Ciérrales la distancia para interrumpir hechizos. El daño radiante vulnera sus restos mágicos.",
+      "habilidad_titulo": "Memoria Arcana Persistente",
+      "habilidad": "Retiene la memoria mágica de su vida anterior. Puede lanzar Rayo de Escarcha, Esfera de Fuego y Drenaje de Vida. Su concentración es vulnerable si recibe daño físico.",
+      "lore": "Cuando un arcanista muere sin completar su obra, a veces el conocimiento queda atrapado en los propios huesos. El esqueleto mago no siempre es creado; a veces surge solo, guiado por el eco de conjuros que alguna vez dominó. Es más peligroso que el esqueleto común precisamente porque actúa con algo parecido a la inteligencia, aunque sea solo el reflejo hueco de lo que fue."
     },
     {
       "nombre": "Esqueleto de Minotauro",
