@@ -184,6 +184,32 @@
       "habilidad_titulo": "Toque Corruptor y Lamento",
       "habilidad": "La banshee drena la vitalidad mediante un toque corruptor y posee un poder aterrador sobre las mentes. Puede emitir un Lamento Mortífero (una vez al día, lejos de la luz solar) que destroza los espíritus e instantáneamente puede derribar a las criaturas que lo oyen.",
       "lore": "Las banshees, mensajeras de la desgracia y azote de los vivos, son espíritus obsesionados por una amargura o una tristeza sin resolver. Estos seres fantasmales de leyenda acaban con la vida de cualquiera que las vislumbre o que escuche sus aullidos siniestros. Aunque cualquier alma atormentada puede revivir en forma de banshee, son especialmente temidas por algunas comunidades élficas, que creen que quienes acumulan o destruyen la belleza (natural o de otro tipo) se arriesgan a regresar como estos seres."
+    },
+    {
+      "nombre": "Dementor",
+      "rol": "monster",
+      "tipo": "No-muerto Mediano",
+      "categoria": "Undead",
+      "imagen": "css/img/dementor.webp",
+      "ac": 15,
+      "hp": 85,
+      "speed": "volar 12 m (levitar)",
+      "stats": {
+        "str": 1,
+        "dex": 16,
+        "con": 16,
+        "int": 10,
+        "wis": 14,
+        "cha": 18
+      },
+      "peligro": 4,
+      "habitat": "Prisiones de Alta Seguridad, Lugares Desolados, Niebla Intensa",
+      "vulnerable": "Radiante (Patronus)",
+      "resistente": "Físico no mágico, Frío (Inmune), Necrótico (Inmune), Veneno (Inmune)",
+      "supervivencia": "Nunca te acerques sin un hechizo que proyecte energía positiva pura (como un Patronus). Su sola presencia drena la esperanza y puede paralizarte de terror. Si te atrapan, intentarán el 'Beso del Dementor', que no mata el cuerpo pero consume el alma, dejando una cáscara vacía. Mantén distancia y usa luz radiante poderosa.",
+      "habilidad_titulo": "Aura de Desesperación y Beso del Dementor",
+      "habilidad": "Cualquier criatura que empiece su turno a 9 metros debe superar una salvación de Sabiduría o quedar asustada y con su velocidad reducida a 0. El Beso del Dementor es una acción contra una criatura incapacitada: drena su alma, reduciendo sus PG máximos a 0 instantáneamente; requiere magia de alto nivel para revertirse.",
+      "lore": "Los dementores son de las criaturas más nauseabundas que habitan la tierra. Infestan los lugares más oscuros y sucios, se regocijan en la decadencia y la desesperación, vacían de paz, esperanza y alegría el aire que los rodea. No tienen ojos, solo una boca que succiona el alma de sus víctimas. No son leales a nadie, solo a quien les proporcione más almas que consumir."
     }
   ]
 }
