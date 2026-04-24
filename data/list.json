@@ -84,5 +84,6 @@
   { "id": "pit_fiend", "nombre": "Pit Fiend", "tipo": "boss" },
   { "id": "marilith", "nombre": "Marilith", "tipo": "boss" },
   { "id": "ultroloth", "nombre": "Ultroloth", "tipo": "boss" },
-  { "id": "malenia", "nombre": "Malenia", "tipo": "boss" }
+  { "id": "malenia", "nombre": "Malenia", "tipo": "boss" },
+  { "id": "frey", "nombre": "Frey", "tipo": "boss" }
 ]
