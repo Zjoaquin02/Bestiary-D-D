@@ -1,0 +1,46 @@
+{
+  "id": "ainz",
+  "nombre": "Ainz Ooal Gown",
+  "rol": "boss",
+  "tipo": "No Muerto (Overlord/Lich)",
+  "categoria": "Undead",
+  "imagen": "css/img/ainz.webp",
+  "ac": 20,
+  "hp": 280,
+  "speed": "9 m, volar 18 m",
+  "stats": {
+    "str": 14,
+    "dex": 16,
+    "con": 20,
+    "int": 30,
+    "wis": 22,
+    "cha": 28
+  },
+  "peligro": 6,
+  "habitat": "La Gran Tumba de Nazarick",
+  "vulnerable": "Fuego, Sagrado, Contundente",
+  "resistente": "Necrótico, Hielo, Veneno; No mágicos",
+  "inmune": "Muerte instantánea, Parálisis, Sueño",
+  "supervivencia": "No dejes que complete sus encantamientos. Su magia de nivel superior puede alterar la realidad. Si usa 'Detención del Tiempo', el combate ha terminado antes de que te des cuenta. Su debilidad es el daño sagrado y el combate físico extremo.",
+  "habilidad_titulo": "Magia de Nivel Superior",
+  "habilidad": "Ainz es un maestro de la magia necromántica. Puede lanzar hechizos que matan instantáneamente o invocan legiones de no muertos. Su mera presencia causa terror en cualquier ser vivo.",
+  "lore": "Anteriormente conocido como Momonga, es el líder de la Gran Tumba de Nazarick y el último miembro del gremio Ainz Ooal Gown. Tras quedar atrapado en un mundo de fantasía, asumió el rol de un monarca absoluto para encontrar a sus antiguos compañeros. Ainz es un estratega magistral que nunca entra en combate sin preparación previa, utilizando cientos de objetos mágicos y hechizos de protección para asegurar una victoria total.",
+  "tacticas": [
+    {
+      "titulo": "Grasp Heart (Acción)",
+      "descripcion": "Un hechizo de noveno nivel que aplasta el corazón del enemigo. El objetivo debe superar una salvación de Constitución (CD 24) o morir instantáneamente. Si sobrevive, queda aturdido."
+    },
+    {
+      "titulo": "Detención del Tiempo (Acción - Recarga 6)",
+      "descripcion": "Detiene el tiempo para todos excepto para él durante 3 turnos. Durante este tiempo, puede posicionarse y lanzar hechizos de preparación que se activarán al reanudarse el flujo temporal."
+    },
+    {
+      "titulo": "The Goal of All Life is Death (Acción Mítica)",
+      "descripcion": "Ainz activa una habilidad pasiva que mejora su magia de muerte. Tras 12 segundos (2 turnos), su siguiente hechizo de muerte ignorará todas las inmunidades, matando incluso a los no muertos o al aire mismo."
+    },
+    {
+      "titulo": "Invocación de No Muerto de Grado Superior (Acción)",
+      "descripcion": "Invoca a un Caballero de la Muerte o un Soul Eater para que luchen a su lado. Estas criaturas sirven como escudos y atacantes frontales."
+    }
+  ]
+}

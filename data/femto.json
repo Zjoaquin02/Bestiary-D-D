@@ -1,0 +1,42 @@
+{
+  "id": "femto",
+  "nombre": "Femto, El Quinto Ángel de la Mano de Dios",
+  "rol": "boss",
+  "tipo": "Mano de Dios (Celestial/Demonio)",
+  "categoria": "Celestial/Fiend",
+  "imagen": "css/img/femto.webp",
+  "ac": 25,
+  "hp": 350,
+  "speed": "9 m, volar 30 m",
+  "stats": {
+    "str": 20,
+    "dex": 24,
+    "con": 26,
+    "int": 28,
+    "wis": 26,
+    "cha": 30
+  },
+  "peligro": 6,
+  "habitat": "El Plano Astral, Durante un Eclipse",
+  "vulnerable": "Ninguna",
+  "resistente": "Todo daño no mágico; Psíquico, Necrótico",
+  "inmune": "Hechizado, Asustado, Envenenado, Agotamiento",
+  "supervivencia": "No intentes atacarlo directamente con armas convencionales; Femto puede distorsionar el espacio para que los ataques nunca le alcancen. La única esperanza es un arma que pueda cortar capas astrales o un sacrificio de igual magnitud. Si el aire comienza a comprimirse, huye del centro de su voluntad.",
+  "habilidad_titulo": "Control de la Causalidad y el Espacio",
+  "habilidad": "Femto existe fuera de las leyes físicas comunes. Puede repeler cualquier proyectil o ataque cuerpo a cuerpo simplemente distorsionando el espacio a su alrededor. Su presencia impone una desesperación tan profunda que los corazones débiles pueden detenerse instantáneamente.",
+  "lore": "Anteriormente conocido como Griffith, el líder de la Banda del Halcón, Femto es la reencarnación del deseo absoluto tras el sacrificio masivo durante el Eclipse. Como el quinto miembro de la Mano de Dios, él es quien gobierna el destino y la causalidad. Femto no tiene remordimientos ni humanidad; es una entidad de pura voluntad astral que busca establecer su propio reino sobre los restos de un mundo sumido en la oscuridad.",
+  "tacticas": [
+    {
+      "titulo": "Distorsión Espacial (Reacción)",
+      "descripcion": "Femto pliega el espacio en respuesta a un ataque. La tirada de ataque del agresor se resuelve contra sí mismo o contra un aliado cercano elegido por Femto."
+    },
+    {
+      "titulo": "Compresión de Gravedad (Acción)",
+      "descripcion": "Concentra la gravedad en un punto. Todas las criaturas en un radio de 9 metros deben superar una salvación de Fuerza (CD 25) o ser aplastadas contra el suelo, recibiendo daño de fuerza masivo y quedando incapacitadas."
+    },
+    {
+      "titulo": "Aura de Desesperación Astral (Pasiva)",
+      "descripcion": "Cualquier criatura que comience su turno a menos de 18 metros de Femto debe superar una salvación de Sabiduría (CD 24) o quedar asustada. Mientras esté asustada, la criatura tiene desventaja en todas sus tiradas y recibe daño psíquico constante."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "albedo",
+  "nombre": "Albedo, Guardiana de los Guardianes",
+  "rol": "boss",
+  "tipo": "Súcubo (Gran Demonio)",
+  "categoria": "Fiend",
+  "imagen": "css/img/albedo.webp",
+  "ac": 24,
+  "hp": 250,
+  "speed": "9 m, volar 18 m",
+  "stats": {
+    "str": 22,
+    "dex": 18,
+    "con": 26,
+    "int": 18,
+    "wis": 16,
+    "cha": 22
+  },
+  "peligro": 5,
+  "habitat": "La Gran Tumba de Nazarick",
+  "vulnerable": "Sagrado",
+  "resistente": "Fuego, Necrótico, Veneno; Físico (No mágico)",
+  "inmune": "Hechizada, Agotamiento",
+  "supervivencia": "Albedo es casi invulnerable al daño directo gracias a su armadura de tres capas. Ignora sus ataques físicos si puedes, pero ten cuidado con su hacha 'Ginnungagap', que puede destruir objetos mágicos y estructuras.",
+  "habilidad_titulo": "Defensa Absoluta de la Guardiana",
+  "habilidad": "Albedo puede transferir el daño recibido por ella o sus aliados a su armadura, reduciéndolo drásticamente. Es la protectora definitiva y no permitirá que nadie toque a su amo.",
+  "lore": "Albedo es la Supervisora de los Guardianes de la Gran Tumba de Nazarick y está a cargo de la gestión general de la base. Es una súcubo de belleza incomparable, vestida con un vestido blanco puro y alas negras azabache. Aunque es amable y diplomática en la gestión, en combate se convierte en una guerrera feroz con una defensa inquebrantable, impulsada por su amor obsesivo y lealtad absoluta hacia Ainz Ooal Gown.",
+  "tacticas": [
+    {
+      "titulo": "Ginnungagap (Acción)",
+      "descripcion": "Ataca con su hacha de grado mundial. Inflige daño de fuerza masivo y tiene la capacidad de fragmentar el espacio, rompiendo barreras mágicas y armaduras."
+    },
+    {
+      "titulo": "Transferencia de Daño (Reacción)",
+      "descripcion": "Cuando un aliado cercano recibe daño, Albedo puede interceptarlo por completo. Su armadura divina absorbe el impacto, reduciendo el daño a la mitad antes de aplicarlo a sus puntos de vida."
+    },
+    {
+      "titulo": "Muros de Jericó (Acción Especial)",
+      "descripcion": "Crea una barrera de energía pura que bloquea proyectiles y hechizos de bajo nivel en un radio de 6 metros a su alrededor, protegiendo a todos los que estén detrás."
+    }
+  ]
+}

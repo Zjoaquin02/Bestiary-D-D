@@ -85,5 +85,10 @@
   { "id": "marilith", "nombre": "Marilith", "tipo": "boss" },
   { "id": "ultroloth", "nombre": "Ultroloth", "tipo": "boss" },
   { "id": "malenia", "nombre": "Malenia", "tipo": "boss" },
-  { "id": "frey", "nombre": "Frey", "tipo": "boss" }
+  { "id": "frey", "nombre": "Frey", "tipo": "boss" },
+  { "id": "sukuna", "nombre": "Sukuna", "tipo": "boss" },
+  { "id": "ainz", "nombre": "Ainz Ooal Gown", "tipo": "boss" },
+  { "id": "albedo", "nombre": "Albedo", "tipo": "boss" },
+  { "id": "femto", "nombre": "Femto", "tipo": "boss" },
+  { "id": "zodd", "nombre": "Zodd el Inmortal", "tipo": "boss" }
 ]

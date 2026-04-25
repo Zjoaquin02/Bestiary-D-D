@@ -1,0 +1,42 @@
+{
+  "id": "zodd",
+  "nombre": "Nosferatu Zodd, El Inmortal",
+  "rol": "boss",
+  "tipo": "Apóstol (Monstruosidad)",
+  "categoria": "Monstrosity/Fiend",
+  "imagen": "css/img/zodd.webp",
+  "ac": 20,
+  "hp": 260,
+  "speed": "12 m (18 m volar en forma de Apóstol)",
+  "stats": {
+    "str": 28,
+    "dex": 18,
+    "con": 26,
+    "int": 16,
+    "wis": 18,
+    "cha": 20
+  },
+  "peligro": 5,
+  "habitat": "Campos de Batalla, Cimas de Montañas",
+  "vulnerable": "Ninguna",
+  "resistente": "Cortante, Contundente y Perforante; Fuego",
+  "inmune": "Agotamiento",
+  "supervivencia": "Zodd busca guerreros dignos; si no eres rival para él, te ignorará o te aplastará como a un insecto. Su regeneración es extremadamente rápida. Si pierde un brazo, puede pegarlo de nuevo en segundos. Ten cuidado cuando sus cuernos crezcan y su cuerpo se transforme; su poder aumenta drásticamente.",
+  "habilidad_titulo": "Regeneración del Apóstol",
+  "habilidad": "Zodd recupera 20 puntos de vida al inicio de cada uno de sus turnos siempre que tenga al menos 1 PG. Además, puede transformarse en una bestia alada gigante, aumentando su tamaño y su fuerza destructiva.",
+  "lore": "Una leyenda entre los mercenarios, se dice que Zodd ha vagado por los campos de batalla durante siglos buscando al adversario definitivo. No le interesa el poder político ni la riqueza, solo el éxtasis del combate a muerte. Aunque sirve a la Mano de Dios, su única lealtad es hacia la fuerza. Su forma humana es la de un bárbaro gigantesco, pero su verdadera naturaleza es la de un apóstol con rasgos de toro y león, una bestia que ha masacrado a miles.",
+  "tacticas": [
+    {
+      "titulo": "Embestida del Inmortal (Acción)",
+      "descripcion": "Zodd carga contra un enemigo con su espada colosal o sus cuernos. Si golpea, el objetivo debe superar una salvación de Fuerza (CD 22) o ser lanzado 6 metros hacia atrás y quedar derribado."
+    },
+    {
+      "titulo": "Transformación en Apóstol (Acción Especial)",
+      "descripcion": "Cuando Zodd cae por debajo del 50% de su vida, se transforma en su forma verdadera. Gana velocidad de vuelo, sus ataques infligen un dado extra de daño y su Clase de Armadura aumenta en +2 debido a su piel endurecida."
+    },
+    {
+      "titulo": "Maestría en Duelo (Reacción)",
+      "descripcion": "Como maestro del combate, Zodd puede realizar un ataque de oportunidad contra cualquier criatura que entre o salga de su alcance, incluso si usan la acción de Destrabarse."
+    }
+  ]
+}

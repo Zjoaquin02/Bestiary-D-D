@@ -4,7 +4,7 @@
   "rol": "boss",
   "tipo": "Titán Colosal",
   "categoria": "Monstrosity",
-  "imagen": "css/img/Tarrasque.webp",
+  "imagen": "css/img/tarrasque.webp",
   "ac": 25,
   "hp": 676,
   "speed": "40 ft, climb 40 ft",

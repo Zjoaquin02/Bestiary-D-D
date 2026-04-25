@@ -1,0 +1,46 @@
+{
+  "id": "sukuna",
+  "nombre": "Ryomen Sukuna, Rey de las Maldiciones",
+  "rol": "boss",
+  "tipo": "Espíritu Maldito (Humanoide)",
+  "categoria": "Undead/Fiend",
+  "imagen": "css/img/sukuna.webp",
+  "ac": 22,
+  "hp": 320,
+  "speed": "18 m",
+  "stats": {
+    "str": 26,
+    "dex": 24,
+    "con": 24,
+    "int": 20,
+    "wis": 18,
+    "cha": 26
+  },
+  "peligro": 6,
+  "habitat": "Dominios Malditos, Templos en Ruinas",
+  "vulnerable": "Ninguna",
+  "resistente": "Cortante, Contundente y Perforante; Psíquico, Necrótico",
+  "inmune": "Hechizado, Asustado, Envenenado",
+  "supervivencia": "No entres en su rango de 60 metros si su Dominio está disponible. Sus cortes son invisibles; la única forma de sobrevivir es tener una regeneración superior o una defensa absoluta. Si ves que forma una flecha de fuego, huye de inmediato.",
+  "habilidad_titulo": "Técnica Maldita: Santuario Malévolo",
+  "habilidad": "Sukuna puede cortar la realidad misma. Sus ataques ignoran resistencias físicas. Puede expandir su dominio para masacrar todo en un radio de 60m sin dejar rastro de vida.",
+  "lore": "Conocido como el Rey de las Maldiciones, Ryomen Sukuna es una deidad demoníaca que existió hace mil años. En la era dorada de la hechicería, todos los hechiceros unieron fuerzas para derrotarlo, pero fracasaron. Tras su muerte, sus veinte dedos fueron sellados como objetos malditos de grado especial, ya que su poder era demasiado grande para ser destruido. Sukuna es la encarnación del egoísmo y la fuerza bruta; no sigue ninguna filosofía más que el placer de masacrar a los fuertes y devorar a los débiles. Su presencia es tan abrumadora que incluso otros espíritus malditos de grado especial tiemblan ante su mención.",
+  "tacticas": [
+    {
+      "titulo": "Corte y Desmantelar (Acción)",
+      "descripcion": "Lanza ráfagas de cortes invisibles. 'Desmantelar' se usa para objetos inanimados y seres sin energía, mientras que 'Corte' se ajusta a la resistencia del objetivo para cortarlo de un solo tajo (CD 22 Destreza)."
+    },
+    {
+      "titulo": "Flecha de Fuego: Fuga (Acción Especial)",
+      "descripcion": "Tras usar sus cortes, Sukuna puede manipular llamas de una intensidad solar. Lanza una flecha que explota en un radio de 15m, infligiendo daño de fuego masivo que ignora inmunidades."
+    },
+    {
+      "titulo": "Expansión de Dominio: Santuario Malévolo (Acción Mítica)",
+      "descripcion": "Crea un templo budista rodeado de calaveras. En un radio de 60 metros, todos los seres reciben miles de cortes por segundo. No hay escape; es un golpe garantizado a menos que se posea un dominio rival."
+    },
+    {
+      "titulo": "Destello Negro (Reacción)",
+      "descripcion": "Cuando Sukuna golpea críticamente o recibe un ataque que casi lo daña, puede liberar un impacto de energía maldita que multiplica su fuerza por 2.5, distorsionando el espacio a su alrededor."
+    }
+  ]
+}
