@@ -39,7 +39,7 @@ const TRANSLATIONS = {
         indexErrMsg: 'El índice de criaturas ha sido borrado por el Vacío. Inténtalo más tarde.',
         errorTitle: 'Pergamino Perdido',
         errorMsg: '"Este relato ha sido borrado por el Vacío o las Brumas han reclamado su secretismo."',
-        errorBtn: 'Regresar al Refugio',
+        errorBtn: 'Regresar al Bestiario',
     },
     en: {
         pageTitle: 'The Arcane Bestiary',
@@ -71,7 +71,7 @@ const TRANSLATIONS = {
         indexErrMsg: 'The creature index has been devoured by the Void. Try again later.',
         errorTitle: 'Lost Scroll',
         errorMsg: '"This tale has been erased by the Void, or the Mists have claimed its secrets."',
-        errorBtn: 'Return to the Refuge',
+        errorBtn: 'Return to Bestiary',
     }
 };
 
