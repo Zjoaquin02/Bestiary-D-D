@@ -1,0 +1,1 @@
+import json; f=open('data/translations_en.json', 'r', encoding='utf-8'); t=json.load(f); f.close(); t.pop('bandidos', None); t.pop('arpias', None); f=open('data/translations_en.json', 'w', encoding='utf-8'); json.dump(t, f, indent=2, ensure_ascii=False); f.close()

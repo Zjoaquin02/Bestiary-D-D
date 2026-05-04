@@ -7,7 +7,7 @@
   "imagen": "css/img/arpias.webp",
   "ac": 11,
   "hp": 38,
-  "speed": "20 ft, fly 40 ft",
+  "speed": "6 m, volar 12 m",
   "stats": {
     "str": 12,
     "dex": 13,
@@ -22,6 +22,6 @@
   "resistente": "Miedos y Encantos",
   "supervivencia": "No escuches su canto; usa tapones para los oídos o magia para ensordecer a tu grupo. Si logras sacarlas del aire, sus garras son mucho menos peligrosas en terreno firme.",
   "habilidad_titulo": "Canto Cautivador",
-  "habilidad": "Criaturas con rostro de mujer y cuerpo de ave que atraen a sus víctimas con una melodía que hechiza el alma.",
-  "lore": "Criaturas con rostro de mujer y cuerpo de ave que atraen a sus víctimas con una melodía que hechiza el alma. Las crónicas de los Marineros del Sur relatan sus cantos letales."
+  "habilidad": "La arpía canta una melodía mágica. Todo humanoide o gigante a 300 pies (90 m) que pueda escuchar la canción debe superar una tirada de salvación de Sabiduría, o quedará hechizado hasta que termine la canción.",
+  "lore": "Siniestras criaturas con el rostro de una mujer demacrada y el cuerpo de una inmensa ave carroñera. Las arpías sienten un placer sádico en el sufrimiento y utilizan sus dotes vocales para atraer a incautos viajeros hacia los acantilados, donde la muerte los aguarda entre las rocas y sus garras letales."
 }

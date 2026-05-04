@@ -4,6 +4,155 @@
  */
 
 /* ============================================================
+   0. SISTEMA DE IDIOMA (I18N)
+   ============================================================ */
+let currentLang = localStorage.getItem('bestiaryLang') || 'es';
+
+const TRANSLATIONS = {
+    es: {
+        pageTitle: 'El Bestiario Arcano',
+        mainTitle: 'Bestiario Arcano',
+        subtitle: 'Crónicas de Criaturas Olvidadas',
+        btnMonsters: 'Criaturas',
+        btnBosses: 'Jefes',
+        btnMoonOff: 'Apagar Farol',
+        btnMoonOn: 'Encender Farol',
+        btn3Cols: '3 Columnas',
+        btn2Cols: '2 Columnas',
+        backLink: '← Volver al Bestiario',
+        backBtn: '« Regresar al Bestiario',
+        dangerLabel: 'Nivel de Peligro',
+        habitatLabel: 'Hábitat',
+        habitatUnknown: 'Desconocido',
+        vulnerableLabel: 'Vulnerable:',
+        resistenteLabel: 'Resistente:',
+        acLabel: 'Clase de Armadura:',
+        hpLabel: 'Puntos de Vida:',
+        speedLabel: 'Velocidad:',
+        loreTitle: 'Crónicas y Relatos',
+        combatTitle: '⚜ Guía de Combate ⚜',
+        annotationsTitle: 'Anotaciones del Jugador',
+        annotationsPlaceholder: 'Escribe tus hallazgos aquí...',
+        captionText: 'Ilustración a mano de la criatura',
+        selectLabel: 'Escoger Relato:',
+        skillDefault: 'Rasgo Especial',
+        indexErrMsg: 'El índice de criaturas ha sido borrado por el Vacío. Inténtalo más tarde.',
+        errorTitle: 'Pergamino Perdido',
+        errorMsg: '"Este relato ha sido borrado por el Vacío o las Brumas han reclamado su secretismo."',
+        errorBtn: 'Regresar al Refugio',
+    },
+    en: {
+        pageTitle: 'The Arcane Bestiary',
+        mainTitle: 'Arcane Bestiary',
+        subtitle: 'Chronicles of Forgotten Creatures',
+        btnMonsters: 'Creatures',
+        btnBosses: 'Bosses',
+        btnMoonOff: 'Douse Lantern',
+        btnMoonOn: 'Light Lantern',
+        btn3Cols: '3 Columns',
+        btn2Cols: '2 Columns',
+        backLink: '← Back to Bestiary',
+        backBtn: '« Return to Bestiary',
+        dangerLabel: 'Danger Level',
+        habitatLabel: 'Habitat',
+        habitatUnknown: 'Unknown',
+        vulnerableLabel: 'Vulnerable:',
+        resistenteLabel: 'Resistant:',
+        acLabel: 'Armor Class:',
+        hpLabel: 'Hit Points:',
+        speedLabel: 'Speed:',
+        loreTitle: 'Chronicles & Lore',
+        combatTitle: '⚜ Combat Guide ⚜',
+        annotationsTitle: 'Player Annotations',
+        annotationsPlaceholder: 'Write your findings here...',
+        captionText: 'Hand-drawn creature illustration',
+        selectLabel: 'Choose Variant:',
+        skillDefault: 'Special Trait',
+        indexErrMsg: 'The creature index has been devoured by the Void. Try again later.',
+        errorTitle: 'Lost Scroll',
+        errorMsg: '"This tale has been erased by the Void, or the Mists have claimed its secrets."',
+        errorBtn: 'Return to the Refuge',
+    }
+};
+
+/** Returns translated string for given key */
+function t(key) {
+    return (TRANSLATIONS[currentLang] && TRANSLATIONS[currentLang][key]) || TRANSLATIONS['es'][key] || key;
+}
+
+/** Toggles the language dropdown open/closed */
+function toggleLangDropdown() {
+    const switcher = document.getElementById('lang-switcher');
+    if (switcher) switcher.classList.toggle('open');
+}
+
+/** Sets the active language, saves preference, re-renders page */
+function setLanguage(lang) {
+    currentLang = lang;
+    localStorage.setItem('bestiaryLang', lang);
+    const switcher = document.getElementById('lang-switcher');
+    if (switcher) switcher.classList.remove('open');
+    applyLanguage();
+    if (document.getElementById('grid')) {
+        filterType(localStorage.getItem('bestiaryFilter') || 'monster');
+    }
+    if (document.getElementById('name')) {
+        loadCreature();
+    }
+}
+
+/** Applies translations to all data-i18n elements and updates dynamic UI */
+function applyLanguage() {
+    document.documentElement.lang = currentLang === 'en' ? 'en' : 'es';
+    if (document.getElementById('main-title')) document.title = t('pageTitle');
+
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        el.textContent = t(el.dataset.i18n);
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        el.placeholder = t(el.dataset.i18nPlaceholder);
+    });
+
+    // Update language switcher button UI
+    const flagEl = document.getElementById('lang-flag');
+    const codeEl = document.getElementById('lang-code');
+    if (flagEl) {
+        flagEl.src = currentLang === 'en'
+            ? 'https://flagcdn.com/20x15/us.png'
+            : 'https://flagcdn.com/20x15/ar.png';
+        flagEl.alt = currentLang === 'en' ? 'USA' : 'Argentina';
+    }
+    if (codeEl) codeEl.textContent = currentLang === 'en' ? 'EN' : 'ES';
+
+    // Highlight active option
+    const optEs = document.getElementById('lang-opt-es');
+    const optEn = document.getElementById('lang-opt-en');
+    if (optEs) optEs.classList.toggle('active', currentLang === 'es');
+    if (optEn) optEn.classList.toggle('active', currentLang === 'en');
+
+    // Sync dark mode button text
+    const isDark = document.body.classList.contains('dark-mode');
+    const moonBtn = document.getElementById('btn-moon-toggle');
+    if (moonBtn) moonBtn.childNodes[moonBtn.childNodes.length - 1].textContent = isDark ? t('btnMoonOn') : t('btnMoonOff');
+
+    // Sync column toggle button text
+    const colBtn = document.getElementById('btn-col-toggle');
+    const grid = document.getElementById('grid');
+    if (colBtn && grid) {
+        colBtn.childNodes[colBtn.childNodes.length - 1].textContent =
+            grid.classList.contains('three-cols') ? t('btn2Cols') : t('btn3Cols');
+    }
+}
+
+// Close dropdown when clicking outside
+document.addEventListener('click', (e) => {
+    const switcher = document.getElementById('lang-switcher');
+    if (switcher && !switcher.contains(e.target)) {
+        switcher.classList.remove('open');
+    }
+});
+
+/* ============================================================
    1. VARIABLES Y CONFIGURACIÓN
    ============================================================ */
 let allCreatures = [];
@@ -14,6 +163,34 @@ const LIST_FILE = 'data/list.json';
    2. SERVICIOS DE DATOS (API / FETCH)
    ============================================================ */
 
+/** Pre-carga las traducciones al inglés y las guarda en window */
+async function loadEnTranslations() {
+    if (window.enTranslations) return; // ya cargado
+    try {
+        const res = await fetch('data/translations_en.json');
+        window.enTranslations = res.ok ? await res.json() : {};
+    } catch (_) {
+        window.enTranslations = {};
+    }
+}
+
+/** Aplica las traducciones al inglés sobre un objeto criatura */
+function applyEnOverlay(c, id) {
+    if (currentLang !== 'en' || !window.enTranslations) return c;
+    const tr = window.enTranslations[id];
+    if (!tr) return c;
+    const merged = { ...c };
+    Object.keys(tr).forEach(k => {
+        if (k !== 'variantes') merged[k] = tr[k];
+    });
+    if (c.is_multi && tr.variantes && c.variantes) {
+        merged.variantes = c.variantes.map((v, i) =>
+            tr.variantes[i] ? { ...v, ...tr.variantes[i] } : v
+        );
+    }
+    return merged;
+}
+
 /**
  * Carga la lista principal de criaturas
  */
@@ -21,15 +198,16 @@ async function loadList() {
     try {
         const res = await fetch(LIST_FILE);
         if (!res.ok) throw new Error('No se pudo cargar el índice del bestiario');
-        
+
         allCreatures = await res.json();
+        await loadEnTranslations();
 
         // Recuperar el último filtro usado o por defecto 'monster'
         const lastFilter = localStorage.getItem('bestiaryFilter') || 'monster';
         filterType(lastFilter);
     } catch (error) {
         console.error('Error:', error);
-        renderErrorMessage('El índice de criaturas ha sido borrado por el Vacío. Inténtalo más tarde.');
+        renderErrorMessage(t('indexErrMsg'));
     }
 }
 
@@ -42,11 +220,45 @@ async function loadCreature() {
         const id = params.get('id');
         if (!id) return;
 
+        await loadEnTranslations();
+        
+        // Cargar lista para las flechas de navegación
+        try {
+            const listRes = await fetch(LIST_FILE);
+            if (listRes.ok) {
+                const list = await listRes.json();
+                
+                // Ordenar: primero monstruos alfabéticamente, luego jefes alfabéticamente
+                const monsters = list.filter(c => c.tipo !== 'boss').sort((a, b) => a.nombre.localeCompare(b.nombre));
+                const bosses = list.filter(c => c.tipo === 'boss').sort((a, b) => a.nombre.localeCompare(b.nombre));
+                const sortedList = [...monsters, ...bosses];
+                
+                const currentIndex = sortedList.findIndex(c => c.id === id);
+                if (currentIndex !== -1) {
+                    const prevIndex = currentIndex === 0 ? sortedList.length - 1 : currentIndex - 1;
+                    const nextIndex = currentIndex === sortedList.length - 1 ? 0 : currentIndex + 1;
+                    
+                    const prevEl = document.getElementById('prev-btn');
+                    const nextEl = document.getElementById('next-btn');
+                    
+                    if (prevEl && nextEl) {
+                        prevEl.onclick = () => location.href = `criatura.html?id=${sortedList[prevIndex].id}`;
+                        nextEl.onclick = () => location.href = `criatura.html?id=${sortedList[nextIndex].id}`;
+                        prevEl.style.display = 'inline-block';
+                        nextEl.style.display = 'inline-block';
+                    }
+                }
+            }
+        } catch (e) {
+            console.error('Error cargando lista para navegación:', e);
+        }
+
         const res = await fetch(`${DATA_PATH}${id}.json`);
         if (!res.ok) throw new Error('Criatura no encontrada en los registros');
-        
-        const c = await res.json();
-        
+
+        let c = await res.json();
+        c = applyEnOverlay(c, id);
+
         if (c.is_multi) {
             renderMultiCreature(c);
         } else {
@@ -54,7 +266,7 @@ async function loadCreature() {
             if (tabsContainer) tabsContainer.style.display = 'none';
             renderCreatureDetail(c);
         }
-        
+
         renderAnnotations(id); // Cargar las notas personalizadas
     } catch (error) {
         console.error('Error:', error);
@@ -84,7 +296,7 @@ function renderMultiCreature(c) {
     selectWrapper.className = 'variant-select-wrapper';
     
     const label = document.createElement('label');
-    label.innerText = 'Escoger Relato: ';
+    label.innerText = t('selectLabel') + ' ';
     label.className = 'select-label';
     
     const select = document.createElement('select');
@@ -140,9 +352,13 @@ function filterType(type) {
     filtered.sort((a, b) => a.nombre.localeCompare(b.nombre));
 
     filtered.forEach(c => {
-        const article = document.createElement('article'); // Semántica: article para tarjetas
+        const article = document.createElement('article');
         article.className = 'card' + (type === 'boss' ? ' boss-card' : '');
-        article.innerHTML = `<h3>${c.nombre}</h3>`;
+        // Use English name if available
+        const displayName = (currentLang === 'en' && window.enTranslations && window.enTranslations[c.id])
+            ? (window.enTranslations[c.id].nombre || c.nombre)
+            : c.nombre;
+        article.innerHTML = `<h3>${displayName}</h3>`;
         article.onclick = () => location.href = `criatura.html?id=${c.id}`;
         grid.appendChild(article);
     });
@@ -163,12 +379,12 @@ function renderCreatureDetail(c) {
     const dangerLvl = document.getElementById('danger-level');
     if (dangerLvl) {
         const skulls = "☠️".repeat(c.peligro || 1);
-        dangerLvl.innerHTML = `Nivel de Peligro: ${skulls}`;
+        dangerLvl.innerHTML = `${t('dangerLabel')}: ${skulls}`;
     }
 
     const habitatBadge = document.getElementById('habitat-badge');
     if (habitatBadge) {
-        habitatBadge.innerHTML = ` Hábitat: ${c.habitat || 'Desconocido'}`;
+        habitatBadge.innerHTML = ` ${t('habitatLabel')}: ${c.habitat || t('habitatUnknown')}`;
     }
 
     document.getElementById('vulnerable').innerText = c.vulnerable || 'Limitada';
@@ -186,7 +402,7 @@ function renderCreatureDetail(c) {
         const skillSec = document.getElementById('skill-section');
         if (skillSec) {
             skillSec.style.display = 'block';
-            document.getElementById('skill-title').innerText = c.habilidad_titulo || 'Rasgo Especial';
+            document.getElementById('skill-title').innerText = c.habilidad_titulo || t('skillDefault');
             document.getElementById('skill-text').innerText = c.habilidad;
         }
     }
@@ -229,9 +445,9 @@ function renderCreatureError() {
     const main = document.querySelector('.content-wrapper');
     if (main) {
         main.innerHTML = `<div style="text-align:center; padding: 100px 20px;">
-            <h2 class="name">Pergamino Perdido</h2>
-            <p style="font-style:italic; margin: 20px 0;">"Este relato ha sido borrado por el Vacío o las Brumas han reclamado su secretismo."</p>
-            <button onclick="location.href='index.html'" class="filter-btn">Regresar al Refugio</button>
+            <h2 class="name">${t('errorTitle')}</h2>
+            <p style="font-style:italic; margin: 20px 0;">${t('errorMsg')}</p>
+            <button onclick="location.href='index.html'" class="filter-btn">${t('errorBtn')}</button>
         </div>`;
     }
 }
@@ -267,11 +483,11 @@ function toggleLayout() {
 
     if (grid.classList.contains('three-cols')) {
         grid.classList.remove('three-cols');
-        btn.innerText = '3 Columnas';
+        btn.innerText = t('btn3Cols');
         localStorage.setItem('bestiaryLayout', '2-cols');
     } else {
         grid.classList.add('three-cols');
-        btn.innerText = '2 Columnas';
+        btn.innerText = t('btn2Cols');
         localStorage.setItem('bestiaryLayout', '3-cols');
     }
 }
@@ -285,10 +501,10 @@ function toggleDarkMode() {
     
     if (isDark) {
         localStorage.setItem('bestiaryTheme', 'dark');
-        if (btn) btn.innerText = 'Encender Farol';
+        if (btn) btn.innerText = t('btnMoonOn');
     } else {
         localStorage.setItem('bestiaryTheme', 'light');
-        if (btn) btn.innerText = 'Apagar Farol';
+        if (btn) btn.innerText = t('btnMoonOff');
     }
 }
 
@@ -302,10 +518,10 @@ function applySavedDarkMode() {
     // Iterar en todos los botones de la página (por si acaso hubiese)
     if (savedTheme === 'dark') {
         document.body.classList.add('dark-mode');
-        if (btn) btn.innerText = 'Encender Farol';
+        if (btn) btn.innerText = t('btnMoonOn');
     } else {
         document.body.classList.remove('dark-mode');
-        if (btn) btn.innerText = 'Apagar Farol';
+        if (btn) btn.innerText = t('btnMoonOff');
     }
 }
 
@@ -320,10 +536,10 @@ function applySavedLayout() {
     const savedLayout = localStorage.getItem('bestiaryLayout');
     if (savedLayout === '3-cols') {
         grid.classList.add('three-cols');
-        btn.innerText = '2 Columnas';
+        btn.innerText = t('btn2Cols');
     } else {
         grid.classList.remove('three-cols');
-        btn.innerText = '3 Columnas';
+        btn.innerText = t('btn3Cols');
     }
 }
 
@@ -339,11 +555,12 @@ function saveAnnotation(id, text) {
    ============================================================ */
 document.addEventListener('DOMContentLoaded', () => {
     applySavedDarkMode();
+    applyLanguage();
 
     if (document.getElementById('grid')) {
         loadList();
     }
-    
+
     if (document.getElementById('name')) {
         loadCreature();
     }

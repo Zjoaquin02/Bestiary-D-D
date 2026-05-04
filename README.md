@@ -7,8 +7,9 @@ Bestiario digital interactivo basado en la estética de Dungeons & Dragons, dise
 - **Diseño Inmersivo**: Interfaz que simula un libro antiguo con texturas de pergamino y bordes ornamentados.
 - **Navegación por Categorías**: Filtra criaturas entre **Monstruos** y **Jefes (Bosses)**.
 - **Vista de Ficha Detallada**: Cada criatura cuenta con su propia página con estadísticas completas, lore, vulnerabilidades, resistencias y habilidades especiales.
+- **Soporte Bilingüe (Multi-idioma)**: Traducción completa al inglés de las criaturas y la interfaz web. Incluye un script automático (`translate_data.py`) para traducir nuevas criaturas.
 - **Diseño Adaptable**: Funcionalidad para alternar entre vista de **2 y 3 columnas** en escritorio.
-- **Persistencia de Estado**: Recuerda el último filtro y diseño seleccionado por el usuario.
+- **Persistencia de Estado**: Recuerda el último filtro, el idioma y el diseño seleccionado por el usuario.
 
 ## ⚠️ Escala de Nivel de Peligro
 

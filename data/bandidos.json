@@ -7,7 +7,7 @@
   "imagen": "css/img/bandidos.webp",
   "ac": 12,
   "hp": 11,
-  "speed": "30 ft",
+  "speed": "9 m",
   "stats": {
     "str": 11,
     "dex": 12,
@@ -21,7 +21,7 @@
   "vulnerable": "Ninguna",
   "resistente": "Ninguna",
   "supervivencia": "No dejes que te rodeen. Los bandidos suelen atacar en grupo y usan tácticas simples para distraer a su presa. Si ves a uno solo, es probable que haya cinco más en las sombras.",
-  "habilidad_titulo": "Ataque en Manada",
-  "habilidad": "Grupos de forajidos que acechan en los caminos, esperando a mercaderes y viajeros desprevenidos.",
-  "lore": "Grupos de forajidos que acechan en los caminos, esperando a mercaderes y viajeros desprevenidos. No todos son criminales por voluntad; muchos son víctimas de la guerra."
+  "habilidad_titulo": "Tácticas de Manada",
+  "habilidad": "El bandido tiene ventaja en las tiradas de ataque contra una criatura si al menos uno de sus aliados está a 5 pies (1.5 m) de la criatura y el aliado no está incapacitado.",
+  "lore": "Grupos de forajidos que acechan en los caminos, esperando a mercaderes y viajeros desprevenidos. No todos son criminales por voluntad; muchos son desertores, campesinos arruinados o víctimas de la guerra que han encontrado en el acero la única forma de sobrevivir."
 }

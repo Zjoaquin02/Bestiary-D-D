@@ -66,5 +66,21 @@ REGLAS DE CONSISTENCIA ARCANAS:
 - GRUPOS (VARIANTES): Para crear pestañas, usa "is_multi": true 
   y coloca los datos dentro del array "variantes": [].
 
+------------------------------------------------------------
+PASO 4: TRADUCCIÓN AL INGLÉS (NUEVO)
+------------------------------------------------------------
+Para que tu nueva criatura tenga su lore y estadísticas en 
+inglés al usar el botón de idioma en la web:
+
+Opción Automática (Recomendada):
+Ejecuta el script `translate_data.py` en tu terminal 
+(`python translate_data.py`). Detectará automáticamente 
+las criaturas nuevas y las traducirá sin tocar las que ya 
+estén listas.
+
+Opción Manual:
+Abre el archivo `data/translations_en.json` y añade tu 
+criatura al final respetando la misma estructura.
+
 ¡Tu bestiario sigue creciendo en conocimiento y misterio!
 ============================================================

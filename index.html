@@ -20,22 +20,39 @@
     <div class="book-cover">
         <main class="book-content">
             <header>
-                <h1 id="main-title">Bestiario Arcano</h1>
-                <p class="subtitle">Crónicas de Criaturas Olvidadas</p>
+                <h1 id="main-title" data-i18n="mainTitle">Bestiario Arcano</h1>
+                <p class="subtitle" data-i18n="subtitle">Crónicas de Criaturas Olvidadas</p>
                 <nav class="filter-nav">
-                    <button class="filter-btn active" id="btn-monsters" onclick="filterType('monster')">Criaturas</button>
-                    <button class="filter-btn" id="btn-bosses" onclick="filterType('boss')">Jefes</button>
+                    <button class="filter-btn active" id="btn-monsters" onclick="filterType('monster')" data-i18n="btnMonsters">Criaturas</button>
+                    <button class="filter-btn" id="btn-bosses" onclick="filterType('boss')" data-i18n="btnBosses">Jefes</button>
                 </nav>
             </header>
             <div class="layout-nav">
                 <button id="btn-moon-toggle" onclick="toggleDarkMode()">Apagar Farol</button>
                 <button id="btn-col-toggle" onclick="toggleLayout()">3 Columnas</button>
             </div>
+            <div class="lang-nav">
+                <div class="lang-switcher" id="lang-switcher">
+                    <button class="lang-btn" id="lang-btn" onclick="toggleLangDropdown()">
+                        <img class="lang-flag" id="lang-flag" src="https://flagcdn.com/20x15/ar.png" alt="Argentina" width="20" height="15">
+                        <span class="lang-code" id="lang-code">ES</span>
+                        <span class="lang-arrow">&#9660;</span>
+                    </button>
+                    <div class="lang-dropdown" id="lang-dropdown">
+                        <button class="lang-option" id="lang-opt-es" onclick="setLanguage('es')">
+                            <img src="https://flagcdn.com/20x15/ar.png" alt="Argentina" width="20" height="15"> Español
+                        </button>
+                        <button class="lang-option" id="lang-opt-en" onclick="setLanguage('en')">
+                            <img src="https://flagcdn.com/20x15/us.png" alt="USA" width="20" height="15"> English
+                        </button>
+                    </div>
+                </div>
+            </div>
             <div class="grid" id="grid"></div>
         </main>
     </div>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.js?v=2"></script>
 </body>
 
 </html>
